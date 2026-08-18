@@ -1,0 +1,129 @@
+{
+	"DLongChau": {
+		"LC_Kim": {
+			"TenHienThi": "Kim long",
+			"MoTa": "Long châu hệ Kim",
+			"MoTaDacBiet": "Tăng {0}% bạo kích trong lượt đầu tiên ( cả chưởng )",
+			"ChiSoDacBiet": [ 5, 10, 15, 25, 40],
+			"HeSoRandom": 0,
+			"ChiSoCong": 150,
+			"ChiSoThu": 100,
+			"ChiSoNoiLuc": 200,
+			"ChiSoMau": 300,
+			"ChiSoBaoKich": 2,
+			"ChiSoPhongBao": 2,
+			"ChiSoChinhXac": 2,
+			"ChiSoTranhNe": 2,
+			"ChiSoPhanKich": 2,
+			"ChiSoPhaPhan": 2
+		},
+		"LC_Moc": {
+			"TenHienThi": "Mộc long",
+			"MoTa": "Long châu hệ Mộc",
+			"MoTaDacBiet": "Giảm {0}%  sát thương 1 chưởng ( phát đầu )",
+			"ChiSoDacBiet": [ 15, 25, 35, 50, 75],
+			"HeSoRandom": 0,
+			"ChiSoCong": 150,
+			"ChiSoThu": 100,
+			"ChiSoNoiLuc": 200,
+			"ChiSoMau": 300,
+			"ChiSoBaoKich": 2,
+			"ChiSoPhongBao": 2,
+			"ChiSoChinhXac": 2,
+			"ChiSoTranhNe": 2,
+			"ChiSoPhanKich": 2,
+			"ChiSoPhaPhan": 2
+		},
+		"LC_Thuy": {
+			"TenHienThi": "Thủy long",
+			"MoTa": "Long châu hệ Thủy",
+			"MoTaDacBiet": "Có {0}% Né tránh ko nhận sát thương lượt đầu(cả đánh thường và chưởng)",
+			"ChiSoDacBiet": [ 5, 9, 14, 20, 30 ],
+			"HeSoRandom": 0,
+			"ChiSoCong": 150,
+			"ChiSoThu": 100,
+			"ChiSoNoiLuc": 200,
+			"ChiSoMau": 300,
+			"ChiSoBaoKich": 2,
+			"ChiSoPhongBao": 2,
+			"ChiSoChinhXac": 2,
+			"ChiSoTranhNe": 2,
+			"ChiSoPhanKich": 2,
+			"ChiSoPhaPhan": 2
+		},
+		"LC_Hoa": {
+			"TenHienThi": "Hỏa long",
+			"MoTa": "Long châu hệ Hỏa",
+			"MoTaDacBiet": "Tăng {0}% thi triển skill trong lượt đầu tiên ( chỉ cộng cho 2 chiêu thức đầu )",
+			"ChiSoDacBiet": [ 5, 8, 12, 17, 25 ],
+			"HeSoRandom": 0,
+			"ChiSoCong": 150,
+			"ChiSoThu": 100,
+			"ChiSoNoiLuc": 200,
+			"ChiSoMau": 300,
+			"ChiSoBaoKich": 2,
+			"ChiSoPhongBao": 2,
+			"ChiSoChinhXac": 2,
+			"ChiSoTranhNe": 2,
+			"ChiSoPhanKich": 2,
+			"ChiSoPhaPhan": 2
+		},
+		"LC_Tho": {
+			"TenHienThi": "Thổ long",
+			"MoTa": "Long châu hệ Thổ",
+			"MoTaDacBiet": "Tăng hộ thể thêm {0}% - khi hộ thể đc 30% máu",
+			"ChiSoDacBiet": [ 5, 9, 14, 20, 30 ],
+			"HeSoRandom": 0,
+			"ChiSoCong": 150,
+			"ChiSoThu": 100,
+			"ChiSoNoiLuc": 200,
+			"ChiSoMau": 300,
+			"ChiSoBaoKich": 2,
+			"ChiSoPhongBao": 2,
+			"ChiSoChinhXac": 2,
+			"ChiSoTranhNe": 2,
+			"ChiSoPhanKich": 2,
+			"ChiSoPhaPhan": 2
+		}
+	},
+	"UpdateHK_Kim": [
+		"AG_ThatBaoHonLangBao",
+		"AG_BaoTuongCaSa",
+		"AG_NhuyenViGiap",
+		"VK_LongPhungSongHoan",
+		"VK_CuKhuyetKiem",
+		"VK_HuyenThietTrongKiem"
+		],
+	"UpdateHK_Moc": [
+		"AG_BaoTuongCaSa",
+		"AG_OTamY",
+		"AG_KimTiBaoGiap",
+		"VK_DapThangPhien",
+		"VK_LongPhungSongHoan",
+		"VK_CuKhuyetKiem"
+		],
+	"UpdateHK_Thuy": [
+		"AG_OTamY",
+		"AG_GiaoTieuY",
+		"AG_NhuyenViGiap",
+		"VK_DoLongDao",
+		"VK_YThienKiem",
+		"VK_DapThangPhien"
+		],
+	"UpdateHK_Hoa": [
+		"AG_GiaoTieuY",
+		"AG_NhuDangBoiTam",
+		"AG_KimTiBaoGiap",
+		"VK_NguTruongKiem",
+		"VK_DoLongDao",
+		"VK_CuKhuyetKiem"
+		],
+	"UpdateHK_Tho": [
+		"AG_NhuDangBoiTam",
+		"AG_DaiHaiPhiPhong",
+		"AG_NhuyenViGiap",
+		"VK_LanhNguyetBaoDao",
+		"VK_NguTruongKiem",
+		"VK_HuyenThietTrongKiem"
+		]
+}

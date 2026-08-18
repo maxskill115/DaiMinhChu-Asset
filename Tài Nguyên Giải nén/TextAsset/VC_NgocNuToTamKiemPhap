@@ -1,0 +1,153 @@
+{
+		"liveTime": 4.2,   
+		"impact" : 3.5,    
+		"tweens" : [
+			{
+				"target" : "particle", 
+				"startTime" : 0,
+				"liveTime" : 13,
+				"name" : "VC_NgocNuToTamKiemPhap_background"
+			},
+			{
+				"target" : "damage",
+				"alpha" : 0,
+				"startTime" : 1.6,
+				"position" : "-200 250 -200",
+				"tweens" : [
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenNumber",
+						"delay" : 1.5,
+						"from" : "0",
+						"to" : "0",
+						"duration" : 1
+					}
+				]
+			},
+			{
+				"target" : "skillName",
+				"alpha" : 1,
+				"color" : "[f83eb1]",
+				"startTime" : 1.5,
+				"liveTime" : 3,
+				"position" : "240 500 -200",
+				"tweens" : [
+				
+					{
+						"type" : "TweenTitle",
+						"delay" : 0,
+						"from" : 1,
+						"to" : 6,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.5,
+						"from" : "240 500 -200",
+						"to" : "200 500 -200",
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1.5,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.2,
+						"finish" : {"destroy" : 0}
+					}
+				]
+			},
+			//team1
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0.3,
+				"liveTime" : 2.1,
+				"position" : "0 0 -10",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 200 -10",
+						"to" : "0 0 -10",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.6,
+						"from" : "0 0 -10",
+						"to" : "0 800 -10",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team1a
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0.4,
+				"liveTime" : 2.1,
+				"position" : "0 0 -10",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 0.5,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 200 -10",
+						"to" : "0 0 -10",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.6,
+						"from" : "0 0 -10",
+						"to" : "0 800 -10",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team1b
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0.2,
+				"startTime" : 2.3,
+				"liveTime" : 2.1,
+				"position" : "0 0 -10",
+				"tweens" :[
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 0 -10",
+						"to" : "0 800 -10",
+						"duration" : 0.5
+					}
+				]
+				
+			}
+
+		]
+}

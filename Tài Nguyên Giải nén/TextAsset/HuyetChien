@@ -1,0 +1,9458 @@
+{
+  "NPCTeams": [
+    {
+      "DoiHinh": [
+        "NV_AuDuongPhong",
+        "NV_ToAnh",
+        "NV_TongVienKieu",
+        "NV_HaTucDao",
+        "NV_GiacVien",
+        "NV_HongThatCong",
+        "NV_ChuBaThong",
+        "NV_DongPhuongBatBai"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_ChuBaThong",
+        "NV_TrieuMan",
+        "NV_LienTinh",
+        "NV_KimMaoSuVuong",
+        "NV_ThanhDucBucVuong",
+        "NV_DuongQua",
+        "NV_TieuLongNu",
+        "NV_VoNhaiTu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_DiepCoThanh",
+        "NV_TayMonXuyTuyet",
+        "NV_ThuongQuanKimHong",
+        "NV_TieuNguNhi",
+        "NV_ThachTrungNgoc",
+        "NV_KinhVoMenh",
+        "NV_APhi",
+        "NV_PhoHongTuyet"
+      ],
+      "BonusMau": 1,
+      "BonusCong": 2,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_DietTuyetSuThai",
+        "NV_KhongVan",
+        "NV_HuyetDaoLaoTo",
+        "NV_ChuChiNhuoc",
+        "NV_QuachTuong",
+        "NV_TruongTamPhong",
+        "NV_LenhHoXung",
+        "NV_TongVienKieu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_DocCoCauBai",
+        "NV_DongPhuongBatBai",
+        "NV_TieuLongNu",
+        "NV_LyMacSau",
+        "NV_NhatDang",
+        "NV_HuTruc",
+        "NV_ThachPhaThien",
+        "NV_LyThuThuy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2.2,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_DoanDu",
+        "NV_MoDungPhuc",
+        "NV_DoanDuyenKhanh",
+        "NV_ThanhCon",
+        "NV_QuachTinh",
+        "NV_HoangDuocSu",
+        "NV_HoangDung",
+        "NV_AuDuongPhong"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.8,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_DongPhuongBatBai",
+        "NV_CuuMaTri",
+        "NV_TuSamLongVuong",
+        "NV_APhi",
+        "NV_GiacVien",
+        "NV_LyThuThuy",
+        "NV_YeuNguyet",
+        "NV_VuongTrungDuong"
+      ],
+      "BonusMau": 1.2,
+      "BonusCong": 1.8,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_DuongTieu",
+        "NV_AuDuongPhong",
+        "NV_ChuChiNhuoc",
+        "NV_BachKhaiTam",
+        "NV_HuTruc",
+        "NV_HoangDung",
+        "NV_PhamDao",
+        "NV_KimMaoSuVuong"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_DuongQua",
+        "NV_APhi",
+        "NV_KimXaLangQuan",
+        "NV_ViTieuBao",
+        "NV_HoangDuocSu",
+        "NV_HongThatCong",
+        "NV_ThietTamLan",
+        "NV_DongPhuongBatBai"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2.3,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_HoangDung",
+        "NV_CuuMaTri",
+        "NV_DinhXuanThu",
+        "NV_DietTuyetSuThai",
+        "NV_NhatDang",
+        "NV_QuachTinh",
+        "NV_DuongQua",
+        "NV_HoangDuocSu"
+      ],
+      "BonusMau": 1.8,
+      "BonusCong": 1.8,
+      "BonusThu": 1.6,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_HoangDuocSu",
+        "NV_TieuNguNhi",
+        "NV_PhamDao",
+        "NV_DuongQua",
+        "NV_LyMacSau",
+        "NV_AuDuongPhong",
+        "NV_NhatDang",
+        "NV_LenhHoXung"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_HoaVoKhuyet",
+        "NV_HongThatCong",
+        "NV_ToAnh",
+        "NV_TuSamLongVuong",
+        "NV_BachMiUngVuong",
+        "NV_ChuBaThong",
+        "NV_DuongQua",
+        "NV_TruongTamPhong"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_HongThatCong",
+        "NV_DinhXuanThu",
+        "NV_KhoVinh",
+        "NV_DuongTieu",
+        "NV_ChuBaThong",
+        "NV_TruongVoKy",
+        "NV_LenhHoXung",
+        "NV_TruongTamPhong"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_HuTruc",
+        "NV_MoDungPhuc",
+        "NV_CuuMaTri",
+        "NV_DoanDuyenKhanh",
+        "NV_DinhXuanThu",
+        "NV_DoanDu",
+        "NV_ChuBaThong",
+        "NV_DuongQua"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1,
+      "BonusThu": 1.6,
+      "BonusNoiLuc": 2
+    },
+    {
+      "DoiHinh": [
+        "NV_KimLuanPhapVuong",
+        "NV_KhongKien",
+        "NV_PhoHongTuyet",
+        "NV_TienVuThong",
+        "NV_HoangDuocSu",
+        "NV_CuuMaTri",
+        "NV_DuongQua",
+        "NV_TieuLongNu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_KimMaoSuVuong",
+        "NV_LenhHoXung",
+        "NV_KimXaLangQuan",
+        "NV_HoPhi",
+        "NV_APhi",
+        "NV_TruongTamPhong",
+        "NV_VoNhaiTu",
+        "NV_YeuNguyet"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_LamTrieuAnh",
+        "NV_DuongQua",
+        "NV_TieuLongNu",
+        "NV_VuongTrungDuong",
+        "NV_LyMacSau",
+        "NV_HoangSamNuTu",
+        "NV_NghiLam",
+        "NV_NhacLinhSan"
+      ],
+      "BonusMau": 1,
+      "BonusCong": 1.2,
+      "BonusThu": 2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_LenhHoXung",
+        "NV_TieuNguNhi",
+        "NV_HoaVoKhuyet",
+        "NV_PhoHongTuyet",
+        "NV_NhatDang",
+        "NV_ThienSonDongLao",
+        "NV_DoanDu",
+        "NV_LyThuThuy"
+      ],
+      "BonusMau": 1.2,
+      "BonusCong": 2.5,
+      "BonusThu": 1.1,
+      "BonusNoiLuc": 1.3
+    },
+    {
+      "DoiHinh": [
+        "NV_LienTinh",
+        "NV_YeuNguyet",
+        "NV_BachMiUngVuong",
+        "NV_ChuChiNhuoc",
+        "NV_DuongTieu",
+        "NV_TruongTamPhong",
+        "NV_ThienSonDongLao",
+        "NV_HoangDuocSu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_LyMacSau",
+        "NV_GiangBietHac",
+        "NV_HoaVoKhuyet",
+        "NV_AnLeDinh",
+        "NV_NhatDang",
+        "NV_HongThatCong",
+        "NV_DuongQua",
+        "NV_VoNhaiTu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_LyThuThuy",
+        "NV_KhoVinh",
+        "NV_NhacBatQuan",
+        "NV_YenNamThien",
+        "NV_ThanhCon",
+        "NV_VoNhaiTu",
+        "NV_DoanDu",
+        "NV_HoangDung"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_NhatDang",
+        "NV_DoanDuyenKhanh",
+        "NV_DuThanChi",
+        "NV_PhamDao",
+        "NV_HongThatCong",
+        "NV_TieuLongNu",
+        "NV_TruongVoKy",
+        "NV_DongPhuongBatBai"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.8,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_NhamNgaHanh",
+        "NV_KhongVan",
+        "NV_BachMiUngVuong",
+        "NV_DoSat",
+        "NV_DongPhuongBatBai",
+        "NV_TruongTamPhong",
+        "NV_VoNhaiTu",
+        "NV_TruongVoKy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_QuachTinh",
+        "NV_NhacBatQuan",
+        "NV_TaLanhThien",
+        "NV_HuyetDaoLaoTo",
+        "NV_HoangDung",
+        "NV_AuDuongPhong",
+        "NV_HongThatCong",
+        "NV_DuongQua"
+      ],
+      "BonusMau": 1.8,
+      "BonusCong": 1.8,
+      "BonusThu": 1.3,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_QuachTuong",
+        "NV_ThienSonDongLao",
+        "NV_TruongTamPhong",
+        "NV_BachMiUngVuong",
+        "NV_TruongVoKy",
+        "NV_TieuLongNu",
+        "NV_QuachTinh",
+        "NV_DuongQua"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.8,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_SoLuuHuong",
+        "NV_DuongQua",
+        "NV_AuDuongPhong",
+        "NV_KhoVinh",
+        "NV_DoanDu",
+        "NV_VuongTrungDuong",
+        "NV_LenhHoXung",
+        "NV_VoNhaiTu"
+      ],
+      "BonusMau": 1.8,
+      "BonusCong": 1.8,
+      "BonusThu": 1.3,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_LyTamHoan",
+        "NV_KinhVoMenh",
+        "NV_LamTienNhi",
+        "NV_DiepCoThanh",
+        "NV_ThuongQuanKimHong",
+        "NV_APhi",
+        "NV_LamThiAm",
+        "NV_PhongKhieuVan"
+      ],
+      "BonusMau": 1.7,
+      "BonusCong": 1.3,
+      "BonusThu": 1.7,
+      "BonusNoiLuc": 2
+    },
+    {
+      "DoiHinh": [
+        "NV_TaLanhThien",
+        "NV_ThachTrungNgoc",
+        "NV_DoanChinhThuan",
+        "NV_PhongKhieuVan",
+        "NV_DuongQua",
+        "NV_ChuBaThong",
+        "NV_HoangDung",
+        "NV_ThienSonDongLao"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_TayMonXuyTuyet",
+        "NV_HoangDuocSu",
+        "NV_TieuPhong",
+        "NV_DoanDuyenKhanh",
+        "NV_YeuNguyet",
+        "NV_TruongTamPhong",
+        "NV_ThuongQuanKimHong",
+        "NV_ChuBaThong"
+      ],
+      "BonusMau": 2.5,
+      "BonusCong": 1,
+      "BonusThu": 1.5,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_TieuNguNhi",
+        "NV_DuongQua",
+        "NV_HuyetDaoLaoTo",
+        "NV_NhamNgaHanh",
+        "NV_NhacBatQuan",
+        "NV_TieuLongNu",
+        "NV_TruongVoKy",
+        "NV_ThienSonDongLao"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_TieuLongNu",
+        "NV_KimLuanPhapVuong",
+        "NV_GiacVien",
+        "NV_ThietTamLan",
+        "NV_TruongTamPhong",
+        "NV_LenhHoXung",
+        "NV_HongThatCong",
+        "NV_DoanDu"
+      ],
+      "BonusMau": 1.4,
+      "BonusCong": 1.6,
+      "BonusThu": 2,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_TieuPhong",
+        "NV_KimMaoSuVuong",
+        "NV_ThanhDucBucVuong",
+        "NV_YenNamThien",
+        "NV_DoanDu",
+        "NV_HuTruc",
+        "NV_QuachTinh",
+        "NV_VoNhaiTu"
+      ],
+      "BonusMau": 2.5,
+      "BonusCong": 1,
+      "BonusThu": 1.5,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_ThanDieu",
+        "NV_LyThuThuy",
+        "NV_HoaVoKhuyet",
+        "NV_NhamNgaHanh",
+        "NV_VoNhaiTu",
+        "NV_LenhHoXung",
+        "NV_DoanDu",
+        "NV_HoangDung"
+      ],
+      "BonusMau": 1.2,
+      "BonusCong": 2.5,
+      "BonusThu": 1.1,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_ThanhDucBucVuong",
+        "NV_VoNhaiTu",
+        "NV_DinhXuanThu",
+        "NV_ViTieuBao",
+        "NV_PhamDao",
+        "NV_AuDuongPhong",
+        "NV_HongThatCong",
+        "NV_DoanDu"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_ThienSonDongLao",
+        "NV_ViTieuBao",
+        "NV_ChuChiNhuoc",
+        "NV_TaLanhThien",
+        "NV_NhamDoanhDoanh",
+        "NV_LenhHoXung",
+        "NV_DongPhuongBatBai",
+        "NV_LyThuThuy"
+      ],
+      "BonusMau": 1.8,
+      "BonusCong": 1.8,
+      "BonusThu": 1.6,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_ThuongQuanKimHong",
+        "NV_QuachTinh",
+        "NV_DietTuyetSuThai",
+        "NV_ThanhCon",
+        "NV_KimLuanPhapVuong",
+        "NV_HoangDung",
+        "NV_HoangDuocSu",
+        "NV_TruongVoKy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_TruongTamPhong",
+        "NV_GiacVien",
+        "NV_BachMiUngVuong",
+        "NV_LienTinh",
+        "NV_TruongVoKy",
+        "NV_ChuBaThong",
+        "NV_AuDuongPhong",
+        "NV_LyThuThuy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.8,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_TruongVoKy",
+        "NV_NhamDoanhDoanh",
+        "NV_HoPhi",
+        "NV_ChuChiNhuoc",
+        "NV_AuDuongPhong",
+        "NV_DongPhuongBatBai",
+        "NV_VoNhaiTu",
+        "NV_VuongTrungDuong"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.8,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_TuSamLongVuong",
+        "NV_DoanDu",
+        "NV_DuThanChi",
+        "NV_KhoVinh",
+        "NV_CuuThienNhan",
+        "NV_TieuPhong",
+        "NV_HuTruc",
+        "NV_ThietTamLan"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_VoNhaiTu",
+        "NV_KhoVinh",
+        "NV_KimLuanPhapVuong",
+        "NV_HaTucDao",
+        "NV_ThienSonDongLao",
+        "NV_DongPhuongBatBai",
+        "NV_ChuBaThong",
+        "NV_QuachTinh"
+      ],
+      "BonusMau": 1.6,
+      "BonusCong": 1.5,
+      "BonusThu": 1.5,
+      "BonusNoiLuc": 1.8
+    },
+    {
+      "DoiHinh": [
+        "NV_VuongNguYen",
+        "NV_DinhXuanThu",
+        "NV_LyMacSau",
+        "NV_ThanhDucBucVuong",
+        "NV_VuongTrungDuong",
+        "NV_HoaManLau",
+        "NV_ThienSonDongLao",
+        "NV_TieuPhong"
+      ],
+      "BonusMau": 1.8,
+      "BonusCong": 1.6,
+      "BonusThu": 1.6,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_VuongTrungDuong",
+        "NV_KhoVinh",
+        "NV_KimLuanPhapVuong",
+        "NV_HaTucDao",
+        "NV_ThienSonDongLao",
+        "NV_ChuBaThong",
+        "NV_LyMacSau",
+        "NV_NhamDoanhDoanh"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.8,
+      "BonusThu": 1.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_ThachPhaThien",
+        "NV_TruongTam",
+        "NV_LyTu",
+        "NV_ThachTrungNgoc",
+        "NV_DinhBatTam",
+        "NV_DinhBatTu",
+        "NV_TaYenKhach",
+        "NV_HuTruc"
+      ],
+      "BonusMau": 2,
+      "BonusCong": 2.5,
+      "BonusThu": 1,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_PhamDao",
+        "NV_DuongTieu",
+        "NV_TuSamLongVuong",
+        "NV_KimMaoSuVuong",
+        "NV_ThanhDucBucVuong",
+        "NV_BachMiUngVuong",
+        "NV_TieuChieu",
+        "NV_TruongVoKy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2,
+      "BonusThu": 2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_TruongTamPhong",
+        "NV_TruongThuySon",
+        "NV_DuLienChau",
+        "NV_MacThanhCoc",
+        "NV_TongVienKieu",
+        "NV_TongThanhThu",
+        "NV_AnToTo",
+        "NV_TruongVoKy"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2,
+      "BonusThu": 1.5,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_YenNamThien",
+        "NV_TieuNguNhi",
+        "NV_HaHaNhi",
+        "NV_DoSat",
+        "NV_BachKhaiTam",
+        "NV_ThietChien",
+        "NV_AmCuuU",
+        "NV_HienVienTamQuang"
+      ],
+      "BonusMau": 2.5,
+      "BonusCong": 2.5,
+      "BonusThu": 1,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_VuongTrungDuong",
+        "NV_LamTrieuAnh",
+        "NV_VuongXuNhat",
+        "NV_QuachTinh",
+        "NV_MaNgoc",
+        "NV_ChuBaThong",
+        "NV_DoanChiBinh",
+        "NV_KhauXuCo"
+      ],
+      "BonusMau": 1.7,
+      "BonusCong": 1.7,
+      "BonusThu": 1.7,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_HoangSamNuTu",
+        "NV_TruongTamPhong",
+        "NV_ChuChiNhuoc",
+        "NV_TrieuMan",
+        "NV_TieuChieu",
+        "NV_TieuLongNu",
+        "NV_DuongQua",
+        "NV_TruongVoKy"
+      ],
+      "BonusMau": 2,
+      "BonusCong": 1.5,
+      "BonusThu": 1,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_LucTieuPhung",
+        "NV_TuKhongTrichTinh",
+        "NV_ViTieuBao",
+        "NV_HoaManLau",
+        "NV_ThuongQuanKimHong",
+        "NV_TayMonXuyTuyet",
+        "NV_PhoHongTuyet",
+        "NV_LenhHoXung"
+      ],
+      "BonusMau": 1.4,
+      "BonusCong": 1.6,
+      "BonusThu": 1.3,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_MoDungBac",
+        "NV_MoDungPhuc",
+        "NV_CuuMaTri",
+        "NV_BaoBatDong",
+        "NV_DongPhuongBatBai",
+        "NV_PhongBaAc",
+        "NV_DocCoCauBai",
+        "NV_LucTieuPhung"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2.6,
+      "BonusThu": 1,
+      "BonusNoiLuc": 2
+    },
+    {
+      "DoiHinh": [
+        "NV_TieuVienSon",
+        "NV_DoanChinhThuan",
+        "NV_TieuPhong",
+        "NV_AChau",
+        "NV_PhongThanhDuong",
+        "NV_ToanQuanThanh",
+        "NV_LenhHoXung",
+        "NV_SoLuuHuong"
+      ],
+      "BonusMau": 1.6,
+      "BonusCong": 2,
+      "BonusThu": 2,
+      "BonusNoiLuc": 1.2
+    },
+    {
+      "DoiHinh": [
+        "NV_TaoDiaTang",
+        "NV_TieuVienSon",
+        "NV_MoDungBac",
+        "NV_MoDungPhuc",
+        "NV_TieuPhong",
+        "NV_HuyenKho",
+        "NV_NhatDang",
+        "NV_KhoVinh"
+      ],
+      "BonusMau": 1.4,
+      "BonusCong": 1,
+      "BonusThu": 2,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_YeuNguyet",
+        "NV_CuuMaTri",
+        "NV_LyMacSau",
+        "NV_HaTucDao",
+        "NV_ToAnh",
+        "NV_LyThuThuy",
+        "NV_DongPhuongBatBai",
+        "NV_LienTinh"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2.2,
+      "BonusThu": 1,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_BoKinhVan",
+        "NV_BachPhatMaNu",
+        "NV_VuongNguYen",
+        "NV_HaTucDao",
+        "NV_HoaVoKhuyet",
+        "NV_LyThuThuy",
+        "NV_DongPhuongBatBai",
+        "NV_LenhHoXung"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.7,
+      "BonusThu": 2.2,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_ThanLongGiaoChu",
+        "NV_BachPhatMaNu",
+        "NV_TaYenKhach",
+        "NV_TieuNguNhi",
+        "NV_HoangThuong",
+        "NV_HoaVoKhuyet",
+        "NV_TieuLongNu",
+        "NV_DuongQua"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1.5,
+      "BonusThu": 2.1,
+      "BonusNoiLuc": 2.5
+    },
+    {
+      "DoiHinh": [
+        "NV_NhiepPhong",
+        "NV_DichPhong",
+        "NV_QuyHo",
+        "NV_BoKinhVan",
+        "NV_TuNgung",
+        "NV_VoDanh",
+        "NV_DeNhiMong",
+        "NV_VoTinh"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 2.2,
+      "BonusThu": 2.2,
+      "BonusNoiLuc": 1.5
+    },
+    {
+      "DoiHinh": [
+        "NV_Sophia",
+        "NV_TangNhu",
+        "NV_PhuongDi",
+        "NV_MocKiemBinh",
+        "NV_ToThuyen",
+        "NV_AKha",
+        "NV_KienNinhCongChua",
+        "NV_SongNhi"
+      ],
+      "BonusMau": 1.5,
+      "BonusCong": 1,
+      "BonusThu": 2,
+      "BonusNoiLuc": 1
+    },
+    {
+      "DoiHinh": [
+        "NV_NhacLinhSan",
+        "NV_HungBa",
+        "NV_TieuVienSon",
+        "NV_MoDungBac",
+        "NV_LamBinhChi",
+        "NV_TrungNguyenNhatDiemHong",
+        "NV_TuKhongTrichTinh",
+        "NV_LamPhuongHoang"
+      ],
+      "BonusMau": 2.5,
+      "BonusCong": 1,
+      "BonusThu": 1.5,
+      "BonusNoiLuc": 1
+    },
+    {
+      "DoiHinh": [
+        "NV_TracNhatHan",
+        "NV_TranCanNam",
+        "NV_MieuNhanPhung",
+        "NV_MieuNhuocLan",
+        "NV_TaYenKhach",
+        "NV_BachPhatMaNu",
+        "NV_HacButOng",
+        "NV_HacTriThu"
+      ],
+      "BonusMau": 1.2,
+      "BonusCong": 1,
+      "BonusThu": 2.5,
+      "BonusNoiLuc": 1
+    }
+  ],
+  "Level": [
+    {
+      "Level": 1,
+      "NPC5": 20,
+      "NPC6": 40,
+      "NPC7": 60,
+      "NPC8": 80
+    },
+    {
+      "Level": 2,
+      "NPC5": 20,
+      "NPC6": 41,
+      "NPC7": 61,
+      "NPC8": 82
+    },
+    {
+      "Level": 3,
+      "NPC5": 21,
+      "NPC6": 42,
+      "NPC7": 63,
+      "NPC8": 84
+    },
+    {
+      "Level": 4,
+      "NPC5": 22,
+      "NPC6": 43,
+      "NPC7": 64,
+      "NPC8": 86
+    },
+    {
+      "Level": 5,
+      "NPC5": 23,
+      "NPC6": 45,
+      "NPC7": 67,
+      "NPC8": 89
+    },
+    {
+      "Level": 6,
+      "NPC5": 24,
+      "NPC6": 46,
+      "NPC7": 69,
+      "NPC8": 92
+    },
+    {
+      "Level": 7,
+      "NPC5": 25,
+      "NPC6": 48,
+      "NPC7": 72,
+      "NPC8": 95
+    },
+    {
+      "Level": 8,
+      "NPC5": 26,
+      "NPC6": 51,
+      "NPC7": 75,
+      "NPC8": 99
+    },
+    {
+      "Level": 9,
+      "NPC5": 28,
+      "NPC6": 53,
+      "NPC7": 78,
+      "NPC8": 104
+    },
+    {
+      "Level": 10,
+      "NPC5": 29,
+      "NPC6": 56,
+      "NPC7": 82,
+      "NPC8": 109
+    },
+    {
+      "Level": 11,
+      "NPC5": 31,
+      "NPC6": 59,
+      "NPC7": 86,
+      "NPC8": 114
+    },
+    {
+      "Level": 12,
+      "NPC5": 33,
+      "NPC6": 62,
+      "NPC7": 91,
+      "NPC8": 120
+    },
+    {
+      "Level": 13,
+      "NPC5": 35,
+      "NPC6": 66,
+      "NPC7": 96,
+      "NPC8": 126
+    },
+    {
+      "Level": 14,
+      "NPC5": 37,
+      "NPC6": 69,
+      "NPC7": 101,
+      "NPC8": 133
+    },
+    {
+      "Level": 15,
+      "NPC5": 40,
+      "NPC6": 73,
+      "NPC7": 107,
+      "NPC8": 140
+    },
+    {
+      "Level": 16,
+      "NPC5": 42,
+      "NPC6": 78,
+      "NPC7": 113,
+      "NPC8": 148
+    },
+    {
+      "Level": 17,
+      "NPC5": 45,
+      "NPC6": 82,
+      "NPC7": 119,
+      "NPC8": 156
+    },
+    {
+      "Level": 18,
+      "NPC5": 48,
+      "NPC6": 87,
+      "NPC7": 126,
+      "NPC8": 165
+    },
+    {
+      "Level": 19,
+      "NPC5": 51,
+      "NPC6": 92,
+      "NPC7": 133,
+      "NPC8": 174
+    },
+    {
+      "Level": 20,
+      "NPC5": 54,
+      "NPC6": 97,
+      "NPC7": 140,
+      "NPC8": 183
+    },
+    {
+      "Level": 21,
+      "NPC5": 57,
+      "NPC6": 103,
+      "NPC7": 148,
+      "NPC8": 193
+    },
+    {
+      "Level": 22,
+      "NPC5": 61,
+      "NPC6": 108,
+      "NPC7": 156,
+      "NPC8": 203
+    },
+    {
+      "Level": 23,
+      "NPC5": 64,
+      "NPC6": 114,
+      "NPC7": 164,
+      "NPC8": 214
+    },
+    {
+      "Level": 24,
+      "NPC5": 68,
+      "NPC6": 120,
+      "NPC7": 173,
+      "NPC8": 225
+    },
+    {
+      "Level": 25,
+      "NPC5": 72,
+      "NPC6": 127,
+      "NPC7": 182,
+      "NPC8": 237
+    },
+    {
+      "Level": 26,
+      "NPC5": 76,
+      "NPC6": 134,
+      "NPC7": 191,
+      "NPC8": 244
+    },
+    {
+      "Level": 27,
+      "NPC5": 80,
+      "NPC6": 141,
+      "NPC7": 201,
+      "NPC8": 262
+    },
+    {
+      "Level": 28,
+      "NPC5": 85,
+      "NPC6": 148,
+      "NPC7": 211,
+      "NPC8": 275
+    },
+    {
+      "Level": 29,
+      "NPC5": 89,
+      "NPC6": 156,
+      "NPC7": 222,
+      "NPC8": 288
+    },
+    {
+      "Level": 30,
+      "NPC5": 94,
+      "NPC6": 163,
+      "NPC7": 233,
+      "NPC8": 302
+    },
+    {
+      "Level": 31,
+      "NPC5": 99,
+      "NPC6": 171,
+      "NPC7": 244,
+      "NPC8": 317
+    },
+    {
+      "Level": 32,
+      "NPC5": 104,
+      "NPC6": 180,
+      "NPC7": 256,
+      "NPC8": 332
+    },
+    {
+      "Level": 33,
+      "NPC5": 109,
+      "NPC6": 188,
+      "NPC7": 267,
+      "NPC8": 347
+    },
+    {
+      "Level": 34,
+      "NPC5": 114,
+      "NPC6": 197,
+      "NPC7": 280,
+      "NPC8": 363
+    },
+    {
+      "Level": 35,
+      "NPC5": 119,
+      "NPC6": 206,
+      "NPC7": 292,
+      "NPC8": 379
+    },
+    {
+      "Level": 36,
+      "NPC5": 125,
+      "NPC6": 215,
+      "NPC7": 305,
+      "NPC8": 396
+    },
+    {
+      "Level": 37,
+      "NPC5": 131,
+      "NPC6": 225,
+      "NPC7": 319,
+      "NPC8": 413
+    },
+    {
+      "Level": 38,
+      "NPC5": 136,
+      "NPC6": 234,
+      "NPC7": 332,
+      "NPC8": 430
+    },
+    {
+      "Level": 39,
+      "NPC5": 142,
+      "NPC6": 244,
+      "NPC7": 346,
+      "NPC8": 448
+    },
+    {
+      "Level": 40,
+      "NPC5": 149,
+      "NPC6": 255,
+      "NPC7": 361,
+      "NPC8": 467
+    },
+    {
+      "Level": 41,
+      "NPC5": 155,
+      "NPC6": 265,
+      "NPC7": 375,
+      "NPC8": 485
+    },
+    {
+      "Level": 42,
+      "NPC5": 161,
+      "NPC6": 276,
+      "NPC7": 390,
+      "NPC8": 505
+    },
+    {
+      "Level": 43,
+      "NPC5": 168,
+      "NPC6": 287,
+      "NPC7": 406,
+      "NPC8": 525
+    },
+    {
+      "Level": 44,
+      "NPC5": 175,
+      "NPC6": 298,
+      "NPC7": 421,
+      "NPC8": 545
+    },
+    {
+      "Level": 45,
+      "NPC5": 182,
+      "NPC6": 310,
+      "NPC7": 437,
+      "NPC8": 566
+    },
+    {
+      "Level": 46,
+      "NPC5": 189,
+      "NPC6": 321,
+      "NPC7": 454,
+      "NPC8": 587
+    },
+    {
+      "Level": 47,
+      "NPC5": 196,
+      "NPC6": 333,
+      "NPC7": 471,
+      "NPC8": 608
+    },
+    {
+      "Level": 48,
+      "NPC5": 203,
+      "NPC6": 346,
+      "NPC7": 488,
+      "NPC8": 630
+    },
+    {
+      "Level": 49,
+      "NPC5": 211,
+      "NPC6": 358,
+      "NPC7": 505,
+      "NPC8": 653
+    },
+    {
+      "Level": 50,
+      "NPC5": 218,
+      "NPC6": 371,
+      "NPC7": 523,
+      "NPC8": 676
+    },
+    {
+      "Level": 51,
+      "NPC5": 226,
+      "NPC6": 384,
+      "NPC7": 541,
+      "NPC8": 700
+    },
+    {
+      "Level": 52,
+      "NPC5": 234,
+      "NPC6": 398,
+      "NPC7": 560,
+      "NPC8": 723
+    },
+    {
+      "Level": 53,
+      "NPC5": 242,
+      "NPC6": 411,
+      "NPC7": 578,
+      "NPC8": 747
+    },
+    {
+      "Level": 54,
+      "NPC5": 250,
+      "NPC6": 425,
+      "NPC7": 597,
+      "NPC8": 772
+    },
+    {
+      "Level": 55,
+      "NPC5": 259,
+      "NPC6": 438,
+      "NPC7": 617,
+      "NPC8": 797
+    },
+    {
+      "Level": 56,
+      "NPC5": 267,
+      "NPC6": 453,
+      "NPC7": 637,
+      "NPC8": 823
+    },
+    {
+      "Level": 57,
+      "NPC5": 276,
+      "NPC6": 467,
+      "NPC7": 657,
+      "NPC8": 849
+    },
+    {
+      "Level": 58,
+      "NPC5": 285,
+      "NPC6": 482,
+      "NPC7": 678,
+      "NPC8": 876
+    },
+    {
+      "Level": 59,
+      "NPC5": 294,
+      "NPC6": 497,
+      "NPC7": 699,
+      "NPC8": 903
+    },
+    {
+      "Level": 60,
+      "NPC5": 303,
+      "NPC6": 512,
+      "NPC7": 721,
+      "NPC8": 930
+    },
+    {
+      "Level": 61,
+      "NPC5": 312,
+      "NPC6": 528,
+      "NPC7": 742,
+      "NPC8": 958
+    },
+    {
+      "Level": 62,
+      "NPC5": 322,
+      "NPC6": 543,
+      "NPC7": 764,
+      "NPC8": 986
+    },
+    {
+      "Level": 63,
+      "NPC5": 331,
+      "NPC6": 559,
+      "NPC7": 786,
+      "NPC8": 1015
+    },
+    {
+      "Level": 64,
+      "NPC5": 341,
+      "NPC6": 576,
+      "NPC7": 809,
+      "NPC8": 1044
+    },
+    {
+      "Level": 65,
+      "NPC5": 351,
+      "NPC6": 592,
+      "NPC7": 832,
+      "NPC8": 1074
+    },
+    {
+      "Level": 66,
+      "NPC5": 361,
+      "NPC6": 409,
+      "NPC7": 855,
+      "NPC8": 1104
+    },
+    {
+      "Level": 67,
+      "NPC5": 371,
+      "NPC6": 626,
+      "NPC7": 880,
+      "NPC8": 1135
+    },
+    {
+      "Level": 68,
+      "NPC5": 382,
+      "NPC6": 643,
+      "NPC7": 904,
+      "NPC8": 1166
+    },
+    {
+      "Level": 69,
+      "NPC5": 392,
+      "NPC6": 660,
+      "NPC7": 929,
+      "NPC8": 1197
+    },
+    {
+      "Level": 70,
+      "NPC5": 403,
+      "NPC6": 678,
+      "NPC7": 954,
+      "NPC8": 1228
+    },
+    {
+      "Level": 71,
+      "NPC5": 414,
+      "NPC6": 696,
+      "NPC7": 980,
+      "NPC8": 1262
+    },
+    {
+      "Level": 72,
+      "NPC5": 425,
+      "NPC6": 715,
+      "NPC7": 1005,
+      "NPC8": 1296
+    },
+    {
+      "Level": 73,
+      "NPC5": 436,
+      "NPC6": 733,
+      "NPC7": 1030,
+      "NPC8": 1330
+    },
+    {
+      "Level": 74,
+      "NPC5": 447,
+      "NPC6": 752,
+      "NPC7": 1058,
+      "NPC8": 1362
+    },
+    {
+      "Level": 75,
+      "NPC5": 458,
+      "NPC6": 771,
+      "NPC7": 1083,
+      "NPC8": 1396
+    },
+    {
+      "Level": 76,
+      "NPC5": 470,
+      "NPC6": 790,
+      "NPC7": 1110,
+      "NPC8": 1431
+    },
+    {
+      "Level": 77,
+      "NPC5": 482,
+      "NPC6": 810,
+      "NPC7": 1137,
+      "NPC8": 1466
+    },
+    {
+      "Level": 78,
+      "NPC5": 493,
+      "NPC6": 829,
+      "NPC7": 1165,
+      "NPC8": 1502
+    },
+    {
+      "Level": 79,
+      "NPC5": 505,
+      "NPC6": 849,
+      "NPC7": 1193,
+      "NPC8": 1536
+    },
+    {
+      "Level": 80,
+      "NPC5": 518,
+      "NPC6": 870,
+      "NPC7": 1222,
+      "NPC8": 1570
+    },
+    {
+      "Level": 81,
+      "NPC5": 530,
+      "NPC6": 890,
+      "NPC7": 1250,
+      "NPC8": 1604
+    },
+    {
+      "Level": 82,
+      "NPC5": 543,
+      "NPC6": 911,
+      "NPC7": 1279,
+      "NPC8": 1639
+    },
+    {
+      "Level": 83,
+      "NPC5": 555,
+      "NPC6": 932,
+      "NPC7": 1309,
+      "NPC8": 1671
+    },
+    {
+      "Level": 84,
+      "NPC5": 568,
+      "NPC6": 953,
+      "NPC7": 1338,
+      "NPC8": 1706
+    },
+    {
+      "Level": 85,
+      "NPC5": 583,
+      "NPC6": 975,
+      "NPC7": 1369,
+      "NPC8": 1754
+    },
+    {
+      "Level": 86,
+      "NPC5": 594,
+      "NPC6": 996,
+      "NPC7": 1399,
+      "NPC8": 1802
+    },
+    {
+      "Level": 87,
+      "NPC5": 607,
+      "NPC6": 1018,
+      "NPC7": 1432,
+      "NPC8": 1846
+    },
+    {
+      "Level": 88,
+      "NPC5": 620,
+      "NPC6": 1041,
+      "NPC7": 1462,
+      "NPC8": 1886
+    },
+    {
+      "Level": 89,
+      "NPC5": 634,
+      "NPC6": 1063,
+      "NPC7": 1497,
+      "NPC8": 1922
+    },
+    {
+      "Level": 90,
+      "NPC5": 647,
+      "NPC6": 1086,
+      "NPC7": 1524,
+      "NPC8": 1966
+    },
+    {
+      "Level": 91,
+      "NPC5": 661,
+      "NPC6": 1109,
+      "NPC7": 1557,
+      "NPC8": 2008
+    },
+    {
+      "Level": 92,
+      "NPC5": 675,
+      "NPC6": 1133,
+      "NPC7": 1590,
+      "NPC8": 2052
+    },
+    {
+      "Level": 93,
+      "NPC5": 690,
+      "NPC6": 1157,
+      "NPC7": 1624,
+      "NPC8": 2096
+    },
+    {
+      "Level": 94,
+      "NPC5": 705,
+      "NPC6": 1191,
+      "NPC7": 1659,
+      "NPC8": 2140
+    },
+    {
+      "Level": 95,
+      "NPC5": 720,
+      "NPC6": 1207,
+      "NPC7": 1694,
+      "NPC8": 2184
+    },
+    {
+      "Level": 96,
+      "NPC5": 735,
+      "NPC6": 1233,
+      "NPC7": 1730,
+      "NPC8": 2228
+    },
+    {
+      "Level": 97,
+      "NPC5": 751,
+      "NPC6": 1259,
+      "NPC7": 1770,
+      "NPC8": 2275
+    },
+    {
+      "Level": 98,
+      "NPC5": 768,
+      "NPC6": 1287,
+      "NPC7": 1805,
+      "NPC8": 2324
+    },
+    {
+      "Level": 99,
+      "NPC5": 785,
+      "NPC6": 1315,
+      "NPC7": 1846,
+      "NPC8": 2380
+    },
+    {
+      "Level": 100,
+      "NPC5": 803,
+      "NPC6": 1345,
+      "NPC7": 1888,
+      "NPC8": 2424
+    },
+    {
+      "Level": 101,
+      "NPC5": 822,
+      "NPC6": 1377,
+      "NPC7": 1931,
+      "NPC8": 2485
+    },
+    {
+      "Level": 102,
+      "NPC5": 841,
+      "NPC6": 1409,
+      "NPC7": 1975,
+      "NPC8": 2542
+    },
+    {
+      "Level": 103,
+      "NPC5": 861,
+      "NPC6": 1443,
+      "NPC7": 2024,
+      "NPC8": 2607
+    },
+    {
+      "Level": 104,
+      "NPC5": 882,
+      "NPC6": 1478,
+      "NPC7": 2073,
+      "NPC8": 2667
+    },
+    {
+      "Level": 105,
+      "NPC5": 904,
+      "NPC6": 1515,
+      "NPC7": 2124,
+      "NPC8": 2733
+    },
+    {
+      "Level": 106,
+      "NPC5": 927,
+      "NPC6": 1553,
+      "NPC7": 2176,
+      "NPC8": 2800
+    },
+    {
+      "Level": 107,
+      "NPC5": 950,
+      "NPC6": 1590,
+      "NPC7": 2200,
+      "NPC8": 2870
+    },
+    {
+      "Level": 108,
+      "NPC5": 974,
+      "NPC6": 1630,
+      "NPC7": 2235,
+      "NPC8": 2942
+    },
+    {
+      "Level": 109,
+      "NPC5": 999,
+      "NPC6": 1672,
+      "NPC7": 2275,
+      "NPC8": 3016
+    },
+    {
+      "Level": 110,
+      "NPC5": 1024,
+      "NPC6": 1714,
+      "NPC7": 2320,
+      "NPC8": 3093
+    },
+    {
+      "Level": 111,
+      "NPC5": 1051,
+      "NPC6": 1756,
+      "NPC7": 2370,
+      "NPC8": 3172
+    },
+    {
+      "Level": 112,
+      "NPC5": 1077,
+      "NPC6": 1803,
+      "NPC7": 2425,
+      "NPC8": 3253
+    },
+    {
+      "Level": 113,
+      "NPC5": 1105,
+      "NPC6": 1849,
+      "NPC7": 2485,
+      "NPC8": 3337
+    },
+    {
+      "Level": 114,
+      "NPC5": 1134,
+      "NPC6": 1897,
+      "NPC7": 2550,
+      "NPC8": 3422
+    },
+    {
+      "Level": 115,
+      "NPC5": 1163,
+      "NPC6": 1945,
+      "NPC7": 2620,
+      "NPC8": 3510
+    },
+    {
+      "Level": 116,
+      "NPC5": 1193,
+      "NPC6": 1995,
+      "NPC7": 2695,
+      "NPC8": 3600
+    },
+    {
+      "Level": 117,
+      "NPC5": 1224,
+      "NPC6": 2047,
+      "NPC7": 2775,
+      "NPC8": 3690
+    },
+    {
+      "Level": 118,
+      "NPC5": 1255,
+      "NPC6": 2099,
+      "NPC7": 2860,
+      "NPC8": 3787
+    },
+    {
+      "Level": 119,
+      "NPC5": 1287,
+      "NPC6": 2153,
+      "NPC7": 2950,
+      "NPC8": 3886
+    },
+    {
+      "Level": 120,
+      "NPC5": 1319,
+      "NPC6": 2209,
+      "NPC7": 3045,
+      "NPC8": 3989
+    },
+    {
+      "Level": 121,
+      "NPC5": 1352,
+      "NPC6": 2265,
+      "NPC7": 3126,
+      "NPC8": 4095
+    },
+    {
+      "Level": 122,
+      "NPC5": 1386,
+      "NPC6": 2323,
+      "NPC7": 3211,
+      "NPC8": 4207
+    },
+    {
+      "Level": 123,
+      "NPC5": 1420,
+      "NPC6": 2383,
+      "NPC7": 3299,
+      "NPC8": 4322
+    },
+    {
+      "Level": 124,
+      "NPC5": 1455,
+      "NPC6": 2443,
+      "NPC7": 3390,
+      "NPC8": 4441
+    },
+    {
+      "Level": 125,
+      "NPC5": 1491,
+      "NPC6": 2505,
+      "NPC7": 3484,
+      "NPC8": 4564
+    },
+    {
+      "Level": 126,
+      "NPC5": 1532,
+      "NPC6": 2569,
+      "NPC7": 3581,
+      "NPC8": 4691
+    },
+    {
+      "Level": 127,
+      "NPC5": 1575,
+      "NPC6": 2635,
+      "NPC7": 3681,
+      "NPC8": 4822
+    },
+    {
+      "Level": 128,
+      "NPC5": 1619,
+      "NPC6": 2709,
+      "NPC7": 3784,
+      "NPC8": 4957
+    },
+    {
+      "Level": 129,
+      "NPC5": 1665,
+      "NPC6": 2785,
+      "NPC7": 3890,
+      "NPC8": 5096
+    },
+    {
+      "Level": 130,
+      "NPC5": 1712,
+      "NPC6": 2863,
+      "NPC7": 3999,
+      "NPC8": 5239
+    },
+    {
+      "Level": 131,
+      "NPC5": 1760,
+      "NPC6": 2943,
+      "NPC7": 4111,
+      "NPC8": 5386
+    },
+    {
+      "Level": 132,
+      "NPC5": 1809,
+      "NPC6": 3026,
+      "NPC7": 4227,
+      "NPC8": 5537
+    },
+    {
+      "Level": 133,
+      "NPC5": 1860,
+      "NPC6": 3110,
+      "NPC7": 4345,
+      "NPC8": 5692
+    },
+    {
+      "Level": 134,
+      "NPC5": 1911,
+      "NPC6": 3197,
+      "NPC7": 4466,
+      "NPC8": 5851
+    },
+    {
+      "Level": 135,
+      "NPC5": 1965,
+      "NPC6": 3286,
+      "NPC7": 4591,
+      "NPC8": 6014
+    },
+    {
+      "Level": 136,
+      "NPC5": 2019,
+      "NPC6": 3378,
+      "NPC7": 4718,
+      "NPC8": 6181
+    },
+    {
+      "Level": 137,
+      "NPC5": 2075,
+      "NPC6": 3471,
+      "NPC7": 4849,
+      "NPC8": 6352
+    },
+    {
+      "Level": 138,
+      "NPC5": 2132,
+      "NPC6": 3567,
+      "NPC7": 4982,
+      "NPC8": 6527
+    },
+    {
+      "Level": 139,
+      "NPC5": 2191,
+      "NPC6": 3665,
+      "NPC7": 5119,
+      "NPC8": 6706
+    },
+    {
+      "Level": 140,
+      "NPC5": 2251,
+      "NPC6": 3765,
+      "NPC7": 5259,
+      "NPC8": 6889
+    },
+    {
+      "Level": 141,
+      "NPC5": 2312,
+      "NPC6": 3867,
+      "NPC7": 5401,
+      "NPC8": 7076
+    },
+    {
+      "Level": 142,
+      "NPC5": 2374,
+      "NPC6": 3971,
+      "NPC7": 5547,
+      "NPC8": 7267
+    },
+    {
+      "Level": 143,
+      "NPC5": 2408,
+      "NPC6": 4027,
+      "NPC7": 5626,
+      "NPC8": 7370
+    },
+    {
+      "Level": 144,
+      "NPC5": 2442,
+      "NPC6": 4085,
+      "NPC7": 5706,
+      "NPC8": 7475
+    },
+    {
+      "Level": 145,
+      "NPC5": 2476,
+      "NPC6": 4142,
+      "NPC7": 5786,
+      "NPC8": 7580
+    },
+    {
+      "Level": 146,
+      "NPC5": 2511,
+      "NPC6": 4200,
+      "NPC7": 5867,
+      "NPC8": 7686
+    },
+    {
+      "Level": 147,
+      "NPC5": 2546,
+      "NPC6": 4259,
+      "NPC7": 5949,
+      "NPC8": 7794
+    },
+    {
+      "Level": 148,
+      "NPC5": 2582,
+      "NPC6": 4319,
+      "NPC7": 6033,
+      "NPC8": 7903
+    },
+    {
+      "Level": 149,
+      "NPC5": 2618,
+      "NPC6": 4379,
+      "NPC7": 6117,
+      "NPC8": 8013
+    },
+    {
+      "Level": 150,
+      "NPC5": 2655,
+      "NPC6": 4440,
+      "NPC7": 6203,
+      "NPC8": 8126
+    },
+    {
+      "Level": 151,
+      "NPC5": 2694,
+      "NPC6": 4507,
+      "NPC7": 6296,
+      "NPC8": 8248
+    },
+    {
+      "Level": 152,
+      "NPC5": 2735,
+      "NPC6": 4575,
+      "NPC7": 6390,
+      "NPC8": 8371
+    },
+    {
+      "Level": 153,
+      "NPC5": 2776,
+      "NPC6": 4643,
+      "NPC7": 6486,
+      "NPC8": 8497
+    },
+    {
+      "Level": 154,
+      "NPC5": 2817,
+      "NPC6": 4713,
+      "NPC7": 6583,
+      "NPC8": 8624
+    },
+    {
+      "Level": 155,
+      "NPC5": 2860,
+      "NPC6": 4783,
+      "NPC7": 6682,
+      "NPC8": 8754
+    },
+    {
+      "Level": 156,
+      "NPC5": 2903,
+      "NPC6": 4855,
+      "NPC7": 6782,
+      "NPC8": 8885
+    },
+    {
+      "Level": 157,
+      "NPC5": 2946,
+      "NPC6": 4928,
+      "NPC7": 6884,
+      "NPC8": 9018
+    },
+    {
+      "Level": 158,
+      "NPC5": 2990,
+      "NPC6": 5002,
+      "NPC7": 6987,
+      "NPC8": 9154
+    },
+    {
+      "Level": 159,
+      "NPC5": 3035,
+      "NPC6": 5077,
+      "NPC7": 7092,
+      "NPC8": 9291
+    },
+    {
+      "Level": 160,
+      "NPC5": 3081,
+      "NPC6": 5153,
+      "NPC7": 7199,
+      "NPC8": 9430
+    },
+    {
+      "Level": 161,
+      "NPC5": 3127,
+      "NPC6": 5230,
+      "NPC7": 7306,
+      "NPC8": 9572
+    },
+    {
+      "Level": 162,
+      "NPC5": 3174,
+      "NPC6": 5309,
+      "NPC7": 7416,
+      "NPC8": 9715
+    },
+    {
+      "Level": 163,
+      "NPC5": 3221,
+      "NPC6": 5389,
+      "NPC7": 7527,
+      "NPC8": 9861
+    },
+    {
+      "Level": 164,
+      "NPC5": 3270,
+      "NPC6": 5469,
+      "NPC7": 7640,
+      "NPC8": 10009
+    },
+    {
+      "Level": 165,
+      "NPC5": 3319,
+      "NPC6": 5551,
+      "NPC7": 7755,
+      "NPC8": 10159
+    },
+    {
+      "Level": 166,
+      "NPC5": 3369,
+      "NPC6": 5635,
+      "NPC7": 7871,
+      "NPC8": 10311
+    },
+    {
+      "Level": 167,
+      "NPC5": 3419,
+      "NPC6": 5719,
+      "NPC7": 7989,
+      "NPC8": 10466
+    },
+    {
+      "Level": 168,
+      "NPC5": 3470,
+      "NPC6": 5805,
+      "NPC7": 8109,
+      "NPC8": 10623
+    },
+    {
+      "Level": 169,
+      "NPC5": 3522,
+      "NPC6": 5892,
+      "NPC7": 8231,
+      "NPC8": 10782
+    },
+    {
+      "Level": 170,
+      "NPC5": 3575,
+      "NPC6": 5980,
+      "NPC7": 8354,
+      "NPC8": 10944
+    },
+    {
+      "Level": 171,
+      "NPC5": 3629,
+      "NPC6": 6070,
+      "NPC7": 8479,
+      "NPC8": 11108
+    },
+    {
+      "Level": 172,
+      "NPC5": 3683,
+      "NPC6": 6161,
+      "NPC7": 8607,
+      "NPC8": 11275
+    },
+    {
+      "Level": 173,
+      "NPC5": 3739,
+      "NPC6": 6254,
+      "NPC7": 8736,
+      "NPC8": 11444
+    },
+    {
+      "Level": 174,
+      "NPC5": 3795,
+      "NPC6": 6347,
+      "NPC7": 8867,
+      "NPC8": 11616
+    },
+    {
+      "Level": 175,
+      "NPC5": 3852,
+      "NPC6": 6443,
+      "NPC7": 9000,
+      "NPC8": 11790
+    },
+    {
+      "Level": 176,
+      "NPC5": 3909,
+      "NPC6": 6539,
+      "NPC7": 9135,
+      "NPC8": 11967
+    },
+    {
+      "Level": 177,
+      "NPC5": 3968,
+      "NPC6": 6637,
+      "NPC7": 9272,
+      "NPC8": 12146
+    },
+    {
+      "Level": 178,
+      "NPC5": 4028,
+      "NPC6": 6737,
+      "NPC7": 9411,
+      "NPC8": 12328
+    },
+    {
+      "Level": 179,
+      "NPC5": 4088,
+      "NPC6": 6838,
+      "NPC7": 9552,
+      "NPC8": 12513
+    },
+    {
+      "Level": 180,
+      "NPC5": 4149,
+      "NPC6": 6941,
+      "NPC7": 9695,
+      "NPC8": 12701
+    },
+    {
+      "Level": 181,
+      "NPC5": 4212,
+      "NPC6": 7045,
+      "NPC7": 9841,
+      "NPC8": 12892
+    },
+    {
+      "Level": 182,
+      "NPC5": 4275,
+      "NPC6": 7150,
+      "NPC7": 9988,
+      "NPC8": 13085
+    },
+    {
+      "Level": 183,
+      "NPC5": 4339,
+      "NPC6": 7258,
+      "NPC7": 10138,
+      "NPC8": 13281
+    },
+    {
+      "Level": 184,
+      "NPC5": 4404,
+      "NPC6": 7366,
+      "NPC7": 10290,
+      "NPC8": 13480
+    },
+    {
+      "Level": 185,
+      "NPC5": 4470,
+      "NPC6": 7477,
+      "NPC7": 10445,
+      "NPC8": 13683
+    },
+    {
+      "Level": 186,
+      "NPC5": 4537,
+      "NPC6": 7589,
+      "NPC7": 10601,
+      "NPC8": 13888
+    },
+    {
+      "Level": 187,
+      "NPC5": 4605,
+      "NPC6": 7703,
+      "NPC7": 10760,
+      "NPC8": 14096
+    },
+    {
+      "Level": 188,
+      "NPC5": 4674,
+      "NPC6": 7818,
+      "NPC7": 10922,
+      "NPC8": 14308
+    },
+    {
+      "Level": 189,
+      "NPC5": 4744,
+      "NPC6": 7936,
+      "NPC7": 11086,
+      "NPC8": 14522
+    },
+    {
+      "Level": 190,
+      "NPC5": 4815,
+      "NPC6": 8055,
+      "NPC7": 11252,
+      "NPC8": 14740
+    },
+    {
+      "Level": 191,
+      "NPC5": 4888,
+      "NPC6": 8176,
+      "NPC7": 11421,
+      "NPC8": 14961
+    },
+    {
+      "Level": 192,
+      "NPC5": 4961,
+      "NPC6": 8298,
+      "NPC7": 11592,
+      "NPC8": 15186
+    },
+    {
+      "Level": 193,
+      "NPC5": 5035,
+      "NPC6": 8423,
+      "NPC7": 11766,
+      "NPC8": 15413
+    },
+    {
+      "Level": 194,
+      "NPC5": 5111,
+      "NPC6": 8549,
+      "NPC7": 11942,
+      "NPC8": 15645
+    },
+    {
+      "Level": 195,
+      "NPC5": 5188,
+      "NPC6": 8677,
+      "NPC7": 12121,
+      "NPC8": 15879
+    },
+    {
+      "Level": 196,
+      "NPC5": 5265,
+      "NPC6": 8807,
+      "NPC7": 12303,
+      "NPC8": 16117
+    },
+    {
+      "Level": 197,
+      "NPC5": 5344,
+      "NPC6": 8940,
+      "NPC7": 12488,
+      "NPC8": 16359
+    },
+    {
+      "Level": 198,
+      "NPC5": 5425,
+      "NPC6": 9074,
+      "NPC7": 12675,
+      "NPC8": 16605
+    },
+    {
+      "Level": 199,
+      "NPC5": 5506,
+      "NPC6": 9210,
+      "NPC7": 12865,
+      "NPC8": 16854
+    },
+    {
+      "Level": 200,
+      "NPC5": 5588,
+      "NPC6": 9348,
+      "NPC7": 13058,
+      "NPC8": 17106
+    },
+    {
+      "Level": 201,
+      "NPC5": 5672,
+      "NPC6": 9488,
+      "NPC7": 13254,
+      "NPC8": 17363
+    },
+    {
+      "Level": 202,
+      "NPC5": 5757,
+      "NPC6": 9630,
+      "NPC7": 13453,
+      "NPC8": 17624
+    },
+    {
+      "Level": 203,
+      "NPC5": 5844,
+      "NPC6": 9775,
+      "NPC7": 13655,
+      "NPC8": 17888
+    },
+    {
+      "Level": 204,
+      "NPC5": 5931,
+      "NPC6": 9922,
+      "NPC7": 13860,
+      "NPC8": 18156
+    },
+    {
+      "Level": 205,
+      "NPC5": 6020,
+      "NPC6": 10070,
+      "NPC7": 14067,
+      "NPC8": 18429
+    },
+    {
+      "Level": 206,
+      "NPC5": 6111,
+      "NPC6": 10221,
+      "NPC7": 14278,
+      "NPC8": 18705
+    },
+    {
+      "Level": 207,
+      "NPC5": 6202,
+      "NPC6": 10375,
+      "NPC7": 14493,
+      "NPC8": 18986
+    },
+    {
+      "Level": 208,
+      "NPC5": 6295,
+      "NPC6": 10530,
+      "NPC7": 14710,
+      "NPC8": 19270
+    },
+    {
+      "Level": 209,
+      "NPC5": 6390,
+      "NPC6": 10688,
+      "NPC7": 14931,
+      "NPC8": 19559
+    },
+    {
+      "Level": 210,
+      "NPC5": 6486,
+      "NPC6": 10849,
+      "NPC7": 15155,
+      "NPC8": 19853
+    },
+    {
+      "Level": 211,
+      "NPC5": 6583,
+      "NPC6": 11011,
+      "NPC7": 15382,
+      "NPC8": 20151
+    },
+    {
+      "Level": 212,
+      "NPC5": 6682,
+      "NPC6": 11177,
+      "NPC7": 15613,
+      "NPC8": 20453
+    },
+    {
+      "Level": 213,
+      "NPC5": 6782,
+      "NPC6": 11344,
+      "NPC7": 15847,
+      "NPC8": 20760
+    },
+    {
+      "Level": 214,
+      "NPC5": 6884,
+      "NPC6": 11514,
+      "NPC7": 16085,
+      "NPC8": 21071
+    },
+    {
+      "Level": 215,
+      "NPC5": 6987,
+      "NPC6": 11687,
+      "NPC7": 16326,
+      "NPC8": 21387
+    },
+    {
+      "Level": 216,
+      "NPC5": 7092,
+      "NPC6": 11862,
+      "NPC7": 16571,
+      "NPC8": 21708
+    },
+    {
+      "Level": 217,
+      "NPC5": 7198,
+      "NPC6": 12040,
+      "NPC7": 16819,
+      "NPC8": 22034
+    },
+    {
+      "Level": 218,
+      "NPC5": 7306,
+      "NPC6": 12221,
+      "NPC7": 17072,
+      "NPC8": 22364
+    },
+    {
+      "Level": 219,
+      "NPC5": 7416,
+      "NPC6": 12404,
+      "NPC7": 17328,
+      "NPC8": 22699
+    },
+    {
+      "Level": 220,
+      "NPC5": 7527,
+      "NPC6": 12590,
+      "NPC7": 17588,
+      "NPC8": 23040
+    },
+    {
+      "Level": 221,
+      "NPC5": 7640,
+      "NPC6": 12779,
+      "NPC7": 17851,
+      "NPC8": 23386
+    },
+    {
+      "Level": 222,
+      "NPC5": 7754,
+      "NPC6": 12971,
+      "NPC7": 18119,
+      "NPC8": 23736
+    },
+    {
+      "Level": 223,
+      "NPC5": 7871,
+      "NPC6": 13165,
+      "NPC7": 18391,
+      "NPC8": 24092
+    },
+    {
+      "Level": 224,
+      "NPC5": 7989,
+      "NPC6": 13363,
+      "NPC7": 18667,
+      "NPC8": 24454
+    },
+    {
+      "Level": 225,
+      "NPC5": 8109,
+      "NPC6": 13563,
+      "NPC7": 18947,
+      "NPC8": 24821
+    },
+    {
+      "Level": 226,
+      "NPC5": 8230,
+      "NPC6": 13767,
+      "NPC7": 19231,
+      "NPC8": 25193
+    },
+    {
+      "Level": 227,
+      "NPC5": 8354,
+      "NPC6": 13973,
+      "NPC7": 19519,
+      "NPC8": 25571
+    },
+    {
+      "Level": 228,
+      "NPC5": 8479,
+      "NPC6": 14183,
+      "NPC7": 19812,
+      "NPC8": 25954
+    },
+    {
+      "Level": 229,
+      "NPC5": 8606,
+      "NPC6": 14396,
+      "NPC7": 20109,
+      "NPC8": 26344
+    },
+    {
+      "Level": 230,
+      "NPC5": 8735,
+      "NPC6": 14612,
+      "NPC7": 20411,
+      "NPC8": 26739
+    },
+    {
+      "Level": 231,
+      "NPC5": 8866,
+      "NPC6": 14831,
+      "NPC7": 20717,
+      "NPC8": 27140
+    },
+    {
+      "Level": 232,
+      "NPC5": 8999,
+      "NPC6": 15053,
+      "NPC7": 21028,
+      "NPC8": 27547
+    },
+    {
+      "Level": 233,
+      "NPC5": 9134,
+      "NPC6": 15279,
+      "NPC7": 21343,
+      "NPC8": 27960
+    },
+    {
+      "Level": 234,
+      "NPC5": 9271,
+      "NPC6": 15508,
+      "NPC7": 21664,
+      "NPC8": 28380
+    },
+    {
+      "Level": 235,
+      "NPC5": 9410,
+      "NPC6": 15741,
+      "NPC7": 21989,
+      "NPC8": 28805
+    },
+    {
+      "Level": 236,
+      "NPC5": 9551,
+      "NPC6": 15977,
+      "NPC7": 22318,
+      "NPC8": 29237
+    },
+    {
+      "Level": 237,
+      "NPC5": 9695,
+      "NPC6": 16217,
+      "NPC7": 22653,
+      "NPC8": 29676
+    },
+    {
+      "Level": 238,
+      "NPC5": 9840,
+      "NPC6": 16460,
+      "NPC7": 22993,
+      "NPC8": 30121
+    },
+    {
+      "Level": 239,
+      "NPC5": 9988,
+      "NPC6": 16707,
+      "NPC7": 23338,
+      "NPC8": 30573
+    },
+    {
+      "Level": 240,
+      "NPC5": 10138,
+      "NPC6": 16957,
+      "NPC7": 23688,
+      "NPC8": 31032
+    },
+    {
+      "Level": 241,
+      "NPC5": 10290,
+      "NPC6": 17212,
+      "NPC7": 24043,
+      "NPC8": 31497
+    },
+    {
+      "Level": 242,
+      "NPC5": 10444,
+      "NPC6": 17470,
+      "NPC7": 24404,
+      "NPC8": 31969
+    },
+    {
+      "Level": 243,
+      "NPC5": 10601,
+      "NPC6": 17732,
+      "NPC7": 24770,
+      "NPC8": 32449
+    },
+    {
+      "Level": 244,
+      "NPC5": 10760,
+      "NPC6": 17998,
+      "NPC7": 25141,
+      "NPC8": 32936
+    },
+    {
+      "Level": 245,
+      "NPC5": 10921,
+      "NPC6": 18268,
+      "NPC7": 25519,
+      "NPC8": 33430
+    },
+    {
+      "Level": 246,
+      "NPC5": 11085,
+      "NPC6": 18542,
+      "NPC7": 25901,
+      "NPC8": 33931
+    },
+    {
+      "Level": 247,
+      "NPC5": 11251,
+      "NPC6": 18820,
+      "NPC7": 26290,
+      "NPC8": 34440
+    },
+    {
+      "Level": 248,
+      "NPC5": 11420,
+      "NPC6": 19102,
+      "NPC7": 26684,
+      "NPC8": 34957
+    },
+    {
+      "Level": 249,
+      "NPC5": 11591,
+      "NPC6": 19389,
+      "NPC7": 27084,
+      "NPC8": 35481
+    },
+    {
+      "Level": 250,
+      "NPC5": 11765,
+      "NPC6": 19680,
+      "NPC7": 27491,
+      "NPC8": 36013
+    },
+    {
+      "Level": 251,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 36914
+    },
+    {
+      "Level": 252,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 37836
+    },
+    {
+      "Level": 253,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 38782
+    },
+    {
+      "Level": 254,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 39752
+    },
+    {
+      "Level": 255,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 40746
+    },
+    {
+      "Level": 256,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 41764
+    },
+    {
+      "Level": 257,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 42809
+    },
+    {
+      "Level": 258,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 43879
+    },
+    {
+      "Level": 259,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 44976
+    },
+    {
+      "Level": 260,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 46100
+    },
+    {
+      "Level": 261,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 47253
+    },
+    {
+      "Level": 262,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 48434
+    },
+    {
+      "Level": 263,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 49645
+    },
+    {
+      "Level": 264,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 50886
+    },
+    {
+      "Level": 265,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 52158
+    },
+    {
+      "Level": 266,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 53462
+    },
+    {
+      "Level": 267,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 54799
+    },
+    {
+      "Level": 268,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 56168
+    },
+    {
+      "Level": 269,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 57573
+    },
+    {
+      "Level": 270,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 59012
+    },
+    {
+      "Level": 271,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 62552
+    },
+    {
+      "Level": 272,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 66093
+    },
+    {
+      "Level": 273,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 69634
+    },
+    {
+      "Level": 274,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 73174
+    },
+    {
+      "Level": 275,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 76715
+    },
+    {
+      "Level": 276,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 80256
+    },
+    {
+      "Level": 277,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 83797
+    },
+    {
+      "Level": 278,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 87337
+    },
+    {
+      "Level": 279,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 90878
+    },
+    {
+      "Level": 280,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 94419
+    },
+    {
+      "Level": 281,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 97959
+    },
+    {
+      "Level": 282,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 101500
+    },
+    {
+      "Level": 283,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 105041
+    },
+    {
+      "Level": 284,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 108582
+    },
+    {
+      "Level": 285,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 112122
+    },
+    {
+      "Level": 286,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 115663
+    },
+    {
+      "Level": 287,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 119204
+    },
+    {
+      "Level": 288,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 122745
+    },
+    {
+      "Level": 289,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 126285
+    },
+    {
+      "Level": 290,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 129826
+    },
+    {
+      "Level": 291,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 133957
+    },
+    {
+      "Level": 292,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 138088
+    },
+    {
+      "Level": 293,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 142218
+    },
+    {
+      "Level": 294,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 146349
+    },
+    {
+      "Level": 295,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 150480
+    },
+    {
+      "Level": 296,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 154611
+    },
+    {
+      "Level": 297,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 158742
+    },
+    {
+      "Level": 298,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 162873
+    },
+    {
+      "Level": 299,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 167004
+    },
+    {
+      "Level": 300,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 171134
+    },
+    {
+      "Level": 301,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 175265
+    },
+    {
+      "Level": 302,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 179265
+    },
+    {
+      "Level": 303,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 183527
+    },
+    {
+      "Level": 304,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 187658
+    },
+    {
+      "Level": 305,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 191789
+    },
+    {
+      "Level": 306,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 195919
+    },
+    {
+      "Level": 307,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 200050
+    },
+    {
+      "Level": 308,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 204181
+    },
+    {
+      "Level": 309,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 208312
+    },
+    {
+      "Level": 310,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 212443
+    },
+    {
+      "Level": 311,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 217164
+    },
+    {
+      "Level": 312,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 221885
+    },
+    {
+      "Level": 313,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 226606
+    },
+    {
+      "Level": 314,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 231327
+    },
+    {
+      "Level": 315,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 236048
+    },
+    {
+      "Level": 316,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 240769
+    },
+    {
+      "Level": 317,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 245489
+    },
+    {
+      "Level": 318,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 250210
+    },
+    {
+      "Level": 319,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 254931
+    },
+    {
+      "Level": 320,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 259652
+    },
+    {
+      "Level": 321,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 264373
+    },
+    {
+      "Level": 322,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 269094
+    },
+    {
+      "Level": 323,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 273815
+    },
+    {
+      "Level": 324,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 278536
+    },
+    {
+      "Level": 325,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 283257
+    },
+    {
+      "Level": 326,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 292699
+    },
+    {
+      "Level": 327,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 297420
+    },
+    {
+      "Level": 328,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 302141
+    },
+    {
+      "Level": 329,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 306862
+    },
+    {
+      "Level": 330,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 311583
+    },
+    {
+      "Level": 331,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 316894
+    },
+    {
+      "Level": 332,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 322205
+    },
+    {
+      "Level": 333,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 327516
+    },
+    {
+      "Level": 334,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 332827
+    },
+    {
+      "Level": 335,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 338138
+    },
+    {
+      "Level": 336,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 343449
+    },
+    {
+      "Level": 337,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 348760
+    },
+    {
+      "Level": 338,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 354072
+    },
+    {
+      "Level": 339,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 359383
+    },
+    {
+      "Level": 340,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 364694
+    },
+    {
+      "Level": 341,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 370005
+    },
+    {
+      "Level": 342,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 375316
+    },
+    {
+      "Level": 343,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 380627
+    },
+    {
+      "Level": 344,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 385938
+    },
+    {
+      "Level": 345,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 391249
+    },
+    {
+      "Level": 346,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 396560
+    },
+    {
+      "Level": 347,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 401871
+    },
+    {
+      "Level": 348,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 407182
+    },
+    {
+      "Level": 349,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 412493
+    },
+    {
+      "Level": 350,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 417805
+    },
+    {
+      "Level": 351,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 423706
+    },
+    {
+      "Level": 352,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 429607
+    },
+    {
+      "Level": 353,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 435508
+    },
+    {
+      "Level": 354,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 441409
+    },
+    {
+      "Level": 355,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 447311
+    },
+    {
+      "Level": 356,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 453212
+    },
+    {
+      "Level": 357,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 459113
+    },
+    {
+      "Level": 358,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 465014
+    },
+    {
+      "Level": 359,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 470915
+    },
+    {
+      "Level": 360,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 476817
+    },
+    {
+      "Level": 361,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 482718
+    },
+    {
+      "Level": 362,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 488619
+    },
+    {
+      "Level": 363,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 494520
+    },
+    {
+      "Level": 364,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 500421
+    },
+    {
+      "Level": 365,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 506323
+    },
+    {
+      "Level": 366,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 512224
+    },
+    {
+      "Level": 367,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 518125
+    },
+    {
+      "Level": 368,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 524026
+    },
+    {
+      "Level": 369,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 529927
+    },
+    {
+      "Level": 370,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 535829
+    },
+    {
+      "Level": 371,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 541669
+    },
+    {
+      "Level": 372,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 547465
+    },
+    {
+      "Level": 373,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 553213
+    },
+    {
+      "Level": 374,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 558911
+    },
+    {
+      "Level": 375,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 564556
+    },
+    {
+      "Level": 376,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 570146
+    },
+    {
+      "Level": 377,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 575676
+    },
+    {
+      "Level": 378,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 581145
+    },
+    {
+      "Level": 379,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 586550
+    },
+    {
+      "Level": 380,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 591887
+    },
+    {
+      "Level": 381,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 597155
+    },
+    {
+      "Level": 382,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 602350
+    },
+    {
+      "Level": 383,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 607470
+    },
+    {
+      "Level": 384,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 612512
+    },
+    {
+      "Level": 385,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 617474
+    },
+    {
+      "Level": 386,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 622352
+    },
+    {
+      "Level": 387,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 627144
+    },
+    {
+      "Level": 388,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 631847
+    },
+    {
+      "Level": 389,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 636460
+    },
+    {
+      "Level": 390,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 640979
+    },
+    {
+      "Level": 391,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 645401
+    },
+    {
+      "Level": 392,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 649855
+    },
+    {
+      "Level": 393,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 654339
+    },
+    {
+      "Level": 394,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 658854
+    },
+    {
+      "Level": 395,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 663400
+    },
+    {
+      "Level": 396,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 667977
+    },
+    {
+      "Level": 397,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 672586
+    },
+    {
+      "Level": 398,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 677227
+    },
+    {
+      "Level": 399,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 681900
+    },
+    {
+      "Level": 400,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 686605
+    },
+    {
+      "Level": 401,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 691343
+    },
+    {
+      "Level": 402,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 696113
+    },
+    {
+      "Level": 403,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 700916
+    },
+    {
+      "Level": 404,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 705752
+    },
+    {
+      "Level": 405,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 710622
+    },
+    {
+      "Level": 406,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 715525
+    },
+    {
+      "Level": 407,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 720463
+    },
+    {
+      "Level": 408,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 725434
+    },
+    {
+      "Level": 409,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 730439
+    },
+    {
+      "Level": 410,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 735479
+    },
+    {
+      "Level": 411,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 740554
+    },
+    {
+      "Level": 412,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 745664
+    },
+    {
+      "Level": 413,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 750809
+    },
+    {
+      "Level": 414,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 755990
+    },
+    {
+      "Level": 415,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 761206
+    },
+    {
+      "Level": 416,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 766459
+    },
+    {
+      "Level": 417,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 771747
+    },
+    {
+      "Level": 418,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 777072
+    },
+    {
+      "Level": 419,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 782434
+    },
+    {
+      "Level": 420,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 787832
+    },
+    {
+      "Level": 421,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 793268
+    },
+    {
+      "Level": 422,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 798742
+    },
+    {
+      "Level": 423,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 804253
+    },
+    {
+      "Level": 424,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 809803
+    },
+    {
+      "Level": 425,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 815390
+    },
+    {
+      "Level": 426,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 821017
+    },
+    {
+      "Level": 427,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 826682
+    },
+    {
+      "Level": 428,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 832386
+    },
+    {
+      "Level": 429,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 838129
+    },
+    {
+      "Level": 430,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 843912
+    },
+    {
+      "Level": 431,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 849735
+    },
+    {
+      "Level": 432,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 855598
+    },
+    {
+      "Level": 433,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 861502
+    },
+    {
+      "Level": 434,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 867446
+    },
+    {
+      "Level": 435,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 873432
+    },
+    {
+      "Level": 436,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 879458
+    },
+    {
+      "Level": 437,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 885527
+    },
+    {
+      "Level": 438,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 891637
+    },
+    {
+      "Level": 439,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 897789
+    },
+    {
+      "Level": 440,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 903984
+    },
+    {
+      "Level": 441,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 910221
+    },
+    {
+      "Level": 442,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 916502
+    },
+    {
+      "Level": 443,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 922826
+    },
+    {
+      "Level": 444,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 929193
+    },
+    {
+      "Level": 445,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 935605
+    },
+    {
+      "Level": 446,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 942060
+    },
+    {
+      "Level": 447,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 948561
+    },
+    {
+      "Level": 448,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 955106
+    },
+    {
+      "Level": 449,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 961696
+    },
+    {
+      "Level": 450,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 968332
+    },
+    {
+      "Level": 451,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 975013
+    },
+    {
+      "Level": 452,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 981741
+    },
+    {
+      "Level": 453,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 988515
+    },
+    {
+      "Level": 454,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 995335
+    },
+    {
+      "Level": 455,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1002204
+    },
+    {
+      "Level": 456,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1009119
+    },
+    {
+      "Level": 457,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1016082
+    },
+    {
+      "Level": 458,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1023093
+    },
+    {
+      "Level": 459,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1030152
+    },
+    {
+      "Level": 460,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1037260
+    },
+    {
+      "Level": 461,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1044417
+    },
+    {
+      "Level": 462,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1051624
+    },
+    {
+      "Level": 463,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1058880
+    },
+    {
+      "Level": 464,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1066186
+    },
+    {
+      "Level": 465,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1073543
+    },
+    {
+      "Level": 466,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1080950
+    },
+    {
+      "Level": 467,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1088409
+    },
+    {
+      "Level": 468,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1095919
+    },
+    {
+      "Level": 469,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1103481
+    },
+    {
+      "Level": 470,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1111095
+    },
+    {
+      "Level": 471,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1118761
+    },
+    {
+      "Level": 472,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1126481
+    },
+    {
+      "Level": 473,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1134254
+    },
+    {
+      "Level": 474,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1142080
+    },
+    {
+      "Level": 475,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1149960
+    },
+    {
+      "Level": 476,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1157895
+    },
+    {
+      "Level": 477,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1165884
+    },
+    {
+      "Level": 478,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1173929
+    },
+    {
+      "Level": 479,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1182029
+    },
+    {
+      "Level": 480,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1190185
+    },
+    {
+      "Level": 481,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1198397
+    },
+    {
+      "Level": 482,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1206666
+    },
+    {
+      "Level": 483,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1214992
+    },
+    {
+      "Level": 484,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1223376
+    },
+    {
+      "Level": 485,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1231817
+    },
+    {
+      "Level": 486,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1240317
+    },
+    {
+      "Level": 487,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1248875
+    },
+    {
+      "Level": 488,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1257492
+    },
+    {
+      "Level": 489,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1266169
+    },
+    {
+      "Level": 490,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1274905
+    },
+    {
+      "Level": 491,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1283702
+    },
+    {
+      "Level": 492,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1292560
+    },
+    {
+      "Level": 493,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1301478
+    },
+    {
+      "Level": 494,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1310459
+    },
+    {
+      "Level": 495,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1319501
+    },
+    {
+      "Level": 496,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1328605
+    },
+    {
+      "Level": 497,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1337773
+    },
+    {
+      "Level": 498,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1347003
+    },
+    {
+      "Level": 499,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1356298
+    },
+    {
+      "Level": 500,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1365656
+    },
+    {
+      "Level": 501,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1375079
+    },
+    {
+      "Level": 502,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1384567
+    },
+    {
+      "Level": 503,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1394121
+    },
+    {
+      "Level": 504,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1403740
+    },
+    {
+      "Level": 505,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1413426
+    },
+    {
+      "Level": 506,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1423179
+    },
+    {
+      "Level": 507,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1432999
+    },
+    {
+      "Level": 508,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1442886
+    },
+    {
+      "Level": 509,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1452842
+    },
+    {
+      "Level": 510,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1462867
+    },
+    {
+      "Level": 511,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1472961
+    },
+    {
+      "Level": 512,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1483124
+    },
+    {
+      "Level": 513,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1493358
+    },
+    {
+      "Level": 514,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1503662
+    },
+    {
+      "Level": 515,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1514037
+    },
+    {
+      "Level": 516,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1524484
+    },
+    {
+      "Level": 517,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1535003
+    },
+    {
+      "Level": 518,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1545594
+    },
+    {
+      "Level": 519,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1556259
+    },
+    {
+      "Level": 520,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1566997
+    },
+    {
+      "Level": 521,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1577809
+    },
+    {
+      "Level": 522,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1588696
+    },
+    {
+      "Level": 523,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1599658
+    },
+    {
+      "Level": 524,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1610696
+    },
+    {
+      "Level": 525,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1621810
+    },
+    {
+      "Level": 526,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1633000
+    },
+    {
+      "Level": 527,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1644268
+    },
+    {
+      "Level": 528,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1655613
+    },
+    {
+      "Level": 529,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1667037
+    },
+    {
+      "Level": 530,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1678540
+    },
+    {
+      "Level": 531,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1690122
+    },
+    {
+      "Level": 532,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1701783
+    },
+    {
+      "Level": 533,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1713526
+    },
+    {
+      "Level": 534,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1725349
+    },
+    {
+      "Level": 535,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1737254
+    },
+    {
+      "Level": 536,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1749241
+    },
+    {
+      "Level": 537,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1761311
+    },
+    {
+      "Level": 538,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1773464
+    },
+    {
+      "Level": 539,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1785701
+    },
+    {
+      "Level": 540,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1798022
+    },
+    {
+      "Level": 541,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1810428
+    },
+    {
+      "Level": 542,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1822920
+    },
+    {
+      "Level": 543,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1835498
+    },
+    {
+      "Level": 544,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1848163
+    },
+    {
+      "Level": 545,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1860916
+    },
+    {
+      "Level": 546,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1873756
+    },
+    {
+      "Level": 547,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1886685
+    },
+    {
+      "Level": 548,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1899703
+    },
+    {
+      "Level": 549,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1912811
+    },
+    {
+      "Level": 550,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1945269
+    },
+    {
+      "Level": 551,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1964722
+    },
+    {
+      "Level": 552,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1984369
+    },
+    {
+      "Level": 553,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2004213
+    },
+    {
+      "Level": 554,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2024255
+    },
+    {
+      "Level": 555,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2044498
+    },
+    {
+      "Level": 556,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2064943
+    },
+    {
+      "Level": 557,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2085592
+    },
+    {
+      "Level": 558,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2106448
+    },
+    {
+      "Level": 559,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2127513
+    },
+    {
+      "Level": 560,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2148788
+    },
+    {
+      "Level": 561,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2170276
+    },
+    {
+      "Level": 562,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2191978
+    },
+    {
+      "Level": 563,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2213898
+    },
+    {
+      "Level": 564,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2236037
+    },
+    {
+      "Level": 565,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2258397
+    },
+    {
+      "Level": 566,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2280981
+    },
+    {
+      "Level": 567,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2303791
+    },
+    {
+      "Level": 568,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2326829
+    },
+    {
+      "Level": 569,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2350097
+    },
+    {
+      "Level": 570,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2373598
+    },
+    {
+      "Level": 571,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2397334
+    },
+    {
+      "Level": 572,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2421305
+    },
+    {
+      "Level": 573,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2445518
+    },
+    {
+      "Level": 574,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2469973
+    },
+    {
+      "Level": 575,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2494672
+    },
+    {
+      "Level": 576,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2519618
+    },
+    {
+      "Level": 577,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2544814
+    },
+    {
+      "Level": 578,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2570262
+    },
+    {
+      "Level": 579,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2595964
+    },
+    {
+      "Level": 580,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2621924
+    },
+    {
+      "Level": 581,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2648143
+    },
+    {
+      "Level": 582,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2674624
+    },
+    {
+      "Level": 583,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2701371
+    },
+    {
+      "Level": 584,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2728384
+    },
+    {
+      "Level": 585,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2755668
+    },
+    {
+      "Level": 586,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2783225
+    },
+    {
+      "Level": 587,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2811057
+    },
+    {
+      "Level": 588,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2839168
+    },
+    {
+      "Level": 589,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2867559
+    },
+    {
+      "Level": 590,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2896235
+    },
+    {
+      "Level": 591,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2925197
+    },
+    {
+      "Level": 592,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2954449
+    },
+    {
+      "Level": 593,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2983994
+    },
+    {
+      "Level": 594,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3013834
+    },
+    {
+      "Level": 595,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3043972
+    },
+    {
+      "Level": 596,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3074412
+    },
+    {
+      "Level": 597,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3105156
+    },
+    {
+      "Level": 598,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3136207
+    },
+    {
+      "Level": 599,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3167569
+    },
+    {
+      "Level": 600,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3199245
+    },
+    {
+      "Level": 601,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3231238
+    },
+    {
+      "Level": 602,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3263550
+    },
+    {
+      "Level": 603,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3296185
+    },
+    {
+      "Level": 604,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3329147
+    },
+    {
+      "Level": 605,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3362439
+    },
+    {
+      "Level": 606,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3396063
+    },
+    {
+      "Level": 607,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3430024
+    },
+    {
+      "Level": 608,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3464324
+    },
+    {
+      "Level": 609,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3498967
+    },
+    {
+      "Level": 610,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3498967
+    },
+    {
+      "Level": 611,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3533957
+    },
+    {
+      "Level": 612,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3569297
+    },
+    {
+      "Level": 613,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3604989
+    },
+    {
+      "Level": 614,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3641039
+    },
+    {
+      "Level": 615,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3677450
+    },
+    {
+      "Level": 616,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3714224
+    },
+    {
+      "Level": 617,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3751366
+    },
+    {
+      "Level": 618,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3788880
+    },
+    {
+      "Level": 619,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3826769
+    },
+    {
+      "Level": 620,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3865037
+    },
+    {
+      "Level": 621,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3903687
+    },
+    {
+      "Level": 622,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3942724
+    },
+    {
+      "Level": 623,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 3982151
+    },
+    {
+      "Level": 624,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4021973
+    },
+    {
+      "Level": 625,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4062192
+    },
+    {
+      "Level": 626,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4102814
+    },
+    {
+      "Level": 627,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4143842
+    },
+    {
+      "Level": 628,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4185281
+    },
+    {
+      "Level": 629,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4227134
+    },
+    {
+      "Level": 630,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4269405
+    },
+    {
+      "Level": 631,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4312099
+    },
+    {
+      "Level": 632,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4355220
+    },
+    {
+      "Level": 633,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4398772
+    },
+    {
+      "Level": 634,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4442760
+    },
+    {
+      "Level": 635,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4487188
+    },
+    {
+      "Level": 636,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4532059
+    },
+    {
+      "Level": 637,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4577380
+    },
+    {
+      "Level": 638,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4623154
+    },
+    {
+      "Level": 639,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4669385
+    },
+    {
+      "Level": 640,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4716079
+    },
+    {
+      "Level": 641,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4763240
+    },
+    {
+      "Level": 642,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4810872
+    },
+    {
+      "Level": 643,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4858981
+    },
+    {
+      "Level": 644,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4907571
+    },
+    {
+      "Level": 645,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 4956647
+    },
+    {
+      "Level": 646,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5006213
+    },
+    {
+      "Level": 647,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5056275
+    },
+    {
+      "Level": 648,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5106838
+    },
+    {
+      "Level": 649,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5157906
+    },
+    {
+      "Level": 650,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5209485
+    },
+    {
+      "Level": 651,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5261580
+    },
+    {
+      "Level": 652,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5314196
+    },
+    {
+      "Level": 653,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5367338
+    },
+    {
+      "Level": 654,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5421011
+    },
+    {
+      "Level": 655,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5475222
+    },
+    {
+      "Level": 656,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5529974
+    },
+    {
+      "Level": 657,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5585274
+    },
+    {
+      "Level": 658,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5641126
+    },
+    {
+      "Level": 659,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5697538
+    },
+    {
+      "Level": 660,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5754513
+    },
+    {
+      "Level": 661,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5812058
+    },
+    {
+      "Level": 662,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5870179
+    },
+    {
+      "Level": 663,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5928880
+    },
+    {
+      "Level": 664,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 5988169
+    },
+    {
+      "Level": 665,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6048051
+    },
+    {
+      "Level": 666,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6108531
+    },
+    {
+      "Level": 667,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6169617
+    },
+    {
+      "Level": 668,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6231313
+    },
+    {
+      "Level": 669,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6293626
+    },
+    {
+      "Level": 670,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6356562
+    },
+    {
+      "Level": 671,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6420128
+    },
+    {
+      "Level": 672,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6484329
+    },
+    {
+      "Level": 673,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6549172
+    },
+    {
+      "Level": 674,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6614664
+    },
+    {
+      "Level": 675,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6680811
+    },
+    {
+      "Level": 676,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6747619
+    },
+    {
+      "Level": 677,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6815095
+    },
+    {
+      "Level": 678,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6883246
+    },
+    {
+      "Level": 679,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 6952079
+    },
+    {
+      "Level": 680,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7021599
+    },
+    {
+      "Level": 681,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7091815
+    },
+    {
+      "Level": 682,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7162733
+    },
+    {
+      "Level": 683,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7234361
+    },
+    {
+      "Level": 684,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7306704
+    },
+    {
+      "Level": 685,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7379771
+    },
+    {
+      "Level": 686,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7453569
+    },
+    {
+      "Level": 687,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7528105
+    },
+    {
+      "Level": 688,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7603386
+    },
+    {
+      "Level": 689,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7679420
+    },
+    {
+      "Level": 690,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7756214
+    },
+    {
+      "Level": 691,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7833776
+    },
+    {
+      "Level": 692,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7912114
+    },
+    {
+      "Level": 693,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 7991235
+    },
+    {
+      "Level": 694,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8071147
+    },
+    {
+      "Level": 695,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8151859
+    },
+    {
+      "Level": 696,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8233377
+    },
+    {
+      "Level": 697,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8315711
+    },
+    {
+      "Level": 698,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8398868
+    },
+    {
+      "Level": 699,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8482857
+    },
+    {
+      "Level": 700,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8567686
+    },
+    {
+      "Level": 701,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 8824716
+    },
+    {
+      "Level": 702,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 9089458
+    },
+    {
+      "Level": 703,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 9362141
+
+    },
+    {
+      "Level": 704,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 9643006
+
+    },
+    {
+      "Level": 705,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 9932296
+
+    },
+    {
+      "Level": 706,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 10230265
+
+    },
+    {
+      "Level": 707,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 10537173
+
+    },
+    {
+      "Level": 708,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 10853288
+
+    },
+    {
+      "Level": 709,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 11178886
+
+    },
+    {
+      "Level": 710,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 11514253
+
+    },
+    {
+      "Level": 711,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 11859681
+
+    },
+    {
+      "Level": 712,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 12215471
+
+    },
+    {
+      "Level": 713,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 12581935
+
+    },
+    {
+      "Level": 714,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 12959393
+
+    },
+    {
+      "Level": 715,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 13348175
+
+    },
+    {
+      "Level": 716,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 13748620
+
+    },
+    {
+      "Level": 717,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 14161079
+
+    },
+    {
+      "Level": 718,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 14585911
+
+    },
+    {
+      "Level": 719,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 15023488
+
+    },
+    {
+      "Level": 720,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 15474193
+
+    },
+    {
+      "Level": 721,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 15938419
+
+    },
+    {
+      "Level": 722,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 16416572
+
+    },
+    {
+      "Level": 723,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 16909069
+
+    },
+    {
+      "Level": 724,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 17416341
+
+    },
+    {
+      "Level": 725,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 17938831
+
+    },
+    {
+      "Level": 726,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 18476996
+
+    },
+    {
+      "Level": 727,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 19031306
+
+    },
+    {
+      "Level": 728,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 19602245
+
+    },
+    {
+      "Level": 729,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 20190312
+
+    },
+    {
+      "Level": 730,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 20796022
+
+    },
+    {
+      "Level": 731,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 21419902
+    },
+    {
+      "Level": 732,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 22062499
+
+    },
+    {
+      "Level": 733,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 22724374
+
+    },
+    {
+      "Level": 734,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 23406106
+
+    },
+    {
+      "Level": 735,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 24108289
+
+    },
+    {
+      "Level": 736,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 24831537
+
+    },
+    {
+      "Level": 737,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 25576484
+
+    },
+    {
+      "Level": 738,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 26343778
+
+    },
+    {
+      "Level": 739,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 27134091
+
+    },
+    {
+      "Level": 740,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 27948114
+
+    },
+    {
+      "Level": 741,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 28786558
+
+    },
+    {
+      "Level": 742,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 29650154
+
+    },
+    {
+      "Level": 743,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 30539659
+
+    },
+    {
+      "Level": 744,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 31455849
+
+    },
+    {
+      "Level": 745,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 32399524
+
+    },
+    {
+      "Level": 746,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 33371510
+
+    },
+    {
+      "Level": 747,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 34372655
+
+    },
+    {
+      "Level": 748,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 35403835
+
+    },
+    {
+      "Level": 749,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 36465950
+
+    },
+    {
+      "Level": 750,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 37559928
+
+    },
+    {
+      "Level": 751,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 38686726
+
+    },
+    {
+      "Level": 752,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 39847328
+
+    },
+    {
+      "Level": 753,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 41042748
+    },
+    {
+      "Level": 754,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 42274030
+
+    },
+    {
+      "Level": 755,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 43542251
+
+    },
+    {
+      "Level": 756,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 44848519
+    },
+    {
+      "Level": 757,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 46193974
+
+    },
+    {
+      "Level": 758,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 47579793
+
+    },
+    {
+      "Level": 759,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 49007187
+
+    },
+    {
+      "Level": 760,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 50477403
+
+    },
+    {
+      "Level": 761,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 51991725
+
+    },
+    {
+      "Level": 762,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 53551477
+
+    },
+    {
+      "Level": 763,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 55158021
+
+    },
+    {
+      "Level": 764,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 56812762
+
+    },
+    {
+      "Level": 765,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 58517144
+
+    },
+    {
+      "Level": 766,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 60272659
+
+    },
+    {
+      "Level": 767,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 62080839
+
+    },
+    {
+      "Level": 768,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 63943264
+
+    },
+    {
+      "Level": 769,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 65861562
+
+    },
+    {
+      "Level": 770,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 67837408
+
+    },
+    {
+      "Level": 771,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 69872531
+
+    },
+    {
+      "Level": 772,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 71968707
+
+    },
+    {
+      "Level": 773,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 74127768
+
+    },
+    {
+      "Level": 774,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 76351601
+
+    },
+    {
+      "Level": 775,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 78642149
+
+    },
+    {
+      "Level": 776,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 81001413
+
+    },
+    {
+      "Level": 777,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 83431456
+
+    },
+    {
+      "Level": 778,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 85934399
+
+    },
+    {
+      "Level": 779,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 88512431
+
+    },
+    {
+      "Level": 780,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 91167804
+
+    },
+    {
+      "Level": 781,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 93902839
+
+    },
+    {
+      "Level": 782,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 96719924
+
+    },
+    {
+      "Level": 783,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 99621521
+
+    },
+    {
+      "Level": 784,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 102610167
+
+    },
+    {
+      "Level": 785,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 105688472
+
+    },
+    {
+      "Level": 786,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 108859126
+
+    },
+    {
+      "Level": 787,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 112124900
+
+    },
+    {
+      "Level": 788,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 115488647
+
+    },
+    {
+      "Level": 789,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 118953306
+
+    },
+    {
+      "Level": 790,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 122521906
+
+    },
+    {
+      "Level": 791,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 126197563
+
+    },
+    {
+      "Level": 792,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 129983490
+
+    },
+    {
+      "Level": 793,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 133882994
+
+    },
+    {
+      "Level": 794,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 137899484
+
+    },
+    {
+      "Level": 795,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 142036469
+
+    },
+    {
+      "Level": 796,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 146297563
+
+    },
+    {
+      "Level": 797,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 150686490
+
+    },
+    {
+      "Level": 798,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 155207084
+
+    },
+    {
+      "Level": 799,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 159863297
+
+    },
+    {
+      "Level": 800,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 164659196
+
+    },
+    {
+      "Level": 801,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 174686941
+
+    },
+    {
+      "Level": 802,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 179927549
+
+    },
+    {
+      "Level": 803,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 185325376
+
+    },
+    {
+      "Level": 804,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 190885137
+
+    },
+    {
+      "Level": 805,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 196611691
+
+    },
+    {
+      "Level": 806,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 202510042
+
+    },
+    {
+      "Level": 807,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 208585343
+
+    },
+    {
+      "Level": 808,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 214842903
+
+    },
+    {
+      "Level": 809,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 221288190
+
+    },
+    {
+      "Level": 810,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 221288190
+
+    },
+    {
+      "Level": 811,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 227926836
+
+    },
+    {
+      "Level": 812,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 234764641
+
+    },
+    {
+      "Level": 813,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 241807580
+
+    },
+    {
+      "Level": 814,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 249061808
+
+    },
+    {
+      "Level": 815,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 256533662
+
+    },
+    {
+      "Level": 816,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 264229672
+
+    },
+    {
+      "Level": 817,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 272156562
+
+    },
+    {
+      "Level": 818,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 280321259
+
+    },
+    {
+      "Level": 819,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 288730897
+
+    },
+    {
+      "Level": 820,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 297392823
+
+    },
+    {
+      "Level": 821,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 306314608
+
+    },
+    {
+      "Level": 822,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 315504046
+
+    },
+    {
+      "Level": 823,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 324969168
+
+    },
+    {
+      "Level": 824,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 334718243
+
+    },
+    {
+      "Level": 825,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 344759790
+
+    },
+    {
+      "Level": 826,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 355102584
+
+    },
+    {
+      "Level": 827,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 365755661
+
+    },
+    {
+      "Level": 828,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 376728331
+
+    },
+    {
+      "Level": 829,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 388030181
+
+    },
+    {
+      "Level": 830,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 399671086
+
+    },
+    {
+      "Level": 831,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 411661219
+
+    },
+    {
+      "Level": 832,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 424011056
+
+    },
+    {
+      "Level": 833,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 436731387
+
+    },
+    {
+      "Level": 834,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 449833329
+
+    },
+    {
+      "Level": 835,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 463328329
+
+    },
+    {
+      "Level": 836,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 477228179
+
+    },
+    {
+      "Level": 837,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 491545024
+
+    },
+    {
+      "Level": 838,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 506291375
+
+    },
+    {
+      "Level": 839,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 521480116
+
+    },
+    {
+      "Level": 840,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 537124519
+
+    },
+    {
+      "Level": 841,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 553238255
+
+    },
+    {
+      "Level": 842,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 569835403
+
+    },
+    {
+      "Level": 843,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 586930465
+
+    },
+    {
+      "Level": 844,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 604538379
+
+    },
+    {
+      "Level": 845,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 622674530
+
+    },
+    {
+      "Level": 846,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 641354766
+
+    },
+    {
+      "Level": 847,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 660595409
+
+    },
+    {
+      "Level": 848,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 680413271
+
+    },
+    {
+      "Level": 849,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 700825669
+
+    },
+    {
+      "Level": 850,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 721850439
+
+    },
+    {
+      "Level": 851,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 743505953
+
+    },
+    {
+      "Level": 852,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 765811131
+
+    },
+    {
+      "Level": 853,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 788785465
+
+    },
+    {
+      "Level": 854,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 812449029
+
+    },
+    {
+      "Level": 855,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 836822500
+
+    },
+    {
+      "Level": 856,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 861927175
+
+    },
+    {
+      "Level": 857,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 887784990
+
+    },
+    {
+      "Level": 858,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 914418540
+
+    },
+    {
+      "Level": 859,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 941851096
+
+    },
+    {
+      "Level": 860,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 970106629
+
+    },
+    {
+      "Level": 861,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 999209828
+
+    },
+    {
+      "Level": 862,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1029186123
+
+    },
+    {
+      "Level": 863,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1060061706
+
+    },
+    {
+      "Level": 864,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1091863558
+
+    },
+    {
+      "Level": 865,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1124619464
+
+    },
+    {
+      "Level": 866,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1158358048
+
+    },
+    {
+      "Level": 867,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1193108790
+
+    },
+    {
+      "Level": 868,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1228902053
+
+    },
+    {
+      "Level": 869,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1265769115
+
+    },
+    {
+      "Level": 870,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1303742188
+
+    },
+    {
+      "Level": 871,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1342854454
+
+    },
+    {
+      "Level": 872,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1383140088
+
+    },
+    {
+      "Level": 873,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1424634290
+
+    },
+    {
+      "Level": 874,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1467373319
+
+    },
+    {
+      "Level": 875,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1511394519
+
+    },
+    {
+      "Level": 876,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1556736354
+
+    },
+    {
+      "Level": 877,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1603438445
+
+    },
+    {
+      "Level": 878,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1651541598
+
+    },
+    {
+      "Level": 879,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1701087846
+
+    },
+    {
+      "Level": 880,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1752120482
+
+    },
+    {
+      "Level": 881,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1804684096
+
+    },
+    {
+      "Level": 882,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1858824619
+
+    },
+    {
+      "Level": 883,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1914589357
+
+    },
+    {
+      "Level": 884,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 1972027038
+
+    },
+    {
+      "Level": 885,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2031187849
+
+    },
+    {
+      "Level": 886,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 887,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 888,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 889,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 890,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 891,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 892,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 893,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 894,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 895,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 896,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 897,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 898,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 899,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 900,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 901,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 902,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 903,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 904,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 905,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 906,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 907,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 908,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 909,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 910,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 911,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 912,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 913,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 914,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 915,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 916,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 917,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 918,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 919,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 920,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 921,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 922,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 923,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 924,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 925,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 926,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 927,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 928,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 929,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 930,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 931,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 932,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 933,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 934,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 935,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 936,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 937,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 938,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 939,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 940,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 941,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 942,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 943,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 944,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 945,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 946,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 947,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 948,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 949,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 950,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 951,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 952,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 953,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+
+    },
+    {
+      "Level": 954,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 955,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 956,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 957,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 958,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 959,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+
+    },
+    {
+      "Level": 960,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 961,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 962,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 963,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 964,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 965,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 966,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 967,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 968,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 969,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 970,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 971,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 972,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 973,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 974,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 975,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 976,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 977,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 978,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 979,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 980,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 981,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 982,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 983,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 984,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 985,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 986,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 987,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 988,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 989,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 990,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 991,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 992,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 993,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 994,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 995,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 996,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 997,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 998,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 999,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    },
+    {
+      "Level": 1000,
+      "NPC5": 12765,
+      "NPC6": 22680,
+      "NPC7": 33391,
+      "NPC8": 2092123485
+
+    }
+  ],
+  "CuaAi": [
+    {
+      "Level": 5,
+      "Bac": 5000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 10,
+      "Bac": 7500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 15,
+      "Bac": 10000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 20,
+      "Bac": 11250,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 25,
+      "Bac": 12500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 30,
+      "Bac": 13750,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 35,
+      "Bac": 15000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 40,
+      "Bac": 16250,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 45,
+      "Bac": 17500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 50,
+      "Bac": 18750,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 55,
+      "Bac": 20000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 60,
+      "Bac": 21000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 65,
+      "Bac": 22000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 70,
+      "Bac": 23000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 75,
+      "Bac": 24000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 80,
+      "Bac": 24500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 85,
+      "Bac": 25000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 90,
+      "Bac": 25500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 95,
+      "Bac": 26000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 100,
+      "Bac": 26500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 105,
+      "Bac": 27000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 110,
+      "Bac": 27500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 115,
+      "Bac": 28000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 120,
+      "Bac": 28500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 125,
+      "Bac": 29000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 130,
+      "Bac": 29500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 135,
+      "Bac": 30000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 140,
+      "Bac": 30500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 145,
+      "Bac": 31000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 150,
+      "Bac": 31500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 155,
+      "Bac": 32000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 160,
+      "Bac": 32500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 165,
+      "Bac": 33000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 170,
+      "Bac": 33500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 175,
+      "Bac": 34000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 180,
+      "Bac": 34500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 185,
+      "Bac": 35000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 190,
+      "Bac": 35500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 195,
+      "Bac": 36000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 200,
+      "Bac": 36500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 205,
+      "Bac": 37000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 210,
+      "Bac": 37500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 215,
+      "Bac": 38000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 220,
+      "Bac": 38500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 225,
+      "Bac": 39000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 230,
+      "Bac": 39500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 235,
+      "Bac": 40000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 240,
+      "Bac": 40500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 245,
+      "Bac": 41000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 250,
+      "Bac": 41500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 255,
+      "Bac": 42000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 260,
+      "Bac": 42500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 265,
+      "Bac": 43000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 270,
+      "Bac": 43500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 275,
+      "Bac": 44000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 280,
+      "Bac": 44500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 285,
+      "Bac": 45000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 290,
+      "Bac": 45500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 295,
+      "Bac": 46000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 300,
+      "Bac": 46500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 305,
+      "Bac": 47000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 310,
+      "Bac": 47500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 315,
+      "Bac": 48000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 320,
+      "Bac": 48500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 325,
+      "Bac": 49000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 330,
+      "Bac": 49500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 335,
+      "Bac": 50000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 340,
+      "Bac": 50500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 345,
+      "Bac": 51000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 350,
+      "Bac": 51500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 355,
+      "Bac": 52000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 360,
+      "Bac": 52500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 365,
+      "Bac": 53000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 370,
+      "Bac": 53500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 375,
+      "Bac": 54000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 380,
+      "Bac": 54500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 385,
+      "Bac": 55000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 390,
+      "Bac": 55500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 395,
+      "Bac": 56000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 400,
+      "Bac": 56500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 405,
+      "Bac": 57000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 410,
+      "Bac": 57500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 415,
+      "Bac": 58000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 420,
+      "Bac": 58500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 425,
+      "Bac": 59000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 430,
+      "Bac": 59500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 435,
+      "Bac": 60000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 440,
+      "Bac": 60500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 445,
+      "Bac": 61000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 450,
+      "Bac": 61500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 455,
+      "Bac": 62000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 460,
+      "Bac": 62500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 465,
+      "Bac": 63000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 470,
+      "Bac": 63500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 475,
+      "Bac": 64000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 480,
+      "Bac": 64500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 485,
+      "Bac": 65000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 490,
+      "Bac": 65500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 495,
+      "Bac": 66000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 500,
+      "Bac": 66500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 505,
+      "Bac": 67000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 510,
+      "Bac": 67500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 515,
+      "Bac": 68000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 520,
+      "Bac": 68500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 525,
+      "Bac": 69000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 530,
+      "Bac": 69500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 535,
+      "Bac": 70000,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 540,
+      "Bac": 70500,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 545,
+      "Bac": 71000,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 550,
+      "Bac": 71500,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 555,
+      "Bac": 72000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 560,
+      "Bac": 72500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 565,
+      "Bac": 73000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 570,
+      "Bac": 73500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 575,
+      "Bac": 74000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 580,
+      "Bac": 74500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 585,
+      "Bac": 75000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 590,
+      "Bac": 75500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 595,
+      "Bac": 76000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 600,
+      "Bac": 76500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 605,
+      "Bac": 77000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 610,
+      "Bac": 77500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 615,
+      "Bac": 76000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 620,
+      "Bac": 76500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 625,
+      "Bac": 77000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 630,
+      "Bac": 77500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 635,
+      "Bac": 78000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 640,
+      "Bac": 78500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 645,
+      "Bac": 79000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 650,
+      "Bac": 79500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 655,
+      "Bac": 80000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 660,
+      "Bac": 80500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 665,
+      "Bac": 81000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 670,
+      "Bac": 81500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 675,
+      "Bac": 82000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 680,
+      "Bac": 82500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 685,
+      "Bac": 83000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 690,
+      "Bac": 83500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 695,
+      "Bac": 84000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 700,
+      "Bac": 84500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 705,
+      "Bac": 85000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 710,
+      "Bac": 85500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 715,
+      "Bac": 86000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 720,
+      "Bac": 86500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 725,
+      "Bac": 87000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 730,
+      "Bac": 87500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 735,
+      "Bac": 88000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 740,
+      "Bac": 88500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 745,
+      "Bac": 89000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 750,
+      "Bac": 89500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 755,
+      "Bac": 90000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 760,
+      "Bac": 90500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 765,
+      "Bac": 91000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 770,
+      "Bac": 91500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 775,
+      "Bac": 92000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 780,
+      "Bac": 92500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 785,
+      "Bac": 93000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 790,
+      "Bac": 93500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 795,
+      "Bac": 94000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 800,
+      "Bac": 94500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+    {
+      "Level": 805,
+      "Bac": 95000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 810,
+      "Bac": 95500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 815,
+      "Bac": 96000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 820,
+      "Bac": 96500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 825,
+      "Bac": 97000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 830,
+      "Bac": 97500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 835,
+      "Bac": 98000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 840,
+      "Bac": 98500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 845,
+      "Bac": 99000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 850,
+      "Bac": 99500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 855,
+      "Bac": 100000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 860,
+      "Bac": 100500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 865,
+      "Bac": 101000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 870,
+      "Bac": 101500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 875,
+      "Bac": 102000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 880,
+      "Bac": 102500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 885,
+      "Bac": 103000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 890,
+      "Bac": 103500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 895,
+      "Bac": 104000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 900,
+      "Bac": 104500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 905,
+      "Bac": 105000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 910,
+      "Bac": 105500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 915,
+      "Bac": 106000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 920,
+      "Bac": 106500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 925,
+      "Bac": 107000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 930,
+      "Bac": 107500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 935,
+      "Bac": 108000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 940,
+      "Bac": 108500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 945,
+      "Bac": 109000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 950,
+      "Bac": 109500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 955,
+      "Bac": 110000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 960,
+      "Bac": 110500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 965,
+      "Bac": 111000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 970,
+      "Bac": 111500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 975,
+      "Bac": 112000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 980,
+      "Bac": 112500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    },
+     {
+      "Level": 985,
+      "Bac": 113000,
+      "HangRuong": 3,
+      "HangKhoa": 3
+    },
+    {
+      "Level": 990,
+      "Bac": 113500,
+      "HangRuong": 2,
+      "HangKhoa": 2
+    },
+    {
+      "Level": 995,
+      "Bac": 114000,
+      "HangRuong": 1,
+      "HangKhoa": 1
+    },
+    {
+      "Level": 1000,
+      "Bac": 114500,
+      "HangRuong": 4,
+      "HangKhoa": 4
+    }
+  ],
+  "HesoNPCHang2_Kho": 1.5,
+  "HesoNPCHang2_BinhThuong": 2.2,
+  "HesoNPCHang2_De": 3.5
+}

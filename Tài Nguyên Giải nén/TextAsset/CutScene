@@ -1,0 +1,283 @@
+/*
+{"DoiThang":0,"Team1":{"Name":"C\u00FAc Hoa C\u00F4n ph\u00E1i","AccountID":"83","DanhVong":100},"Team2":{"Name":"To\u00E0n Qu\u00E1n Thanh","AccountID":"-1","DanhVong":0},"Hiep1":{"DoiHinh1":[{"Name":"NV_ChuChiNhuoc","Mau":127,"NoiLuc":219.0,"Buffs":[]}],"DoiHinh2":[{"Name":"NV_ToanQuanThanh","Mau":77,"NoiLuc":100.0,"Buffs":[]},{"Name":"NC_CaiBang1","Mau":35,"NoiLuc":90.0,"Buffs":[]}],"LuotDau":[{"DoiTanCong":0,"NguoiTanCong":0,"DanhSachThuongTon":[{"Value":135,"TrangThaiThuongTon":[]}],"VoCong":""}]},"Hiep2":{"DoiHinh1":[{"Name":"NV_ChuChiNhuoc","Mau":127,"NoiLuc":219.0,"Buffs":[]}],"DoiHinh2":[{"Name":"NC_CaiBang1","Mau":35,"NoiLuc":90.0,"Buffs":[]}],"LuotDau":[{"DoiTanCong":1,"NguoiTanCong":0,"DanhSachThuongTon":[{"Value":1,"TrangThaiThuongTon":[]}],"VoCong":"VC_VoDanhKiemPhap"},{"DoiTanCong":0,"NguoiTanCong":0,"DanhSachThuongTon":[{"Value":145,"TrangThaiThuongTon":[]}],"VoCong":""}]},"Hiep3":null}
+
+*/
+
+{
+	"cutscene" : 
+	[	
+//		{
+//			"livetime" : 52,
+//			"battle" : {
+//				"team1" : ["Sư phụ", "Đệ tử", "Đệ tử"], 
+//				"team2" : ["Bịt mặt", "Bịt mặt", "Bịt mặt"],
+//				"talks" : [
+//
+//				]
+//			}			
+//			
+//		},		
+		//scene 1
+		{
+			"livetime" : 6,
+			"image" : { 
+				"sprite" : "cut_scene_image_1",
+				"alpha" : 1,
+				"position" : "-31 105",
+				"twposition" : {
+					"delay" : 1,
+					"from" : "-31 105",
+					"to" : "10 -73",
+					"duration" : 1
+				}
+			},
+			"title" : {
+				"text" : "Mở đầu",
+				"alpha" : 0,
+				"position" : "181 503",
+				"twalpha" : {
+					"delay" : 2,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 1
+				}
+			},
+			"text" : {
+				"text" : "Sư phụ tuổi đã cao, người quyết định lui về sau núi ở ẩn.\n Chức vị Chưởng môn giao lại cho ta.",
+				"alpha" : 0,
+				"position" : "-250 -256",
+				"twalpha" : {
+					"delay" : 2.5,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 2
+				}
+			}
+		},
+		
+		
+		//scene 2
+		{
+			"livetime" : 8,
+			"image" : { 
+				"sprite" : "cut_scene_image_2",
+				"alpha" : 1,
+				"position" : "0 0",
+				"scale" : "850 1190",
+				"twscale" : {
+					"delay" : 3,
+					"from" : "850 1190",
+					"to" : "500 700",
+					"duration" : 0.5
+				}
+				
+			},
+			"title" : {
+				"text" : "Ma giáo tập kích",
+				"alpha" : 0,
+				"position" : "181 503",
+				"twalpha" : {
+					"delay" : 4,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 1.5
+				}
+			}
+			,
+			"text" : {
+				"text" : "Ngày truyền vị, \nMa giáo từ đâu đến tấn công bản phái. Bất ngờ một tên Ma giáo xông lên đánh lén sư phụ.\n Ta ở gần nhất nên đã xông ra chặn đòn, hứng một chưởng của yêu nhân Ma giáo.",
+				"alpha" : 0,
+				"position" : "-250 -256",
+				"twalpha" : {
+					"delay" : 4.5,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 3
+				}
+			}
+		},
+		//scene 3 battle
+		{
+			"livetime" : 4,
+			"text" : {
+				"text" : "Sư phụ ra lệnh cho mọi người đưa ta đi, một mình người ở lại đối phó với đám yêu nhân.\n",
+				"alpha" : 0,
+				"position" : "-250 0",
+				"twalpha" : {
+					"delay" : 0.5,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 2
+				}
+			}		
+			
+		},
+		//scene 3 battle
+		{
+			"livetime" : 56,
+			"battle" : {
+				"team1" : ["Sư phụ", "Đệ tử", "Đệ tử"], 
+				"team2" : ["Yêu nhân ma giáo", "Yêu nhân ma giáo", "Yêu nhân ma giáo"],
+				"talks" : [
+					{
+						"team" : 2,
+						"text" : "Lão đầu, mau đem vật đó giao ra đây, ta sẽ tha mạng cho ngươi!",
+						"index" : 5,
+						"startTime" : 0,
+						"liveTime" : 2,
+						"position" : "130 60 -40" 
+					},
+					{
+						"team" : 1,
+						"text" : "Hừm!",
+						"index" : 5,
+						"startTime" : 2,
+						"liveTime" : 2,
+						"position" : "-80 60 -40" 
+					},
+					{
+						"team" : 1,
+						"text" : "Ngươi có vẻ tự tin quá, tiếp chiêu đi!",
+						"index" : 5,
+						"startTime" : 4,
+						"liveTime" : 2,
+						"position" : "-80 60 -40" 
+					},
+					{
+						"team" : 2,
+						"text" : "Ba năm trước có lẽ ta không phải đối thủ của ngươi!",
+						"index" : 6,
+						"startTime" : 0,
+						"liveTime" : 2,
+						"position" : "130 60 -40" 
+					},
+					{
+						"team" : 2,
+						"text" : "Nhưng giờ thì ngươi chết chắc rồi!",
+						"index" : 6,
+						"startTime" : 2,
+						"liveTime" : 1.5,
+						"position" : "130 60 -40" 
+					},
+					{
+						"team" : 2,
+						"text" : "Cái gì? vật đó không có trên người hắn!",
+						"index" : 7,
+						"startTime" : 0,
+						"liveTime" : 1.5,
+						"position" : "130 60 -40" 
+					},
+					{
+						"team" : 2,
+						"text" : "Muốn chạy sao? Mau đuổi theo!",
+						"index" : 7,
+						"startTime" : 1.5,
+						"liveTime" : 1,
+						"position" : "130 60 -40" 
+					}
+				]
+			}			
+			
+		},
+		//scene 4
+		{
+			"livetime" : 9,
+			
+
+			"image" : { 
+				"sprite" : "cut_scene_image_3",
+				"alpha" : 1,
+				"position" : "0 -285",
+				"scale" : "884 1326",
+				"twposition" : {
+					"delay" : 1,
+					"from" : "0 -285",
+					"to" : "0 0",
+					"duration" : 1
+				},
+				"twscale" : {
+					"delay" : 1,
+					"from" : "884 1326",
+					"to" : "520 780",
+					"duration" : 1
+				}
+			},
+			"title" : {
+				"text" : "Lựa chọn",
+				"alpha" : 0,
+				"position" : "181 503",
+				"twalpha" : {
+					"delay" : 2,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 1
+				}
+			},
+			"text" : {
+				"text" : "Ma giáo đuổi đến nơi rồi, chiếc thuyền chỉ có thể chờ thêm một người nữa,\n có ba đệ tử đang tranh nhau ở lại cầm chân ma đầu. ",
+				"alpha" : 0,
+				"position" : "-250 -256",
+				"twalpha" : {
+					"delay" : 2.5,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 2.5
+				}
+			}
+		},
+		
+		//scene 5
+		{
+			"livetime" : -1,
+			"selectcharacter" : true
+		},
+		
+		//scene 6
+		{	
+			"livetime" : 5,
+			"text" : {
+				"text" : "Hai tên đệ tử ở lại chặn ma đầu từ đó bặt vô âm tín, không rõ sống chết …\n Chuyện này đã dẫn đến sóng gió trên giang hồ, các chính phái liên thủ tấn công tổng đà Ma giáo.\n Đúng thời điểm này, Ma giáo bỗng biến mất không dấu vết.",
+				"alpha" : 0,
+				"position" : "-250 0",
+				"twalpha" : {
+					"delay" : 0,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 3
+				}
+			}
+		},
+		
+		//scene 7
+		{	
+			"livetime" : 4.5,
+			"text" : {
+				"text" : "Mặc dù giữ được mạng nhưng kinh mạch tổn hại, nội lực suy giảm bảy phần.\n Không thể làm gì khác, đành lựa chọn ẩn cư nơi thâm sơn cùng cốc.",
+				"alpha" : 0,
+				"position" : "-250 0",
+				"twalpha" : {
+					"delay" : 0,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 3
+				}
+			}
+		},
+		//scene 8
+		{	
+			"livetime" : 5,
+			"text" : {
+				"text" : "Vài năm sau, \nThương thế chưa khỏi hẳn, nội lực chưa khôi phục hoàn toàn nhưng lĩnh ngộ võ học lại tiến bộ hơn trước.\n Để điều tra sự kiện năm xưa và gây dựng lại môn phái của sư phụ, ta lựa chọn đệ tử để KHAI SƠN LẬP PHÁI.",
+				"alpha" : 0,
+				"position" : "-250 0",
+				"twalpha" : {
+					"delay" : 0,
+					"from" : 0,
+					"to" : 1,
+					"duration" : 3
+				}
+			}
+		}
+	]
+	
+}

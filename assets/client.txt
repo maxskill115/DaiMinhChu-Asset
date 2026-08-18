@@ -1,0 +1,5 @@
+{
+    "app_id": "bfd6d7145f6b11f7015c9626629218e0",
+    "app_id_facebook":"169554353246758",
+    "client_name" : "sohagame"
+}

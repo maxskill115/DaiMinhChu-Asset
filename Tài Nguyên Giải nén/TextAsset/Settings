@@ -1,0 +1,148 @@
+{
+	"helps" :
+	[
+		{
+			"name" : "Cấp bậc môn phái",
+			"description" : "Cấp độ của môn phái ảnh hưởng đến giới hạn cấp độ trang bị, cấp độ trang bị không lớn hơn 3 lần cấp độ môn phái.",
+			"icon" : ""
+		},
+		{
+			"name" : "Uy vọng môn phái",
+			"description" : "Tích góp đủ uy vọng môn phái có thể gia tăng cấp bậc môn phái, thông qua xông pha giang hồ cùng chưởng môn của môn phái khác đối chiến đạt được.",
+			"icon" : "icon_exp_monphai"
+		},
+		{
+			"name" : "Ngân lượng",
+			"description" : "Tiền tệ chính trong trò chơi. Dùng để cường hóa trang bị và tham ngộ võ công.",
+			"icon" : "icon_bac"
+		},
+		{
+			"name" : "Nguyên bảo",
+			"description" : "Đạt được thông qua nạp tiền hoặc một số hoạt động, dùng chiêu mộ đệ tử và mua vật phẩm đặc biệt, có thể trải nghiệm thêm nhiều chức năng của trò chơi.",
+			"icon" : "icon_vang"
+		},
+		{
+			"name" : "Thể lực",
+			"description" : "Tiêu hao khi xông pha giang hồ, 30 phút khôi phục 1 điểm.",
+			"icon" : "icon_LuotGiangHo"
+		},
+		{
+			"name" : "Khí lực",
+			"description" : "Tiêu hao khi chiến đấu với chưởng môn phe địch, 30 phút khôi phục 1 điểm.",
+			"icon" : "icon_LuotTimBiKip"
+		},
+		{
+			"name" : "",
+			"description" : "Thuộc tính tôn quý, chia làm 13 cấp, cấp càng cao đặc quyền càng nhiều, có thể thông qua nạp tiền để thăng cấp VIP. Cụ thể có thể xem tại trang Nạp tiền hoặc Chợ.",
+			"icon" : "icon_vip1"
+		},
+		{
+			"name" : "Cấp độ đệ tử",
+			"description" : "Cấp độ đệ tử càng cao khi ra trận càng mạnh.",
+			"icon" : "icon_level"
+		},
+		{
+			"name" : "Kinh nghiệm đệ tử",
+			"description" : "Tích góp đủ kinh nghiệm, đệ tử có thể tăng cấp, đạt được thông qua xông pha giang hồ hoặc đấu với chưởng môn đối thủ.",
+			"icon" : "icon_exp"
+		},
+		{
+			"name" : "Phẩm cấp đệ tử",
+			"description" : "Phẩm cấp được chia thành Giáp, Ất, Bính, Đinh 4 cấp, Giáp là mạnh nhất. Sau khi tăng cấp thì thuộc tính cơ sở cũng càng cao.",
+			"icon" : "icon_hang1"
+		},
+		{
+			"name" : "Tàn hồn đệ tử",
+			"description" : "Tập hợp đủ số lượng tàn hồn đệ tử có thể chiêu mộ đệ tử đó, đệ tử phẩm cấp càng cao thì yêu cầu số tàn hồn càng nhiều.",
+			"icon" : ""
+		},
+		{
+			"name" : "Máu",
+			"description" : "Giá trị sinh mệnh của đệ tử, một trong các thuộc tính cơ sở, máu về 0 sẽ tử vong.",
+			"icon" : "icon_Mau"
+		},
+		{
+			"name" : "Công",
+			"description" : "Lực công kích của đệ tử, một trong các thuộc tính cơ sở, công càng cao khả năng gây tổn thương cho kẻ đich càng cao.",
+			"icon" : "icon_Cong"
+		},
+		{
+			"name" : "Phòng",
+			"description" : "Lực phòng ngự của đệ tử, một trong các thuộc tính cơ sở, phòng càng cao thì tổn thương phải nhận càng thấp.",
+			"icon" : "icon_Thu"
+		},
+		{
+			"name" : "Nội lực",
+			"description" : "Giá trị nội lực của đệ tử, một trong các thuộc tính cơ sở, nội lực càng cao thì sát thương khi vận công càng cao.",
+			"icon" : "icon_NoiLuc"
+		},
+		{
+			"name" : "Duyên phận",
+			"description" : "Duyên phận của đệ tử với các đệ tử khác, với trang bị và võ công. Duyên phận giúp nâng cao thuộc tính cơ sở cho đệ tử.",
+			"icon" : "icon_Cong_plus"
+		},
+		{
+			"name" : "Trang bị",
+			"description" : "Trang bị chia làm vũ khí, đồng phục và trang sức. Trang bị có thể bổ sung Công, Phòng, Khí huyết. Phẩm cấp của trang bị cũng chia làm 4 cấp là Giáp, Ất, Bính, Đinh.",
+			"icon" : "icon_Mau_plus"
+		},
+		{
+			"name" : "Võ công",
+			"description" : "Võ công cũng chia làm Giáp, Ất, Bính, Đinh 4 phẩm cấp. Mỗi nhân vật đều có võ công thiên phú, có thể luyện thêm 2 món võ công.",
+			"icon" : "icon_heso_vocong"
+		},
+		{
+			"name" : "Hiệp đấu đơn",
+			"description" : "Mỗi trận đấu có 2 hiệp đấu đơn thông thường, toàn bộ đệ tử cùng đấu để phân thắng bại, hết lượt thi đấu thì trận đấu sẽ chuyển sang hiệp tiếp theo.",
+			"icon" : ""
+		},
+		{
+			"name" : "Đấu nội công",
+			"description" : "Sau 2 hiệp thông thường mà bất phân thắng bại sẽ chuyển qua đấu nội công, 2 phe sẽ so đấu bằng tổng nội lực và khí huyết hiện tại.",
+			"icon" : ""
+		},
+		{
+			"name" : "Chợ",
+			"description" : "Tại đây có thể chiêu mộ đệ tử và mua vật phẩm đặc biệt.",
+			"icon" : "icon_vang"
+		},
+		{
+			"name" : "Giang hồ",
+			"description" : "Xông pha giang hồ đem lại điểm kinh nghiệm, ngân lượng và vật phẩm quý. Mỗi cấp giang hồ có số lần khiêu chiến cũng khác nhau, dùng nguyên bảo để bổ sung lượt.",
+			"icon" : "icon_star"
+		},
+		{
+			"name" : "Luận kiếm",
+			"description" : "Dẫn đệ tử đi so tài với đệ tử phái khác, thứ tự trong luận kiếm càng cao thì phần thưởng càng lớn.",
+			"icon" : ""
+		},
+		{
+			"name" : "Kì ngộ tàn chương võ công",
+			"description" : "Mỗi người đều có thể gặp kì ngộ tàn chương võ công. Nhấn vào biểu tượng người chơi muốn cướp để bắt đầu trận đấu, tiêu hao 1 nguyên khí, chiến thắng có thể đạt được tàn chương võ công.",
+			"icon" : ""
+		},
+		{
+			"name" : "Ân oán",
+			"description" : "Khi hành tẩu, có thể cùng Chưởng môn khác kết nghĩa, cũng có thể phục thù.",
+			"icon" : ""
+		}
+	],
+	"email" : {
+		"to" : "hotrogame@sohagame.vn",
+		"subject" : "Phản hồi Đại Minh Chủ"
+	},
+	"contact" : [
+		{
+			"name" : "Nhà phát hành",
+			"description" : "Hotline: 19006639     \nHỗ trợ quốc tế: 84-4-39743410 ext: 156"
+		},
+		{
+			"name" : "Web",
+			"description" : "http://minhchu.sohagame.vn"
+		},
+		{
+			"name" : "Dịch vụ",
+			"description" : "hotrogame@sohagame.vn"
+		}
+	]
+}

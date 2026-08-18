@@ -1,0 +1,196 @@
+{
+		"liveTime": 5,       
+		"tweens" : [
+			{
+				"target" : "particle", 
+				"startTime" : 0,
+				"liveTime" : 13,
+				"position" : "0 0 -20",
+				"name" : "VC_TichTaKiemPhap_background"
+			},
+			{
+				"target" : "damage",
+				"alpha" : 1,
+				"startTime" : 1.9,
+				"position" : "-200 300 -200",
+				"tweens" : [
+					{
+						"type" : "TweenNumber",
+						"delay" : 1,
+						"from" : "0",
+						"to" : "0",
+						"duration" : 1
+					}
+				]
+			},
+			{
+				"target" : "skillName",
+				"alpha" : 0,
+				"color" : "[ff2626]",
+				"startTime" : 1,
+				"liveTime" : 4,
+				"position" : "240 500 -200",
+				"tweens" : [
+				
+					{
+						"type" : "TweenTitle",
+						"delay" : 0,
+						"from" : 1,
+						"to" : 4,
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1,
+						"from" : "240 500 -200",
+						"to" : "200 500 -200",
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.2,
+						"finish" : {"destroy" : 0}
+					}
+				]
+				
+			},
+			//team1
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1.55,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2.6,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.3
+					}
+				]
+				
+				
+			},
+			//enemy
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 0,
+				"alpha" : 0,
+				"liveTime" :  5,
+				"position" : "650 650 -30",
+				"tweens" : [
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2.6,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.3,
+						"from" : "650 650 -30",
+						"to" : "-50 50 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.7,
+						"from" : "-50 50 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 4.05,
+						"from" : "0 0 -30",
+						"to" : "-650 400 -30",
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 4.05,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenRotation",
+						"delay" : 4.05,
+						"from" : "0 0 0",
+						"to" : "0 0 95",
+						"duration" : 0.3
+					}
+				]
+				
+			},
+			//enemy2
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 0.1,
+				"alpha" : 0.3,
+				"liveTime" :  5,
+				"position" : "650 650 -30",
+				"tweens" : [
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2.3,
+						"from" : 0.3,
+						"to" : 0.3,
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.3,
+						"from" : "650 650 -30",
+						"to" : "-50 50 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.7,
+						"from" : "-50 50 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.95,
+						"from" : "0 0 -30",
+						"to" : "650 -400 -30",
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 4.05,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenRotation",
+						"delay" : 4.05,
+						"from" : "0 0 0",
+						"to" : "0 0 -95",
+						"duration" : 0.3
+					}
+				]
+				
+			}
+
+		]
+}

@@ -1,0 +1,151 @@
+{
+    "DoiThang": 1,
+    "Team1": {
+        "Name": "Duong b ch?o",
+        "AccountID": "2",
+        "DanhVong": 100
+    },
+    "Team2": {
+        "Name": "? N?n",
+        "AccountID": "-1",
+        "DanhVong": 0
+    },
+    "Hiep1": {
+        "DoiHinh1": [
+            {
+                "Name": "NV_TruongTamPhong",
+                "Mau": 888,
+                "NoiLuc": 161,
+                "Buffs": [], "BuaChu": [] 
+            },
+            {
+                "Name": "NV_TruongVoKy",
+                "Mau": 150,
+                "NoiLuc": 132,
+                "Buffs": [], "BuaChu": [] 
+            },
+            {
+                "Name": "NV_ChuChiNhuoc",
+                "Mau": 150,
+                "NoiLuc": 126,
+                "Buffs": [], "BuaChu": [] 
+            }
+        ],
+        "DoiHinh2": [
+            {
+                "Name": "NC_BitMat3",
+                "Mau": 999,
+                "NoiLuc": 450,
+                "Buffs": [], "BuaChu": [] 
+            },
+            {
+                "Name": "NC_BitMat2",
+                "Mau": 500,
+                "NoiLuc": 400,
+                "Buffs": [], "BuaChu": [] 
+            },
+            {
+                "Name": "NC_BitMat1",
+                "Mau": 500,
+                "NoiLuc": 400,
+                "Buffs": [], "BuaChu": [] 
+            }
+        ],
+        "LuotDau": [
+            {
+                "DoiTanCong": 0,
+                "NguoiTanCong": 0,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 300,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": ""
+            },
+            {
+                "DoiTanCong": 1,
+                "NguoiTanCong": 1,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 200,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": "VC_VoDanhKiemPhap"
+            },
+            {
+                "DoiTanCong": 0,
+                "NguoiTanCong": 2,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 50,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": ""
+            },
+            {
+                "DoiTanCong": 1,
+                "NguoiTanCong": 0,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 200,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": "VC_VoDanhKiemPhap"
+            },
+            {
+                "DoiTanCong": 1,
+                "NguoiTanCong": 2,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 200,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": "VC_VoDanhKiemPhap"
+            },
+            {
+                "DoiTanCong": 0,
+                "NguoiTanCong": 0,
+                "DanhSachThuongTon": [
+                    {
+                        "Value": 300,
+                        "TrangThaiThuongTon": []
+                    },
+                    {
+                        "Value": 600,
+                        "TrangThaiThuongTon": []
+                    },
+                    {
+                        "Value": 600,
+                        "TrangThaiThuongTon": []
+                    }
+                ],
+                "VoCong": "VC_GiangLongThapBatChuong"
+            }
+        ]
+    },
+    "Hiep2": null,
+    "Hiep3": {
+        "DoiHinh1": [
+            {
+                "Name": "NV_TruongTamPhong",
+                "Mau": 38,
+                "NoiLuc": 161,
+                "Buffs": [], "BuaChu": [] 
+            }
+        ],
+        "DoiHinh2": [
+            {
+                "Name": "NC_BitMat3",
+                "Mau": 198,
+                "NoiLuc": 400,
+                "Buffs": [], "BuaChu": [] 
+            }
+        ],
+        "LuotDau": null
+    }
+}

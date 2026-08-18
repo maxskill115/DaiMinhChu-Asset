@@ -1,0 +1,82 @@
+{
+    "KC_ThanMoc": {
+        "TenHienThi": "Thần Mộc Châm",
+        "MoTa": "Chế tạo từ thần mộc ngàn năm ở Thiên Sơn, cứng cáp mà dẻo dai lạ thường.",
+        "LoaiChiSoStr": "Mau",
+        "CoSo": 40,
+        "TangTruong": 40,
+        "HeSoRandom": 100
+    },
+	"KC_HoaThach": {
+        "TenHienThi": "Hỏa Thạch Châm",
+        "MoTa": "Chế tạo từ đá núi lửa ngoài khơi Đông Hải, chịu nhiệt cực tốt.",
+        "LoaiChiSoStr": "Cong",
+        "CoSo": 20,
+        "TangTruong": 20,
+        "HeSoRandom": 100
+    },
+	"KC_HanNgan": {
+        "TenHienThi": "Hàn Ngân Châm",
+        "MoTa": "Chế tạo từ bạc nguyên chất đã tôi luyện ngàn năm ở Tuyết Sơn.",
+        "LoaiChiSoStr": "Thu",
+        "CoSo": 20,
+        "TangTruong": 20,
+        "HeSoRandom": 100
+    },
+	"KC_TuKim": {
+        "TenHienThi": "Tử Kim Châm",
+        "MoTa": "Chế tạo từ kim loại đỏ quý hiếm núi Côn Lôn, đã hấp thụ tinh hoa trời đất.",
+        "LoaiChiSoStr": "NoiLuc",
+        "CoSo": 20,
+        "TangTruong": 20,
+        "HeSoRandom": 100
+    },
+	"KC_HacMoc": {
+        "TenHienThi": "Hắc Mộc Châm",
+        "MoTa": "Chế tạo từ gỗ đen ngàn năm tại Tây Vực, đao thương bất nhập, thủy hỏa bất xâm.",
+        "LoaiChiSoStr": "ChinhXac",
+        "CoSo": 6,
+        "TangTruong": 6,
+        "HeSoRandom": 100
+    },
+	"KC_LinhMoc": {
+        "TenHienThi": "Linh Mộc Châm",
+        "MoTa": "Chế tạo từ cây thần ở dãy núi Trường Bạch ngàn năm, tự bản thân có linh tính dị thường.",
+        "LoaiChiSoStr": "TranhNe",
+        "CoSo": 5,
+        "TangTruong": 5,
+        "HeSoRandom": 100
+    },
+	"KC_TinhThach": {
+        "TenHienThi": "Tinh Thạch Châm",
+        "MoTa": "Chế tạo từ thiên thạch từ thiên ngoại xa xăm bay đến, vô cùng rắn chắc.",
+        "LoaiChiSoStr": "PhanKich",
+        "CoSo": 5,
+        "TangTruong": 5,
+        "HeSoRandom": 100
+    },
+	"KC_HuyetThach": {
+        "TenHienThi": "Huyết Thạch Châm",
+        "MoTa": "Chế tạo từ Huyết Thạch trong truyền thuyết, có thể hút và tích tụ máu người.",
+        "LoaiChiSoStr": "PhaPhan",
+        "CoSo": 6,
+        "TangTruong": 6,
+        "HeSoRandom": 100
+    },
+	"KC_HuyenThiet": {
+        "TenHienThi": "Huyền Thiết Châm",
+        "MoTa": "Chế tạo từ Huyền Thiết, cùng loại với thanh danh kiếm của Độc Cô Cầu Bại. ",
+        "LoaiChiSoStr": "BaoKich",
+        "CoSo": 5,
+        "TangTruong": 5,
+        "HeSoRandom": 100
+    },
+	"KC_HanThiet": {
+        "TenHienThi": "Hàn Thiết Châm",
+        "MoTa": "Chế tạo từ kim loại ở Bắc Cực, đã hấp thụ hàn khí ngàn năm, tự bản thân tỏa khí lạnh dị thường.",
+        "LoaiChiSoStr": "PhongBao",
+        "CoSo": 6,
+        "TangTruong": 6,
+        "HeSoRandom": 100
+    }
+}

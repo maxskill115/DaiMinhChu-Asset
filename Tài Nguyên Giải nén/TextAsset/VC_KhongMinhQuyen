@@ -1,0 +1,454 @@
+{
+		"liveTime": 4.5,       
+		"sound" : {
+			"startTime" : 2.8,
+			"name" : "noicong",
+			"loop" : 3,
+			"delay": 0.3
+		},
+		"tweens" : [
+			{
+				"target" : "particle", 
+				"startTime" : 0,
+				"liveTime" : 13,
+				"position" : "0 0 -50",
+				"name" : "VC_KhongMinhQuyen_background"
+			},
+			{
+				"target" : "damage",
+				"alpha" : 1,
+				"startTime" : 2.5,
+				"position" : "-200 300 -200",
+				"tweens" : [
+					{
+						"type" : "TweenNumber",
+						"delay" : 1,
+						"from" : "0",
+						"to" : "0",
+						"duration" : 0.5
+					}
+				]
+			},
+			{
+				"target" : "skillName",
+				"alpha" : 0,
+				"color" : "[05e1fa]",
+				"startTime" : 1,
+				"liveTime" : 3,
+				"position" : "240 500 -200",
+				"tweens" : [
+				
+					{
+						"type" : "TweenTitle",
+						"delay" : 0,
+						"from" : 1,
+						"to" : 3,
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1,
+						"from" : "240 500 -200",
+						"to" : "200 500 -200",
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.2,
+						"finish" : {"destroy" : 0}
+					}
+				]
+				
+			},
+			//team1
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0.1,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.2,
+						"from" : "0 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.35
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.8,
+						"from" : "-650 0 -30",
+						"to" : "650 0 -30",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.3,
+						"from" : "650 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team1a
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0.2,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 0.4,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.2,
+						"from" : "0 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.35
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.8,
+						"from" : "-650 0 -30",
+						"to" : "650 0 -30",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.3,
+						"from" : "650 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team1b
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0.3,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 0.2,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.2,
+						"from" : "0 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.35
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.8,
+						"from" : "-650 0 -30",
+						"to" : "650 0 -30",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.3,
+						"from" : "650 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team1c
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 0.2,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.2,
+						"from" : "0 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.35
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.8,
+						"from" : "-650 0 -30",
+						"to" : "650 0 -30",
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.3,
+						"from" : "650 0 -30",
+						"to" : "-650 0 -30",
+						"duration" : 0.5
+					}
+				]
+				
+			},
+			//team2
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.6,
+						"from" : "0 0 -30",
+						"to" : "-200 250 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2,
+						"from" : "-200 250 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+				]
+				
+			},
+			//team2a
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"liveTime" : 4,
+				"scale" : 1,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.55
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.6,
+						"from" : "0 0 -30",
+						"to" : "200 -250 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2,
+						"from" : "200 -250 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+				]
+				
+			},
+			//enemy
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 0,
+				"alpha" : 1,
+				"scale" : 1,
+				"liveTime" :  6,
+				"position" : "650 0 -30",
+				"tweens" : [
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.6,
+						"from" : "650 0 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.3
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 2.9,
+						"from" : "0 0 -30",
+						"to" : "20 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3,
+						"from" : "20 0 -30",
+						"to" : "-20 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.1,
+						"from" : "-20 0 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 2.9,
+						"from" : 1,
+						"to" : 0.5,
+						"duration" : 0.15
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 3.05,
+						"from" : 0.5,
+						"to" : 1,
+						"duration" : 0.15
+					},
+					
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.4,
+						"from" : "0 0 -30",
+						"to" : "20 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.5,
+						"from" : "20 0 -30",
+						"to" : "-20 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 3.6,
+						"from" : "-20 0 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 3.4,
+						"from" : 1,
+						"to" : 0.5,
+						"duration" : 0.15
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 3.55,
+						"from" : 0.5,
+						"to" : 1,
+						"duration" : 0.15
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 3.8,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+				]
+				
+			}
+
+		]
+}

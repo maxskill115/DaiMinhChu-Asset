@@ -1,0 +1,1309 @@
+{
+    "VK_MieuDao":{            
+            "TenHienThi": "Miêu đao",
+            "Hang": 4,
+            "CoSo": 25,
+            "TangTruong": 2.1,
+    		"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Đao của Ngự lâm quân, thân đao nhỏ dài, nặng, có thể vừa chém vừa đâm. Trên chiến trường uy lực cực lớn."
+    },
+	"VK_CauLiemThuong":{            
+            "TenHienThi": "Câu Liêm thương",
+            "Hang": 4,
+            "CoSo": 24,
+            "TangTruong": 2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Cây thương từng được Nhạc Phi sử dụng, đầu thương có một móc câu, chuyên phá kỵ binh."
+    },
+	"VK_CuongTien":{            
+            "TenHienThi": "Cương tiên",
+            "Hang": 4,
+            "CoSo": 25,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Lúc cương thì rắn như thép nguội, khi nhu thì tựa như độc xà, biến hóa khôn lường."
+    },
+	"VK_TungVanKiem":{            
+            "TenHienThi": "Tùng Văn kiếm",
+            "Hang": 4,
+            "CoSo": 24,
+            "TangTruong": 2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Đạo gia bội kiếm, chuôi và vỏ kiếm được làm từ gỗ Tùng."
+    },
+	"VK_ThietKiem":{            
+            "TenHienThi": "Thiết kiếm",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Một loại kiếm phổ thông, có thể tìm thấy ở bất kì lò rèn nào."
+    },
+	"VK_NganDauThuong":{            
+            "TenHienThi": "Ngân Đầu Thương",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Mũi thương dùng Ngân đĩnh chú tạo mà thành, bề ngoài uy mãnh, nhưng chưa chắc thực dụng."
+    },
+	"VK_CuongDao":{            
+            "TenHienThi": "Cương đao",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Đao phổ thông, có thể mua ở bất cứ lò rèn nào."
+    },
+	"VK_NgoCau":{            
+            "TenHienThi": "Ngô câu",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Ngô câu, binh khí đứng hàng 7 trong thập bát ban binh khí, hình thù kì lạ, hữu dụng trong chiến đấu"
+    },
+	"VK_KhaiSonPhu":{            
+            "TenHienThi": "Khai Sơn phủ",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thuộc hàng vũ khí nặng, lực sát thương mạnh nhờ trọng lượng của mình, nằm trong tay một kẻ không biết võ công cũng trở nên nguy hiểm."
+    },
+	"VK_Kich":{            
+            "TenHienThi": "Thủ kích",
+            "Hang": 4,
+            "CoSo": 22,
+            "TangTruong": 1.9,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là binh khí mà các mãnh tướng sử dụng trong lịch sử, trong võ lâm ít thấy."
+    },
+	"VK_ViemNguyetLoanDoan":{            
+            "TenHienThi": "Viên Nguyệt loan đao",
+            "Hang": 3,
+            "CoSo": 49,
+            "TangTruong": 3.3,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Đao cong như nửa vành trăng, mỗi lần đao quang chớp lên là có kẻ không tránh khỏi hồn du địa phủ."
+    },
+	"VK_PhuongThienKich":{            
+            "TenHienThi": "Phương Thiên kích",
+            "Hang": 3,
+            "CoSo": 46,
+            "TangTruong": 3.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vừa có thể đâm như mâu, lại cũng có thể chém như đao. Đây là vũ khí thích hợp sử dụng trên chiến trường, từng là binh khí của Lã Bố thời Tam Quốc."
+    },
+	"VK_LyBietCau":{            
+            "TenHienThi": "Ly Biệt câu",
+            "Hang": 3,
+            "CoSo": 49,
+            "TangTruong": 3.3,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vũ khí hàng thứ 6 trong Thất chủng binh khí. Gọi là Ly Biệt Câu vì lưỡi câu này, câu dính vào thứ gì đều gây ra sự chia cách."
+    },
+	"VK_HacLongTac":{            
+            "TenHienThi": "Hắc Long tác",
+            "Hang": 3,
+            "CoSo": 46,
+            "TangTruong": 3.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Chế thành từ cương ti hắc bố, roi vung lên tạo thành bóng đen như hắc long vùng vẫy."
+    },
+	"VK_BinhNgocDich":{            
+            "TenHienThi": "Bích Ngọc địch",
+            "Hang": 3,
+            "CoSo": 46,
+            "TangTruong": 3.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Cây địch được chú tạo bằng bích ngọc, trong tay tuyệt thế cao thủ sẽ trở thành thần binh lợi khí."
+    },
+	"VK_HuyetDao":{            
+            "TenHienThi": "Huyết đao",
+            "Hang": 3,
+            "CoSo": 46,
+            "TangTruong": 3.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thân đao màu máu, nổi danh trên giang hồ. Đã có vô số kẻ biến thành oan hồn dưới lưỡi Huyết Đao này."
+    },
+	"VK_ThucNuKiem":{            
+            "TenHienThi": "Thục Nữ kiếm",
+            "Hang": 3,
+            "CoSo": 48,
+            "TangTruong": 3.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là một đôi với Quân Tử kiếm, thân kiếm nhỏ dài, thích hợp nữ tử sử dụng."
+    },
+	"VK_QuanTuKiem":{            
+            "TenHienThi": "Quân Tử kiếm",
+            "Hang": 3,
+            "CoSo": 49,
+            "TangTruong": 3.3,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là một đôi với Thục Nữ kiếm, thân kiếm bằng tinh thiết, thích hợp cho nam giới."
+    },
+	"VK_HongTiTuCham":{            
+            "TenHienThi": "Hồng Ti tú châm",
+            "Hang": 2,
+            "CoSo": 91,
+            "TangTruong": 5.1,
+			"TinhLuyenTangTruong":0.3,
+            "HeSoRandom": 10,
+			"MoTa": "Kim thêu, là vật của phái nữ, trong tay cao thủ có thể giết người vô hình."
+    },
+	"VK_ChanVuKiem":{            
+            "TenHienThi": "Chân Vũ kiếm",
+            "Hang": 2,
+            "CoSo": 91,
+            "TangTruong": 5.1,
+			"TinhLuyenTangTruong":0.3,
+            "HeSoRandom": 10,
+			"MoTa": "Đạo gia chí bảo, là bội kiếm của Võ Đang Chưởng môn Trương Tam Phong, kiếm này theo Trương Tam Phong trừ gian diệt ác, uy chấn võ lâm."
+    },
+	"VK_NguKimLuan":{            
+            "TenHienThi": "Ngũ Kim luân",
+            "Hang": 2,
+            "CoSo": 91,
+            "TangTruong": 5.1,
+			"TinhLuyenTangTruong":0.3,
+            "HeSoRandom": 20,
+			"MoTa": "Một trong thiên hạ kỳ binh, từ 5 loại kim loại là Kim, Ngân, Đồng, Thiết , Chì chế tạo thành, mỗi vòng có một công dụng khác nhau."
+    },
+	"VK_KimXaKiem":{            
+            "TenHienThi": "Kim Xà kiếm",
+            "Hang": 2,
+            "CoSo": 95,
+            "TangTruong": 5.3,
+			"TinhLuyenTangTruong":0.3,
+            "HeSoRandom": 20,
+			"MoTa": "Thân kiếm như độc xà thổ tín, đúc từ hoàng kim. Mỗi lần xuất kiếm, kim quang rực rỡ."
+    },
+	"VK_DaCauBong":{            
+            "TenHienThi": "Đả Cẩu bổng",
+            "Hang": 2,
+            "CoSo": 97,
+            "TangTruong": 5.4,
+			"TinhLuyenTangTruong":0.3,
+            "HeSoRandom": 2,
+			"MoTa": "Là tín vật của đương nhiệm Bang chủ Cái bang, tượng trưng cho ngôi vị bang chủ."
+    },
+	"VK_LanhNguyetBaoDao":{            
+            "TenHienThi": "Lãnh Nguyệt bảo đao",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.6,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 15,
+			"MoTa": "Thân đao hình mặt trăng, kình phong mãnh liệt, sợi tóc rơi ngang qua cũng đứt, chém sắt như chém bùn."
+    },
+	"VK_NguTruongKiem":{            
+            "TenHienThi": "Ngư Trường kiếm",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.6,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 10,
+			"MoTa": "Là một trong những thần binh được đúc bởi đại sư Âu Dã Tử, nhiễm máu tươi của quân vương, là một thanh hung kiếm."
+    },
+	"VK_DoLongDao":{            
+            "TenHienThi": "Đồ Long đao",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.6,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 10,
+			"MoTa": "Võ lâm chí tôn, bảo đao Đồ Long, hiệu lệnh thiên hạ, mạc cảm bất tòng."
+    },
+	"VK_YThienKiem":{            
+            "TenHienThi": "Ỷ Thiên kiếm",
+            "Hang": 1,
+            "CoSo": 163,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 10,
+			"MoTa": "Ỷ thiên bất xuất, thùy dữ tranh phong, thần binh trong tay, hiệu triệu thiên hạ."
+    },
+	"VK_HuyenThietTrongKiem":{            
+            "TenHienThi": "Huyền Thiết trọng kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 5,
+			"MoTa": "Đệ nhất thần binh, được tạo thành từ một khối thiên ngoại vẫn thạch, cứng rắn vô song."
+    },
+	"VK_DapThangPhien":{            
+            "TenHienThi": "Đạp Nguyệt Phiến",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.7,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 10,
+			"MoTa": "Bảo phiến, thân làm bằng bảo ngọc và Ô Tàm Ti, là thứ binh khí hiếm thấy, trông thì không có sức sát thương, nhưung trong tay cao thủ thì trở nên bất phàm."
+    },
+	"VK_LongPhungSongHoan":{            
+            "TenHienThi": "Long Phụng Song Hoàn",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.7,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 10,
+			"MoTa": "Dị binh khí, có dáng là 1 chiếc vòng gắn những lưỡi dao sắc bén. Là thứ binh khí vừa bá đạo, vừa hiểm độc."
+    },
+	"VK_TungDuongThietKiem":{            
+            "TenHienThi": "Tung Dương Thiết Kiếm",
+            "Hang": 1,
+            "CoSo": 159,
+            "TangTruong": 7.6,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Thanh kiếm đại diện cho mọi thanh kiếm khác, ngay thẳng, chính khí lẫm liệt, là binh khí của kẻ quân tử."
+    },
+	"VK_CuKhuyetKiem":{            
+            "TenHienThi": "Cự Khuyết Kiếm",
+            "Hang": 1,
+            "CoSo": 163,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 5,
+			"MoTa": "Thần binh lợi khí, chém sắt như chém bùn, được rèn từ hàn thiết ngoài biển bởi đại sư Âu Dã Tử, sắc bén vô song."
+    },
+	"VK_AnhHungKiem":{            
+            "TenHienThi": "Anh Hùng Kiếm",
+            "Hang": 1,
+            "CoSo": 163,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Kiếm như tên gọi, kiếm tâm như anh hùng trượng nghĩa, mang hoài bão vì chúng sinh thiên hạ, ý chí cao rộng như vũ trụ bao la."
+    },
+	"VK_TuyetTheHaoKiem":{            
+            "TenHienThi": "Tuyệt Thế Hảo Kiếm",
+            "Hang": 1,
+            "CoSo": 163,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Đứng đầu trong thất đại thần binh, ngạo khí bất khuất, hắc ám vô song."
+    },
+	"VK_TuyetAmDao":{            
+            "TenHienThi": "Tuyết Ẩm Đao",
+            "Hang": 1,
+            "CoSo": 163,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Vũ khí của Bắc Ẩm Cuồng Đao, nghe đồn được đúc từ Hàn Thiết, thanh đao tỏa ra khí lạnh khiến tâm thần cũng như đóng băng khi nhìn vào nó."
+    },
+	"VK_DaiTaVuong":{            
+            "TenHienThi": "Đại Tà Vương",
+            "Hang": 1,
+            "CoSo": 170,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Được tạo thành khi mảnh vỡ của thần đao Nộ Tịch Tà găm vào lưỡi của hung đao Kiếp Vương, là thứ binh khí mang đến hạo kiếp cho nhân gian."
+    },
+	"VK_ThaiAKiem":{            
+            "TenHienThi": "Thái A Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo kiếm được đúc bởi đệ nhất chú kiếm sư - Âu Dã Tử, khi bảo kiếm xuất thế thì xuất hiện thiên địa dị tượng, vân vũ quay cuồng."
+    },
+	"VK_ThanLongBaoKiem":{            
+            "TenHienThi": "Thần Long Bảo Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo kiếm được cất giấu tại Thần Long Đảo, không rõ ai là kẻ đã tạo ra nó, là 1 thanh hung kiếm."
+    },
+	"VK_TamPhanThuyCau":{            
+            "TenHienThi": "Tam Phân Thủy Cầu",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Binh khí kì lạ với hình dạng khối cầu, nghe nói mỗi lần sử dụng đều phải uống máu của chủ nhân."
+    },
+	"VK_ThienSonBachKiem":{            
+            "TenHienThi": "Thiên Sơn Bạch Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo kiếm làm từ Thiên Ngoại Vẫn Thạch trên Thiên Sơn, sắc bén vô song."
+    },
+	"VK_MiTamKiem":{            
+            "TenHienThi": "Mi Tâm Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Thanh kiếm mỏng, nhẹ, mũi kiếm nhỏ, xuất chiêu chỉ để lại trên người địch 1 vệt máu nhỏ nhưng thực chất là vết thương chí mạng."
+    },
+	"VK_DatMaThanTruong":{            
+            "TenHienThi": "Đạt Ma Thần Trượng",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Cây trượng của các cao tăng đắc đạo, tương truyền là vật truyền lại từ Đạt Ma Tổ Sư."
+    },
+	"VK_CatLocBaoDao":{            
+            "TenHienThi": "Cát Lộc Bảo Đao",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Thanh đao gắn liền với bộ đao pháp Cát Lộc Đao Quyết, bí kíp ở đâu, đao ở đó."
+    },
+	"VK_ThienCoBong":{            
+            "TenHienThi": "Thiên Cơ Bổng",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Đệ Nhất Binh Khí trong Binh Khí Phổ của Bách Hiểu Sinh."
+    },
+	"VK_OnHauNganKich":{            
+            "TenHienThi": "Ôn Hầu Ngân Kích",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Binh khí đứng hàng thứ 5 trong Binh Khí Phổ, được rèn từ tinh thiết, cứng rắn vô cùng."
+    },
+	"VK_TieuDaoPhien":{            
+            "TenHienThi": "Tiêu Dao Phiến",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Cây quạt làm từ bảo ngọc và kim tàm ti, trong tay thư sinh thì anh khí bừng bừng, vào tay cao thủ thì sát khí trùng thiên."
+    },
+	"VK_DiepPhongLang":{            
+            "TenHienThi": "Điệp Phong Lăng",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Dải lụa làm từ tơ tằm, nhẹ mà rắn chắc, có thể dùng như binh khí."
+    },
+	"VK_ThanhLinhKiem":{            
+            "TenHienThi": "Thánh Linh Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo Kiếm tùy thân của Kiếm Thánh, chỉ bại một lần trước Thiên Kiếm."
+    },
+	"VK_ThanKiem":{            
+            "TenHienThi": "Thần Kiếm",
+            "Hang": 1,
+            "CoSo": 168,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.6,
+            "HeSoRandom": 0,
+			"MoTa": "Thần Kiếm trong tay Kiếm Thần, trời long đất lở."
+    },
+	
+	"AG_PhiPhong":{            
+            "TenHienThi": "Phi phong",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Áo choàng làm từ vải bông, dùng chống lạnh rất tốt."
+    },
+	"AG_SiTotGiap":{            
+            "TenHienThi": "Sĩ Tốt giáp",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Áo giáp tiêu chuẩn của binh sĩ thông thường."
+    },
+	"AG_NguPhuTrang":{            
+            "TenHienThi": "Ngư Phu trang",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục của Ngư phu, chống nước hiệu quả."
+    },
+	"AG_SatThuPhuc":{            
+            "TenHienThi": "Sát Thủ phục",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục của thích khách, tuyền màu đen, mặt cũng được che lại, chỉ để hở đôi mắt."
+    },
+	"AG_MaBoY":{            
+            "TenHienThi": "Ma Bố y",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vải thô được dệt thành trang phục, dân chúng cũng có thể dùng."
+    },
+	"AG_DoanKhao":{            
+            "TenHienThi": "Đoản kháo",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục của quyền sư, không có tay áo."
+    },
+	"AG_DaHanhY":{            
+            "TenHienThi": "Dạ Hành y",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục màu đen tuyền, người mặc có thể ẩn vào bóng đêm."
+    },
+	"AG_ThoaY":{            
+            "TenHienThi": "Thoa y",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Nhất chu nhất lạp nhất thoa y, nhất đao nhất kiếm nhất sát thủ."
+    },
+	"AG_HoTamKinh":{            
+            "TenHienThi": "Hộ Tâm kính",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Mặc dù rất chắc chắn nhưng chỉ bảo vệ được vùng nhỏ trước ngực."
+    },
+	"AG_HiepSiBao":{            
+            "TenHienThi": "Hiệp Sĩ bào",
+            "Hang": 4,
+            "CoSo": 13,
+            "TangTruong": 1.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục ưa thích của hiệp khách, không có gì đặc biệt."
+    },
+	"AG_TuongQuanKhai":{            
+            "TenHienThi": "Tướng Quân khải",
+            "Hang": 3,
+            "CoSo": 32,
+            "TangTruong": 2.3,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Khôi giáp của Tướng quân, mặc vào có cảm giác uy vũ."
+    },
+	"AG_DaiMacPhiPhong":{            
+            "TenHienThi": "Đại Mạc phi phong",
+            "Hang": 3,
+            "CoSo": 29,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Áo choàng sử dụng ở sa mạc, có thể chống lại bão cát."
+    },
+	"AG_DeTuPhuc":{            
+            "TenHienThi": "Đệ Tử phục",
+            "Hang": 3,
+            "CoSo": 29,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Sử dụng thời Khổng Tử, trang phục của Nho gia, dùng khi giảng bài hoặc nghiên cứu."
+    },
+	"AG_TayVucLacMaBao":{            
+            "TenHienThi": "Tây Vực Lạt Ma bào",
+            "Hang": 3,
+            "CoSo": 29,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Lễ phục của Tăng nhân tây vực, trông quỷ dị."
+    },
+	"AG_ThieuLamTangY":{            
+            "TenHienThi": "Thiếu Lâm tăng y",
+            "Hang": 3,
+            "CoSo": 29,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục thường ngày của đệ tử Thiếu Lâm."
+    },
+	"AG_ToanChanDaoBao":{            
+            "TenHienThi": "Toàn Chân đạo bào",
+            "Hang": 3,
+            "CoSo": 29,
+            "TangTruong": 2.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là trang phục của đệ tử Đạo gia, đạo sĩ trẻ mặc vào phong thái tiêu sái , lão đạo sĩ mặc vào tiên phong đạo cốt."
+    },
+	"AG_CaiBangBachKetY":{            
+            "TenHienThi": "Cái Bang bách kết y",
+            "Hang": 3,
+            "CoSo": 32,
+            "TangTruong": 2.3,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là y phục của một kẻ hành khất, ngay cả xin cơm cũng có nhiều chuyện cần bàn, tượng trưng cho địa vị của người mặc."
+    },
+	"AG_HoangDongHoTamGiap":{            
+            "TenHienThi": "Hoàng Đồng Hộ Tâm giáp",
+            "Hang": 3,
+            "CoSo": 33,
+            "TangTruong": 2.4,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Trang phục đặc chế cho thủ vệ quân, có thể cản được một số binh khí thông thường."
+    },
+	"AG_DieuBiDaiSuong":{            
+            "TenHienThi": "Điêu Bì đại sưởng",
+            "Hang": 2,
+            "CoSo": 57,
+            "TangTruong": 3.6,
+			"TinhLuyenTangTruong":0.2,
+            "HeSoRandom": 20,
+			"MoTa": "Là áo da chồn vừa có thể chống rét mà còn chặn được các loại ám khí."
+    },
+	"AG_CamVeHoangKimGiap":{            
+            "TenHienThi": "Cấm Vệ Hoàng Kim giáp",
+            "Hang": 2,
+            "CoSo": 57,
+            "TangTruong": 3.6,
+			"TinhLuyenTangTruong":0.2,
+            "HeSoRandom": 10,
+			"MoTa": "Khôi giáp của Giáo đầu Cấm vệ quân trong Hoàng cung, kim quang chói mắt."
+    },
+	"AG_HuyenThietTrongGiap":{            
+            "TenHienThi": "Huyền Thiết trọng giáp",
+            "Hang": 2,
+            "CoSo": 57,
+            "TangTruong": 3.6,
+			"TinhLuyenTangTruong":0.2,
+            "HeSoRandom": 10,
+			"MoTa": "Khôi giáp chế tạo từ huyền thiết, rất nặng, dành cho những kẻ thiên sinh thần lực."
+    },
+	"AG_BachChienPhiPhong":{            
+            "TenHienThi": "Bách Chiến phi phong",
+            "Hang": 2,
+            "CoSo": 60,
+            "TangTruong": 3.8,
+			"TinhLuyenTangTruong":0.2,
+            "HeSoRandom": 10,
+			"MoTa": "Áo choàng của Nhạc Phi, dính vô số máu tươi của man di."
+    },
+	"AG_TuongMonCamBao":{            
+            "TenHienThi": "Tướng Môn cẩm bào",
+            "Hang": 2,
+            "CoSo": 64,
+            "TangTruong": 4,
+			"TinhLuyenTangTruong":0.2,
+            "HeSoRandom": 10,
+			"MoTa": "Tương truyền do Phiền Lê Hoa uy chấn thiên hạ may, lót bên trong là khóa giáp, ra trận giết địch vô cùng thuận tiện."
+    },
+	"AG_ThatBaoHonLangBao":{            
+            "TenHienThi": "Thất Bảo Hỗn Lăng bào",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Được làm từ lụa tơ tằm cao cấp, được trang trí bởi 7 loại bảo thạch."
+    },
+	"AG_BaoTuongCaSa":{            
+            "TenHienThi": "Bảo Tượng cà sa",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Là áo cà sa của các tăng nhân Phật gia, mặc vào tự có phong thái uy nghiêm."
+    },
+	"AG_OTamY":{            
+            "TenHienThi": "Ô Tàm y",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Dùng lụa tơ tằm trên đỉnh tuyết sơn dệt thành, thủy hỏa bất xâm, đao thương bất phá."
+    },
+	"AG_NhuyenViGiap":{            
+            "TenHienThi": "Nhuyễn Vị giáp",
+            "Hang": 1,
+            "CoSo": 104,
+            "TangTruong": 5.8,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 5,
+			"MoTa": "Áo giáp tuy mềm mịn nhưng chứa đầy gai nhọn, không những chống được tổn thương do đao kiếm gây ra mà còn có thể làm bị thương đối phương."
+    },
+	"AG_KimTiBaoGiap":{            
+            "TenHienThi": "Kim Ti bảo giáp",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 5,
+			"MoTa": "Là kim y dành cho các hoàng đế cổ đại, có thể chống được mọi tổn thương bên ngoài gây ra."
+    },
+	"AG_GiaoTieuY":{            
+            "TenHienThi": "Giao tiêu y",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.7,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Y phục được làm từ loại tơ kì lạ, trông tuy thô nhưng nhẹ nhàng và chắc chắn."
+    },
+	"AG_NhuDangBoiTam":{            
+            "TenHienThi": "Nhu đằng bối tâm",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Nguyễn giáp mềm mại, không rõ làm từ thứ vải gì nhưng chống được sự công kích của nhiều loại binh khí."
+    },
+	"AG_DaiHaiPhiPhong":{            
+            "TenHienThi": "Đại Hải Phi Phong",
+            "Hang": 1,
+            "CoSo": 100,
+            "TangTruong": 5.8,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 10,
+			"MoTa": "Áo choàng của những kẻ hay đi lại trên biển, có thể chống được gió lạnh từ biển."
+    },
+	"AG_ThienKiemCamY":{            
+            "TenHienThi": "Thiên Kiếm Cẩm Y",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục khiến kẻ khác nhìn vào tựa như bị ngàn thanh kiếm trôi nổi trước mặt, khiến kẻ đối diện chịu uy áp cực lớn."
+    },
+	"AG_PhongVanKhai":{            
+            "TenHienThi": "Phong Vân Khải",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Nhẹ như mây, nhanh như gió, kẻ mặc vào sẽ có được thân pháp tuyệt đỉnh, độc bộ thiên hạ."
+    },
+	"AG_TaVuongChienBao":{            
+            "TenHienThi": "Tà Vương Chiến Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo giáp của Tà Vương, 1 trong những bảo vật của Ma Giáo, tà đạo vô song."
+    },
+	"AG_ThuyLinhCamY":{            
+            "TenHienThi": "Thủy Linh Cẩm Y",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Áo khảm doanh châu, bề ngoài thì mềm mại, nhưng lại chống chịu được nội ngoại thương cực kì hiệu quả."
+    },
+	"AG_ThanLongCamBao":{            
+            "TenHienThi": "Thần Long Cẩm Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục đại diện cho ngôi vị giáo chủ của Thần Long Giáo, tà dị mà uy nghi."
+    },
+	"AG_ThienHaHoangBaoY":{            
+            "TenHienThi": "Thiên Hạ Hoàng Bảo Y",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục tượng trưng cho ngôi vị Minh Chủ Thiên Hạ Hội, được dệt bằng kim tàm ti, nhẹ mà chắc chắn."
+    },
+	"AG_ThienSonHoangLongBao":{            
+            "TenHienThi": "Thiên Sơn Hoàng Long Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Áo bào của Thiên Sơn Phái, một môn phái cổ, áo làm từ tơ của 1 loại tằm sinh sống trên núi tuyết, có khả năng chịu lạnh."
+    },
+	"AG_DatMaCaSa":{            
+            "TenHienThi": "Đạt Ma Cà Sa",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Áo cà sa của các cao tăng Thiếu Lâm, không rõ làm từ chất liệu gì nhưng đao thương bất nhập, rắn chắc vô cùng."
+    },
+	"AG_TieuGiaMatGiap":{            
+            "TenHienThi": "Tiêu Gia Mật Giáp",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Áo giáp của Tiêu Gia, được làm bằng nguyên liệu bí truyền."
+    },
+	"AG_TatSatChienBao":{            
+            "TenHienThi": "Tất Sát Chiến Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Chiến bào sử dụng khi đi đánh trận, mang đầy sát khí khiến kẻ đối đầu khiếp sợ."
+    },
+	"AG_ThienCoGiap":{            
+            "TenHienThi": "Thiên Cơ Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Áo bào với chất liệu kì lạ, không phải gấm cũng chẳng phải lụa."
+    },
+	"AG_OnHauGiap":{            
+            "TenHienThi": "Ôn Hầu Chiến Giáp",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo giáp của Lữ Phụng Tiên, có thể bảo vệ bản thân khỏi đao thương."
+    },
+	"AG_TieuDaoCamBao":{            
+            "TenHienThi": "Tiêu Dao Cẩm Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục của Chưởng Môn phái Tiêu Dao, xuất trần thoát tục."
+    },
+	"AG_HamHuongBaoY":{            
+            "TenHienThi": "Hàm Hương Bảo Y",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục của nữ nhân người Hồi, làm từ tơ tằm thượng hạng."
+    },
+	"AG_ThanhLinhGiap":{            
+            "TenHienThi": "Thánh Linh Uy Giáp",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo giáp tùy thân của Kiếm Thánh, nhẹ nhưng rắn chắc."
+    },
+	"AG_ThanKiemCamBao":{            
+            "TenHienThi": "Thần Kiếm Cẩm Bào",
+            "Hang": 1,
+            "CoSo": 108,
+            "TangTruong": 6,
+			"TinhLuyenTangTruong":0.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang phục thường mặc của Tạ Hiểu Phong, uy phong lẫm liệt."
+    },
+	
+    "TS_MaNaoThuLien":{            
+            "TenHienThi": "Mã Não thủ liên",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Là vòng tay làm bằng mã não, làm đồ trang sức cho chủ nhân."
+    },
+	"TS_LucHoanBoi":{            
+            "TenHienThi": "Lục Hoàn bội",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vòng màu xanh lục, thường đeo bên hông."
+    },
+	"TS_TinhKhiHuongNang":{            
+            "TenHienThi": "Tĩnh Khí hương nang",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Bên trong chứa nhiều loại cỏ thơm để làm thuốc, có tác dụng an thần."
+    },
+	"TS_BachNgocDauSuc":{            
+            "TenHienThi": "Bạch Ngọc đầu sức",
+            "Hang": 4,
+            "CoSo": 66,
+            "TangTruong": 4.4,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Bạch ngọc chế thành trang sức, không đáng giá như bề ngoài."
+    },
+	"TS_BichNgocGioiChi":{            
+            "TenHienThi": "Bích Ngọc giới chỉ",
+            "Hang": 4,
+            "CoSo": 67,
+            "TangTruong": 4.5,
+			"TinhLuyenTangTruong":0.1,
+            "MoTa": "Bích ngọc làm thành chiếc nhẫn, sáng bóng, đáng giá chút tiền."
+    },
+	"TS_NiemChau":{            
+            "TenHienThi": "Niệm châu",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vật cầm tay của để tử Phật gia, ngồi tĩnh tọa tay đếm hạt có thể ngủ rất nhanh."
+    },
+	"TS_ThanhDongGioi":{            
+            "TenHienThi": "Thanh Đồng giới",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thanh đồng làm thành chiếc nhẫn, nếu giữ gìn không tốt sẽ bị gỉ."
+    },
+	"TS_NgungThanHuongNang":{            
+            "TenHienThi": "Ngưng Thần hương nang",
+            "Hang": 4,
+            "CoSo": 63,
+            "TangTruong": 4.2,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Bên trong chứa nhiều loại cỏ thơm để làm thuốc, có tác dụng an thần."
+    },
+	"TS_BachNgocYeuBoi":{            
+            "TenHienThi": "Bạch Ngọc yêu bội",
+            "Hang": 4,
+            "CoSo": 66,
+            "TangTruong": 4.4,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Bạch ngọc chế thành yêu bội, không đáng giá nhiều tiền."
+    },
+	"TS_ThanhNgocTrac":{            
+            "TenHienThi": "Thanh Ngọc trạc",
+            "Hang": 4,
+            "CoSo": 67,
+            "TangTruong": 4.5,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Vòng ngọc màu xanh, bán đi cũng được mấy đồng lẻ."
+    },
+	"TS_ThienNguyenPhu":{            
+            "TenHienThi": "Thiên Nguyên phù",
+            "Hang": 3,
+            "CoSo": 124,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thần phù lưu lạc trong giang hồ, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_NapTracKiNiemGioi":{            
+            "TenHienThi": "Nạp Trắc Kỉ Niệm giới",
+            "Hang": 3,
+            "CoSo": 129,
+            "TangTruong": 8.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Đồ trang sức rất được yêu thích của các cô gái."
+    },
+	"TS_ThienCooPhu":{            
+            "TenHienThi": "Thiên Cô phù",
+            "Hang": 3,
+            "CoSo": 125,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thần phù lưu lạc trong võ lâm, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_ThienAnhPhu":{            
+            "TenHienThi": "Thiên Anh phù",
+            "Hang": 3,
+            "CoSo": 124,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Thần phù lưu lạc trong võ lâm, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_ThienKhoiPhu":{            
+            "TenHienThi": "Thiên Khôi phù",
+            "Hang": 3,
+            "CoSo": 124,
+            "TangTruong": 7.8,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Phù của Thần nhưng lưu lạc trong võ lâm, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_ThienCuongPhu":{            
+            "TenHienThi": "Thiên Cương phù",
+            "Hang": 3,
+            "CoSo": 128,
+            "TangTruong": 8,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Phù của Thần nhưng lưu lạc trong võ lâm, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_ThienCoPhu":{            
+            "TenHienThi": "Thiên Cơ phù",
+            "Hang": 3,
+            "CoSo": 129,
+            "TangTruong": 8.1,
+			"TinhLuyenTangTruong":0.1,
+            "HeSoRandom": 10,
+			"MoTa": "Phù của Thần nhưng lưu lạc trong võ lâm, đeo vào có thể cường thân kiện thể."
+    },
+	"TS_VuKhucLenh":{            
+            "TenHienThi": "Vũ Khúc lệnh",
+            "Hang": 2,
+            "CoSo": 200,
+            "TangTruong": 12.5,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Lệnh bài hộ pháp của Tây vực Thần giáo, trên có khắc chữ 'Vũ'."
+    },
+	"TS_ThatSatLenh":{            
+            "TenHienThi": "Thất Sát lệnh",
+            "Hang": 2,
+            "CoSo": 200,
+            "TangTruong": 12.5,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Lệnh bài hộ pháp của Tây vực Thần giáo, trên có khắc chữ 'Thất'."
+    },
+	"TS_PhaQuanLenh":{            
+            "TenHienThi": "Phá Quân lệnh",
+            "Hang": 2,
+            "CoSo": 200,
+            "TangTruong": 12.5,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Lệnh bài hộ pháp của Tây vực Thần giáo, trên có khắc chữ 'Phá'."
+    },
+	"TS_ThamLangLenh":{            
+            "TenHienThi": "Tham Lang lệnh",
+            "Hang": 2,
+            "CoSo": 203,
+            "TangTruong": 12.7,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Lệnh bài hộ pháp của Tây vực Thần giáo, trên có khắc chữ 'Tham'."
+    },
+	"TS_ThanhHoaLenh":{            
+            "TenHienThi": "Thánh Hỏa lệnh",
+            "Hang": 2,
+            "CoSo": 206,
+            "TangTruong": 12.9,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Lệnh bài hộ pháp của Tây vực Thần giáo, trên có khắc chữ 'Thánh'."
+    },
+	"TS_KyLanBoi":{            
+            "TenHienThi": "Kỳ Lân bội",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 10,
+			"MoTa": "Ngọc bội hình Kỳ lân - một trong năm đại thần thú, chính là một chữ, 'Cường'."
+    },
+	"TS_HuyenVuGioi":{            
+            "TenHienThi": "Huyền Vũ giới",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 10,
+			"MoTa": "Trên chiếc nhẫn có khắc Huyền vũ – một trong năm đại thần thú, chính là một chữ, 'Mãnh'."
+    },
+	"TS_BachHoTruy":{            
+            "TenHienThi": "Bạch Hổ trụy",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 10,
+			"MoTa": "Trên trụy khắc Bạch hổ - một trong năm đại thần thú, chính là một chữ, 'Ngoan'."
+    },
+	"TS_ChuTuocTram":{            
+            "TenHienThi": "Chu Tước trâm",
+            "Hang": 1,
+            "CoSo": 314,
+            "TangTruong": 18.5,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 1,
+			"MoTa": "Cây trâm có hình Chu tước - một trong năm đại thần thú, chính là một chữ, 'Huyễn'."
+    },
+	"TS_ThanhLongTrac":{            
+            "TenHienThi": "Thanh Long trạc",
+            "Hang": 1,
+            "CoSo": 319,
+            "TangTruong": 18.8,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 1,
+			"MoTa": "Trên trạc có khắc hình Thanh long - một trong năm đại thần thú, chính là một chữ, 'Suất'."
+    },
+	"TS_TieuDaoHoLo":{            
+            "TenHienThi": "Tiêu Dao Hồ Lô",
+            "Hang": 2,
+            "CoSo": 200,
+            "TangTruong": 12.5,
+			"TinhLuyenTangTruong":0.7,
+            "HeSoRandom": 2,
+			"MoTa": "Vật bất li thân của Kiếm tông cao thủ phái Hoa Sơn – Phong Thanh Dương."
+    },
+	"TS_NgaMiHoaDao":{            
+            "TenHienThi": "Nga Mi tú châm",
+            "Hang": 1,
+            "CoSo": 300,
+            "TangTruong": 18,
+			"TinhLuyenTangTruong": 1.4,
+            "HeSoRandom": 1,
+			"MoTa": "Trâm cài tóc được kết hình hoa đào, vật ưa thích của các nữ hiệp khi hành tẩu giang hồ."
+    },
+	"TS_ManDaTraHoa":{            
+            "TenHienThi": "Mạn Đà hoa trà",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong": 1.4,
+            "HeSoRandom": 1,
+			"MoTa": "Mạn Đà sơn trang chuyên sản xuất hoa trà, hương thơm ngát, là vưu vật phi phàm của trời đất."
+    },
+	"TS_GiapNgoNgocBoi":{            
+            "TenHienThi": "Giáp Ngọ ngọc bội",
+            "Hang": 2,
+            "CoSo": 200,
+            "TangTruong": 12,
+			"TinhLuyenTangTruong": 0.7,
+            "HeSoRandom": 10,
+			"MoTa": "Ngọc bội được chế tác mừng năm mới Giáp Ngọ"
+    },
+	"TS_LinhQuyBoi":{            
+            "TenHienThi": "Linh Quy ngọc bội",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội Linh Quy - một trong Tứ Linh. Mang thần khí của đất trời."
+	},
+	"TS_KimLongBoi":{            
+            "TenHienThi": "Kim Long ngọc bội",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội Kim Long - một trong Tứ Linh. Mang thần khí của đất trời."
+	},
+	"TS_HoaPhungBoi":{            
+            "TenHienThi": "Hỏa Phụng ngọc bội",
+            "Hang": 1,
+            "CoSo": 311,
+            "TangTruong": 18.3,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội Hỏa Phụng - một trong Tứ Linh. Mang thần khí của đất trời."
+    },
+	"TS_LongCotSacTu":{            
+            "TenHienThi": "Long Cốt Sắc Tủ",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Long Cốt Sắc Tử - những hạt xí ngầu hiếm có nhất trên thế gian, nghe nói được đúc từ long cốt."
+    },
+	"TS_UuDamHoa":{            
+            "TenHienThi": "Ưu Đàm Hoa Châm",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ưu Đàm Hoa Trâm - Trâm cài tóc kết hình loại hoa quý hiếm nhất thế gian, 3000 năm mới xuất hiện 1 lần."
+    },
+	"TS_ThanLongGioiChi":{            
+            "TenHienThi": "Thần Long Giới Chỉ",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Thần Long Giới Chỉ - Vật chí bảo của Thần Long Giáo, do giáo chủ sử dụng."
+    },
+	"TS_DatMaNiemChau":{            
+            "TenHienThi": "Đạt Ma Niệm Châu",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Chuỗi châu tử của Phật Gia, tương truyền được truyền lại từ đời của Đạt Ma Sư Tổ."
+    },
+	"TS_ThienHaLienThuTrac":{            
+            "TenHienThi": "Thiên Hạ Liên Thủ Trạc",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Bao tay của cao thủ, trên khắc hai chữ Thiên Hạ."
+    },
+	"TS_TieuGiaBaoThach":{            
+            "TenHienThi": "Tiêu Gia Bảo Thạch",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Bảo thạch gia bảo của nhà họ Tiêu, là vật bất ly thân của Tiêu Thập Nhất Lang."
+    },
+	"TS_BangTamGioiChi":{            
+            "TenHienThi": "Băng Tâm Giới Chỉ",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Nhẫn được làm từ loại đá ở gần tổ của Băng Tằm, lạnh lẽo vô cùng."
+    },
+	"TS_ThienKiemBaoChau":{            
+            "TenHienThi": "Thiên Kiếm Bảo Châu",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Vật trấn môn của một môn phái cổ xưa, phía trên khắc hình hai thanh bảo kiếm, kẻ mang vào có thể đả thông kinh mạch."
+    },
+	"TS_ThienCoNgocBoi":{            
+            "TenHienThi": "Thiên Cơ Ngọc Bội",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội của Thiên Cơ Lão Nhân, không rõ làm từ ngọc gì, trông tuy thô nhưng chắc chắn là bảo vật."
+    },
+	"TS_OnHauNgocBoi":{            
+            "TenHienThi": "Ôn Hầu Ngọc Bội",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội của Lữ Phụng Tiên, làm từ bảo ngọc, nghe đồn có nguồn gốc từ trong hoàng cung."
+    },
+	"TS_TieuDaoGioiChi":{            
+            "TenHienThi": "Tiêu Dao Giới Chỉ",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Giới chỉ tượng trưng cho thân phận chưởng môn phái Tiêu Dao."
+    },
+	"TS_HoiNhanNgocBoi":{            
+            "TenHienThi": "Hồi Nhân Ngọc Bội",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Trang sức tùy thân của thiếu nữ người Hồi, không rõ làm từ ngọc gì."
+    },
+	"TS_ThanhLinhBoi":{            
+            "TenHienThi": "Thánh Linh Ngọc Bội",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội tùy thân của Kiếm Thánh đời thứ nhất, trông thì tầm thường nhưng không rõ lí do Kiếm Thánh luôn mang bên người."
+    },
+	"TS_ThanKiemNgocBoi":{            
+            "TenHienThi": "Thần Kiếm Ngọc Bội",
+            "Hang": 1,
+            "CoSo": 320,
+            "TangTruong": 19,
+			"TinhLuyenTangTruong":1.4,
+            "HeSoRandom": 0,
+			"MoTa": "Ngọc bội tùy thân của Kiếm Thần, vật dụng cũng toát lên kiếm khí."
+    },
+	
+	"TT_PhapBao":{            
+            "TenHienThi": "Lưỡng Nghi Thần Khí",
+            "Hang": 1,
+            "CoSo": 1,
+            "TangTruong": 1,
+			"TinhLuyenTangTruong":1,
+            "HeSoRandom": 0,
+			"MoTa": "Thần vật thượng cổ, có thể xoay chuyển càn khôn, gia tăng 2 loại thuộc tính ngẫu nhiên cho kẻ mang nó trên người."
+    }
+}

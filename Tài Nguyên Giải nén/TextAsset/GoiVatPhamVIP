@@ -1,0 +1,509 @@
+[
+  {
+    "CodeName": "GV_VIP15",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP15 Lễ bao",
+    "TongGiaTri": 170990,
+    "GiaMua": 29980,
+    "MoTa": "Lễ bao dành cho VIP15, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+	  {
+        "Name": "",
+        "Count": 500000000,
+        "Loai": 0
+      },
+      {
+        "Name": "KC_ThanMoc",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HoaThach",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HanNgan",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_TuKim",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HacMoc",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_LinhMoc",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_TinhThach",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HuyetThach",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HuyenThiet",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      },
+      {
+        "Name": "KC_HanThiet",
+        "Count": 1,
+        "Level": 12,
+        "Loai": 8
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP14",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP14 Lễ bao",
+    "TongGiaTri": 100990,
+    "GiaMua": 19980,
+    "MoTa": "Lễ bao dành cho VIP14, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 100000000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "CK_HuyThien",
+        "Count": 1,
+        "Level": 1,
+        "Loai": 5
+      },
+      {
+        "Name": "CK_VoThuong",
+        "Count": 1,
+        "Level": 1,
+        "Loai": 5
+      },
+      {
+        "Name": "VP_ThatTinhTran",
+        "Count": 1,
+        "Level": 1,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP13",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP13 Lễ bao",
+    "TongGiaTri": 46990,
+    "GiaMua": 9980,
+    "MoTa": "Lễ bao dành cho VIP13, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "VK_HuyenThietTrongKiem",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "TS_ChuTuocTram",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VC_CuuAmChanKinh",
+        "Count": 1,
+        "Loai": 3
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP12",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP12 Lễ bao",
+    "TongGiaTri": 36990,
+    "GiaMua": 7980,
+    "MoTa": "Lễ bao dành cho VIP12 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "VK_YThienKiem",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "AG_BaoTuongCaSa",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VC_QuyHoaBaoDien",
+        "Count": 1,
+        "Loai": 3
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP11",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP11 Lễ bao",
+    "TongGiaTri": 29990,
+    "GiaMua": 5980,
+    "MoTa": "Lễ bao dành cho VIP11 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "AG_NhuyenViGiap",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "TS_ThanhHoaLenh",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VC_CuuAmChanKinh",
+        "Count": 1,
+        "Loai": 3
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP10",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP10 Lễ bao",
+    "TongGiaTri": 23990,
+    "GiaMua": 4980,
+    "MoTa": "Lễ bao dành cho VIP10 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 9000000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "TS_KyLanBoi",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VC_QuyHoaBaoDien",
+        "Count": 1,
+        "Loai": 3
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP9",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP9 Lễ bao",
+    "TongGiaTri": 16880,
+    "GiaMua": 2998,
+    "MoTa": "Lễ bao dành cho VIP9 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 5000000,
+        "Loai": 0
+      },
+      {
+        "Name": "VK_NguTruongKiem",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "TS_VuKhucLenh",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VP_HopVang",
+        "Count": 50,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopVang_Key",
+        "Count": 50,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP8",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP8 Lễ bao",
+    "TongGiaTri": 9990,
+    "GiaMua": 1998,
+    "MoTa": "Lễ bao dành cho VIP8 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 2000000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 2000,
+        "Loai": 4
+      },
+      {
+        "Name": "AG_OTamY",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "TS_ThatSatLenh",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VP_HopVang",
+        "Count": 25,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopVang_Key",
+        "Count": 25,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP7",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP7 Lễ bao",
+    "TongGiaTri": 4980,
+    "GiaMua": 998,
+    "MoTa": "Lễ bao dành cho VIP7 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 1000000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 800,
+        "Loai": 4
+      },
+      {
+        "Name": "VK_DaCauBong",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VP_TruyenCong2",
+        "Count": 5,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP6",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP6 Lễ bao",
+    "TongGiaTri": 2980,
+    "GiaMua": 498,
+    "MoTa": "Lễ bao dành cho VIP6 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 800000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 500,
+        "Loai": 4
+      },
+      {
+        "Name": "AG_TuongMonCamBao",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VP_HopBac",
+        "Count": 25,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopBac_Key",
+        "Count": 25,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP5",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP5 Lễ bao",
+    "TongGiaTri": 1980,
+    "GiaMua": 298,
+    "MoTa": "Lễ bao dành cho VIP5 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 500000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BoiDuongDan",
+        "Count": 300,
+        "Loai": 4
+      },
+      {
+        "Name": "TS_PhaQuanLenh",
+        "Count": 1,
+        "Loai": 2
+      },
+      {
+        "Name": "VP_LuanKiemLenh",
+        "Count": 5,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP4",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP4 Lễ bao",
+    "TongGiaTri": 880,
+    "GiaMua": 168,
+    "MoTa": "Lễ bao dành cho VIP4 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 200000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BinhRuou",
+        "Count": 22,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopBac",
+        "Count": 10,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopBac_Key",
+        "Count": 10,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP3",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP3 Lễ bao",
+    "TongGiaTri": 480,
+    "GiaMua": 98,
+    "MoTa": "Lễ bao dành cho VIP3 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 100000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BinhRuou",
+        "Count": 12,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopSat_Key",
+        "Count": 10,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopGo_Key",
+        "Count": 10,
+        "Loai": 4
+      }
+    ]
+  },
+  {
+    "CodeName": "GV_VIP2",
+    "IconName": "VP_GoiVatPham1",
+    "TenHienThi": "VIP2 Lễ bao",
+    "TongGiaTri": 298,
+    "GiaMua": 48,
+    "MoTa": "Lễ bao dành cho VIP2 trở lên, tổng giá trị lên đến {0} nguyên bảo nhưng chỉ bán với giá {1} nguyên bảo. Chỉ có thể mua 1 lần. Bấm vào biểu tượng để xem bên trong của lễ bao",
+    "ThoiGianTonTai": "2050-1-1",
+    "DanhSachItem": [
+      {
+        "Name": "",
+        "Count": 50000,
+        "Loai": 0
+      },
+      {
+        "Name": "VP_BinhRuou",
+        "Count": 6,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopSat_Key",
+        "Count": 5,
+        "Loai": 4
+      },
+      {
+        "Name": "VP_HopGo_Key",
+        "Count": 5,
+        "Loai": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+{
+		"liveTime": 4.5,   
+		"impact" : 3.5,    
+		"tweens" : [
+			{
+				"target" : "particle", 
+				"startTime" : 0,
+				"liveTime" : 13,
+				"name" : "VC_HapTinhDaiPhap_background"
+			},
+			{
+				"target" : "damage",
+				"alpha" : 0,
+				"startTime" : 2,
+				"position" : "-200 250 -200",
+				"tweens" : [
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenNumber",
+						"delay" : 1.5,
+						"from" : "0",
+						"to" : "0",
+						"duration" : 1
+					}
+				]
+			},
+			{
+				"target" : "skillName",
+				"alpha" : 1,
+				"color" : "[982ec7]",
+				"startTime" : 1.5,
+				"liveTime" : 3,
+				"position" : "240 500 -200",
+				"tweens" : [
+				
+					{
+						"type" : "TweenTitle",
+						"delay" : 0,
+						"from" : 1,
+						"to" : 4,
+						"duration" : 0.5
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.5,
+						"from" : "240 500 -200",
+						"to" : "200 500 -200",
+						"duration" : 0.2
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1.5,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.2,
+						"finish" : {"destroy" : 0}
+					}
+				]
+			},
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"liveTime" : 1.4,
+				"position" : "0 0 -5",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenScale",
+						"delay" : 0,
+						"from" : 0.7,
+						"to" : 1,
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0.8,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.6
+					},
+					{
+						"type" : "TweenScale",
+						"delay" : 0.8,
+						"from" : 1,
+						"to" : 0.7,
+						"duration" : 0.6
+					}
+				]
+				
+			}
+
+		]
+}

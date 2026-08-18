@@ -1,0 +1,247 @@
+{
+		"liveTime": 4.2,       
+		"tweens" : [
+			{
+				"target" : "particle", 
+				"startTime" : 0,
+				"liveTime" : 13,
+				"position" : "0 0 -20",
+				"name" : "VC_NhatDuongChi_background"
+			},
+			{
+				"target" : "damage",
+				"alpha" : 1,
+				"startTime" : 2,
+				"position" : "200 300 -200",
+				"tweens" : [
+					{
+						"type" : "TweenNumber",
+						"delay" : 1,
+						"from" : "0",
+						"to" : "0",
+						"duration" : 0.5
+					}
+				]
+			},
+			{
+				"target" : "skillName",
+				"alpha" : 0,
+				"color" : "[ff7001]",
+				"startTime" : 0,
+				"liveTime" : 1.9,
+				"position" : "100 550 -200",
+				"tweens" : [
+				
+					{
+						"type" : "TweenTitle",
+						"delay" : 0,
+						"from" : 1,
+						"to" : 3,
+						"duration" : 0.9
+					}
+				]
+				
+			},
+			//team1
+			{
+				"target" : "avatar",
+				"id" : 0,
+				"alpha" : 0,
+				"startTime" : 0,
+				"liveTime" : 2.7,
+				"scale" : 0.7,
+				"position" : "0 0 -30",
+				"tweens" :[
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0.15,
+						"from" : 0,
+						"to" : 1,
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenScale",
+						"delay" : 0.15,
+						"from" : 1,
+						"to" : 1.42,
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 1.55,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+				]
+				
+			},
+			
+			
+			//enemy1a
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 0,
+				"alpha" : 0.2,
+				"liveTime" :  2.35,
+				"position" : "-100 -900 -30",
+				"tweens" : [
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.55,
+						"from" : "-100 -900 -30",
+						"to" : "-100 0 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.95,
+						"from" : "-100 0 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.4
+					}
+					
+				]
+				
+			},
+			//enemy1b
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 0,
+				"alpha" : 0.4,
+				"liveTime" :  2.35,
+				"position" : "-100 900 -30",
+				"tweens" : [
+					{
+						"type" : "TweenPosition",
+						"delay" : 1.55,
+						"from" : "0 900 -30",
+						"to" : "0 0 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0.95,
+						"from" : 0.4,
+						"to" : 1,
+						"duration" : 0.4
+					}
+					
+				]
+				
+			},
+			//enemy2a
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 2.3,
+				"alpha" : 1,
+				"liveTime" :  3,
+				"position" : "0 0 -30",
+				"tweens" : [
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.55,
+						"from" : "0 0 -30",
+						"to" : "-50 50 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.65,
+						"from" : "-50 50 -30",
+						"to" : "0 100 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.75,
+						"from" : "0 100 -30",
+						"to" : "-50 120 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.85,
+						"from" : "0 50 -30",
+						"to" : "500 150 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenRotation",
+						"delay" : 0.95,
+						"from" : "0 0 0",
+						"to" : "0 0 -180",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0.95,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+					
+				]
+				
+			},
+			//enemy2b
+			{
+				"target" : "avatar",
+				"id" : 1,
+				"startTime" : 2.4,
+				"alpha" : 0.3,
+				"liveTime" :  3,
+				"position" : "0 0 -30",
+				"tweens" : [
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.55,
+						"from" : "0 0 -30",
+						"to" : "-50 50 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.65,
+						"from" : "-50 50 -30",
+						"to" : "0 100 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.75,
+						"from" : "0 100 -30",
+						"to" : "-50 120 -30",
+						"duration" : 0.1
+					},
+					{
+						"type" : "TweenPosition",
+						"delay" : 0.85,
+						"from" : "0 50 -30",
+						"to" : "500 150 -30",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenRotation",
+						"delay" : 0.95,
+						"from" : "0 0 0",
+						"to" : "0 0 -180",
+						"duration" : 0.4
+					},
+					{
+						"type" : "TweenAlpha",
+						"delay" : 0.95,
+						"from" : 1,
+						"to" : 0,
+						"duration" : 0.4
+					}
+					
+				]
+				
+			}
+
+		]
+}

@@ -1,0 +1,170 @@
+{
+	"tutorial" :
+	[
+		{
+			"text" : "Bấm vào GIANG HỒ để bước chân vào hành hiệp, truy tìm Ma giáo.",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MenuGroup/BottomA/SliderMenu/GiangHoBtn",
+			"size" : "100 100"
+		},
+		
+		{
+			"text" : "Chọn ĐÁNH để tấn công kẻ thù!",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/GiangHoForm/TopA/GH_NhiemVuSlider/GH_NhiemVu_Item0/battleBtn",
+			"size" : "180 100"
+		},
+		
+		{
+			"text" : "Đóng lại để đi tiếp.",
+			"anchor" : "Bottom",
+			"position" : "Camera/Battle/BattleForm/GiangHoResultPanel(Clone)/BotRight/ButtonPhai",
+			"size" : "150 60"
+		},
+		
+		{
+			"text" : "Nhấn vào CHỢ để đến khu giao dịch.",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MenuGroup/BottomA/SliderMenu/CuaHangBtn",
+			"size" : "100 100"
+		} ,
+		
+		{
+			"text" : "Tại khu giao dịch, người chơi có thể thu nhận thêm đệ tử.",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/CuaHangForm/TopA/ThuThapDeTuTab/10000DamGroup/ThuNhanBtn",
+			"size" : "180 100"
+		},
+		
+		{
+			"text" : "Nhận nhân vật",
+			"anchor" : "Center",
+			"delay" : 5,
+			"position" : "Camera/Popup/GetNewNhanVatPopup(Clone)/OkBtn",
+			"size" : "180 100"
+		},
+		{
+			"text" : "Dàn trận, đây là đội hình mà người chơi tự sắp xếp.",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MenuGroup/BottomA/SliderMenu/NhanVatBtn",
+			"size" : "100 100"
+		},
+		{
+			"text" : "Chọn vị trí đặt đệ tử.",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/DanTranForm/TopA/NhanVatSlider/NhanVatAvatar1",
+			"size" : "100 100"
+		},
+		{
+			"text" : "Chọn nhân vật mà bạn muốn đặt vào đội hình.",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/SelectIntoDoiHinhForm/TopA/ItemRoot/SelectNhanVatItem(Clone)/Checkbox/Background",
+			"size" : "120 120"
+		},
+		{
+			"text" : "Xong chọn nhân vật",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/SelectIntoDoiHinhForm/TopRightA/OkBtn",
+			"size" : "120 70"
+		},
+		{
+			"text" : "Tiếp tục truy tìm Ma giáo.",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MenuGroup/BottomA/SliderMenu/GiangHoBtn",
+			"size" : "120 70"
+		},
+		
+		{
+			"text" : "Chiến đấu!",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/GiangHoForm/TopA/GH_NhiemVuSlider/GH_NhiemVu_Item1/battleBtn",
+			"size" : "150 90"
+		},
+		
+		{
+			"text" : "Nhận thưởng!",
+			"anchor" : "Bottom",
+			"position" : "Camera/Battle/BattleForm/GiangHoResultPanel(Clone)/BotRight/ButtonPhai",
+			"size" : "150 60"
+		},
+		
+		{
+			"text" : "Nhận vật phẩm chiếm được.",
+			"anchor" : "Center",
+			"position" : "Camera/Popup/TrangBiPopup(Clone)/DongBtn",
+			"size" : "150 100"
+		},
+		{
+			"text" : "Chọn nhân vật, các nhân vật cần có những trang bị cần thiết.",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MenuGroup/BottomA/SliderMenu/NhanVatBtn",
+			"size" : "100 100"
+		},
+		{
+			"text" : "Chọn vị trí trang bị vũ khí",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/DanTranForm/TopA/ItemRoot/DanTranItem0/TrangBiGroup/VuKhi",
+			"size" : "120 120"
+		},
+		{
+			"text" : "Sủ dụng vũ khí",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/EquipTrangBiForm/TopA/ItemRoot/SelectTrangBiItem(Clone)/Checkbox/Background",
+			"size" : "120 120"
+		},
+		{
+			"text" : "Chọn xong.",
+			"anchor" : "Top",
+			"position" : "Camera/InGame/EquipTrangBiForm/TopRightA/OkBtn",
+			"size" : "120 70"
+		},
+		{
+			"text" : "Trang chủ",
+			"anchor" : "BottomLeft",
+			"position" : "Camera/InGame/MenuGroup/BottomLeftA/HomeBtn",
+			"size" : "100 100"
+		},
+		{
+			"text" : "Xem thông báo và nhận phần thưởng",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/HomeForm/BottomA/DuoiCungBtn/MailBtn",
+			"size" : "100 100"
+		},
+		
+		{
+			"text" : "Kiểm tra phần thưởng nhập môn",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MailForm/TopLeftA/TabBtnGroup/PhanThuongBtn",
+			"size" : "100 100"
+		},
+
+		{
+			"text" : "Nhận phần thưởng nhập môn",
+			"anchor" : "Bottom",
+			"position" : "Camera/InGame/MailForm/TopA/ItemRoot/MailItem(Clone)/phanThuongBtn",
+			"size" : "100 100"
+		},
+				
+		{
+			"text" : "Kết thúc nhận phần thưởng nhập môn",
+			"anchor" : "Bottom",
+			"position" : "Camera/Popup/DanhSachPhanThuongPopup(Clone)/Type2Button/CloseBtn",
+			"size" : "150 150"
+		},
+		
+		{
+			"text" : "Quay về trang chủ",
+			"anchor" : "BottomLeft",
+			"position" : "Camera/InGame/MenuGroup/BottomLeftA/HomeBtn",
+			"size" : "100 100"
+		},
+		
+		{
+			"text" : "Nhấn vào bảng chữ để kết thúc",
+			"anchor" : "Center",
+			"position" : "Camera/Popup/TutorialPopup(Clone)/Group/TextGroup",
+			"size" : "320 180"
+		}
+		
+	]
+}

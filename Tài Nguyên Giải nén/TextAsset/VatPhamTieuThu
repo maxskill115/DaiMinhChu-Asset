@@ -1,0 +1,849 @@
+{
+  "VP_HopVang": {
+    "TenHienThi": "Rương vàng",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "MoTa": "Rương thần bí mạ vàng, mở ra có thể tuyệt kĩ võ học, võ lâm chi bảo",
+    "HeSoRandom": 10,
+    "BanTrongShop": true,
+	"Dung10Lan": true
+  },
+  "VP_HopVang_Key": {
+    "TenHienThi": "Chìa khóa rương vàng",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 20,
+    "MoTa": "Chìa khóa dùng để mở rương vàng.",
+    "HeSoRandom": 20,
+    "BanTrongShop": true
+  },
+  "VP_HopBac": {
+    "TenHienThi": "Rương bạc",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 5,
+    "MoTa": "Rương thần bí mạ bạc, mở ra có xác suất nhỏ được tuyệt kĩ võ học, võ lâm chi bảo",
+    "HeSoRandom": 15,
+    "BanTrongShop": true,
+	"Dung10Lan": true
+  },
+  "VP_HopBac_Key": {
+    "TenHienThi": "Chìa khóa rương bạc",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 15,
+    "MoTa": "Chìa khóa dùng để mở rương bạc.",
+    "HeSoRandom": 30,
+    "BanTrongShop": true
+  },
+  "VP_HopSat": {
+    "TenHienThi": "Hộp sắt",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 4,
+    "MoTa": "Rương thần bí, vỏ hộp bằng sắt cũ kĩ",
+    "HeSoRandom": 60,
+    "BanTrongShop": false,
+	"Dung10Lan": true
+  },
+  "VP_HopSat_Key": {
+    "TenHienThi": "Chìa khóa hộp sắt",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 10,
+    "MoTa": "Chìa khóa dùng để mở hộp sắt",
+    "HeSoRandom": 30,
+    "BanTrongShop": true
+  },
+  "VP_HopGo": {
+    "TenHienThi": "Hộp gỗ",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 2,
+    "MoTa": "Hộp làm bằng gỗ, trông cũ kĩ, có thể có vật phẩm bên trong.",
+    "HeSoRandom": 60,
+    "BanTrongShop": false,
+	"Dung10Lan": true
+  },
+  "VP_HopGo_Key": {
+    "TenHienThi": "Chìa khóa hộp gỗ",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 5,
+    "MoTa": "Chìa khóa dùng để mở hộp gỗ.",
+    "HeSoRandom": 30,
+    "BanTrongShop": true
+  },
+  "VP_TinhLuyen_VK_0": {
+    "TenHienThi": "Khoáng thạch cấp 1",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 2 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_1": {
+    "TenHienThi": "Khoáng thạch cấp 2",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 5 điểm tinh luyện",
+    "HeSoRandom": 60,
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_2": {
+    "TenHienThi": "Khoáng thạch cấp 3",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 20,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 10 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_3": {
+    "TenHienThi": "Khoáng thạch cấp 4",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 20 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_4": {
+    "TenHienThi": "Khoáng thạch cấp 5",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 40 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_5": {
+    "TenHienThi": "Khoáng thạch cấp 6",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 80 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_6": {
+    "TenHienThi": "Khoáng thạch cấp 7",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 160 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_7": {
+    "TenHienThi": "Khoáng thạch cấp 8",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 320 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_VK_8": {
+    "TenHienThi": "Khoáng thạch cấp 9",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện vũ khí, mỗi viên tăng 640 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_0": {
+    "TenHienThi": "Sợi cấp 1",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 100,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 2 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_1": {
+    "TenHienThi": "Sợi cấp 2",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 60,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 5 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_2": {
+    "TenHienThi": "Sợi cấp 3",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 20,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 10 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_3": {
+    "TenHienThi": "Sợi cấp 4",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 20 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_4": {
+    "TenHienThi": "Sợi cấp 5",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 40 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_5": {
+    "TenHienThi": "Sợi cấp 6",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 80 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_6": {
+    "TenHienThi": "Sợi cấp 7",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 160 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_7": {
+    "TenHienThi": "Sợi cấp 8",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 320 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_AG_8": {
+    "TenHienThi": "Sợi cấp 9",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện áo giáp, mỗi cuộn tăng 640 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_0": {
+    "TenHienThi": "Bột ngọc trai cấp 1",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 100,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 2 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_1": {
+    "TenHienThi": "Bột ngọc trai cấp 2",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 60,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 5 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_2": {
+    "TenHienThi": "Bột ngọc trai cấp 3",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 20,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 10 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_3": {
+    "TenHienThi": "Bột ngọc trai cấp 4",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 20 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_4": {
+    "TenHienThi": "Bột ngọc trai cấp 5",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 40 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_5": {
+    "TenHienThi": "Bột ngọc trai cấp 6",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 80 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_6": {
+    "TenHienThi": "Bột ngọc trai cấp 7",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 160 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_7": {
+    "TenHienThi": "Bột ngọc trai cấp 8",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 320 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_TinhLuyen_TS_8": {
+    "TenHienThi": "Bột ngọc trai cấp 9",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu tinh luyện trang sức, mỗi gói tăng 640 điểm tinh luyện",
+    "BanTrongShop": false
+  },
+  "VP_GaQuay": {
+    "TenHienThi": "Gà quay",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Hồi 8 sinh lực",
+    "BanTrongShop": false
+  },
+  "VP_KhiDan": {
+    "TenHienThi": "Hồi khí đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Hồi 8 khí lực",
+    "BanTrongShop": false
+  },
+  "VP_LuanKiemLenh": {
+    "TenHienThi": "Luận kiếm lệnh",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 15,
+    "HeSoRandom": 100,
+    "MoTa": "Cho phép đấu luận kiếm thêm 3 lần",
+    "BanTrongShop": false
+  },
+  "VP_TruyenCong2": {
+    "TenHienThi": "Truyền công linh dược",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 198,
+    "HeSoRandom": 20,
+    "MoTa": "Linh dược cao cấp dùng khi truyền công lực, giúp tăng hiệu suất truyền lên 100%",
+    "BanTrongShop": true
+  },
+  "VP_TruyenCong1": {
+    "TenHienThi": "Truyền công dược",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 28,
+    "HeSoRandom": 80,
+    "MoTa": "Linh dược dùng khi truyền công lực, hiệu suất truyền 80%",
+    "BanTrongShop": true
+  },
+  "VP_TruyenCong3": {
+    "TenHienThi": "Truyền công tiên dược",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 1400,
+    "HeSoRandom": 0,
+    "MoTa": "Tiên dược giúp bảo vệ đệ tử không bị hi sinh sau khi truyền công, hiệu suất truyền kinh nghiêm 100%",
+    "BanTrongShop": true
+  },
+  "VP_TruyenCong4": {
+    "TenHienThi": "Truyền công thần dược",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 2000,
+    "HeSoRandom": 0,
+    "MoTa": "Thần dược giúp bảo vệ đệ tử không bị hi sinh sau khi truyền công. Hoàn trả 80% số Bách niên sâm đệ tử đã dùng.",
+    "BanTrongShop": true
+  },
+  "VP_DoiTenMonPhai": {
+    "TenHienThi": "Lệnh bài đổi tên",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 300,
+    "MoTa": "Dùng để đổi tên môn phái.",
+    "BanTrongShop": true
+  },
+  "VP_BinhRuou": {
+    "TenHienThi": "Nữ nhi hồng",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 20,
+    "MoTa": "Rượu nấu bằng nhiều loại gạo khác nhau, men rượu bằng gạo hoặc lúa mạch, dùng để uống với cao nhân.",
+    "BanTrongShop": true
+  },
+  "VP_Loa": {
+    "TenHienThi": "Thiên lý truyền âm",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 10,
+    "MoTa": "Toàn thiên hạ có thể nghe thấy nếu dùng loa này.",
+    "BanTrongShop": true
+  },
+  "VP_BoiDuongDan": {
+    "TenHienThi": "Bồi dưỡng đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "MoTa": "Kích thích tiềm năng của đệ tử",
+    "BanTrongShop": false
+  },
+  "VP_ChanNguyen": {
+    "TenHienThi": "Chân nguyên",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "HeSoRandom": 0,
+    "MoTa": "Chân nguyên thu được ngẫu nhiên khi luyện khí thất bại",
+    "BanTrongShop": false
+  },
+  "VP_ThatTinhTran": {
+    "TenHienThi": "Thiên môn trận đồ",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng để mở một vị trí thiên môn trận cho môn phái",
+    "BanTrongShop": false
+  },
+  "VP_BeQuanQuyenTruc": {
+    "TenHienThi": "Bế quan quyển trục",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng để cho đệ tử bế quan, tu luyện kỹ năng đặc biệt",
+    "BanTrongShop": false
+  },
+  "VP_HuaNguyenBaoDiep": {
+    "TenHienThi": "Hứa nguyện bảo điệp",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng để hứa nguyện, thu thập tàn hồn của giáp cấp đệ tử có duyên",
+    "BanTrongShop": false
+  },
+  "VP_HacMocLenh": {
+    "TenHienThi": "Hắc Mộc Lệnh",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nhận được khi tham gia chiến đấu Hắc Mộc Nhai, dùng để tăng sức chiến đấu tại Hắc Mộc Nhai. Có thể tích lũy tối đa 20 cái.",
+    "BanTrongShop": false
+  },
+  "VP_HacMocRuong": {
+    "TenHienThi": "Hộp bảo Hắc Mộc",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Hắc Mộc Nhai có một hộp bảo, trong hộp có các loại bảo vật trân quý, gồm cả các võ công thần bí cao cấp.",
+    "BanTrongShop": false
+  },
+  "VP_TruTacBaoRuong": {
+    "TenHienThi": "Trừ Tặc Bảo Rương",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Đoạt được khi tham gia diệt trừ tặc khấu, trong hộp có các loại bảo vật trân quý, gồm cả các võ công thần bí cao cấp.",
+    "BanTrongShop": false
+  },
+  "VP_BanhChung": {
+    "TenHienThi": "Bánh Chưng",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Đặc sản truyền thống của dân tộc. Hồi phục 3 thể lực",
+    "BanTrongShop": false
+  },
+  "VP_BanhDay": {
+    "TenHienThi": "Bánh Dày",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Đặc sản truyền thống của dân tộc. Hồi phục 3 khí lực",
+    "BanTrongShop": false
+  },
+  "VP_RuouTrangNguyenHong": {
+    "TenHienThi": "Trạng nguyên hồng",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Rượu dùng để uống vào bạn bè. Vì rất nặng nên mỗi ngày chỉ uống được một số lần nhất định",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenHapHuyet": {
+    "TenHienThi": "Hấp Huyết thiết",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Hấp Huyết của vũ khí",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenPhaChan": {
+    "TenHienThi": "Phá Chấn thiết",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Phá Chấn của vũ khí",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenCangKhi": {
+    "TenHienThi": "Cang Khí thạch",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Cang Khí của áo giáp",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenPhanChan": {
+    "TenHienThi": "Phản Chấn thạch",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Phản Chấn của áo giáp",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenKhiHuyet": {
+    "TenHienThi": "Khí Huyết dịch",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Khí Huyết của trang sức",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenHoThe": {
+    "TenHienThi": "Hộ Thể dịch",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu dung luyện, làm tăng thuộc tính Hộ Thể của trang sức",
+    "BanTrongShop": false
+  },
+  "VP_DungLuyenHoTro": {
+    "TenHienThi": "Dung luyện hỏa diễm",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm đặc biệt giúp tăng xác suất dung luyện thành công, thu được từ phân rã trang bị giáp cấp và trang sức",
+    "BanTrongShop": false
+  },
+  "VP_CuuThienHuyenNgoc": {
+    "TenHienThi": "Thần long lệnh",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Lệnh bài do thần long giáo chủ phát ra, mục đích gây hỗn loạn võ lâm trung nguyên. Thu thập đủ thần long lệnh có thể mang đến Long đảo để đổi lấy vô số báu vật",
+    "BanTrongShop": false
+  },
+  "VP_HopBaoThieuLam": {
+    "TenHienThi": "Hộp bảo thiếu lâm",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Được cất giữ trong tàng kinh các của thiếu lâm, chứa vô số vật phẩm giá trị, có xác suất cực nhỏ chứa 'Dịch cân kinh'",
+    "BanTrongShop": false
+  },
+  "VP_LaRong": {
+    "TenHienThi": "Lá dong",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu gói bánh chưng",
+    "BanTrongShop": false
+  },
+  "VP_ThitMo": {
+    "TenHienThi": "Thịt mỡ",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu gói bánh chưng",
+    "BanTrongShop": false
+  },
+  "VP_GaoNep": {
+    "TenHienThi": "Gạo nếp",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu gói bánh chưng",
+    "BanTrongShop": false
+  },
+  "VP_EpDuyen": {
+    "TenHienThi": "Tẩy tủy đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 200,
+    "HeSoRandom": 0,
+    "MoTa": "Linh đơn diệu dược, có công dụng thoát thai hoán cốt - thay đổi duyên phận của đệ tử",
+    "BanTrongShop": false
+  },
+  "VP_Item_A": {
+    "TenHienThi": "Mảnh ghép A",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_C": {
+    "TenHienThi": "Mảnh ghép C",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_U": {
+    "TenHienThi": "Mảnh ghép U",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_D": {
+    "TenHienThi": "Mảnh ghép D",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_i": {
+    "TenHienThi": "Mảnh ghép I",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_M": {
+    "TenHienThi": "Mảnh ghép M",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_R": {
+    "TenHienThi": "Mảnh ghép R",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_Item_T": {
+    "TenHienThi": "Mảnh ghép T",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_ThiepNgayCuaCha": {
+    "TenHienThi": "Thiệp mừng",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm sự kiện",
+    "BanTrongShop": false
+  },
+  "VP_BoHuyetDan": {
+    "TenHienThi": "Bách niên sâm",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 200,
+    "HeSoRandom": 0,
+    "MoTa": "Thần dược trăm năm, có công dụng tăng cường khí huyết của đệ tử ( đệ tử không mất tiềm lực )",
+    "BanTrongShop": false
+  },
+  "VP_RuongHaiTac": {
+    "TenHienThi": "Quân lương",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 200,
+    "HeSoRandom": 0,
+    "MoTa": "Quân lương khai thác được trên các đảo. Chứa vô số vật phẩm có giá trị.",
+    "BanTrongShop": false,
+	"Dung10Lan": true
+  },
+  "VP_RuongMayMan": {
+    "TenHienThi": "Rương May Mắn",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 200,
+    "HeSoRandom": 0,
+    "MoTa": "Bảo rương chứa vô số vật phẩm có giá trị",
+    "BanTrongShop": false
+  },
+  "VP_ThuyChien_HoiMauOne": {
+    "TenHienThi": "Kim sang dược",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng trong Thủy chiến, giúp hồi đầy máu 1 đệ tử trên tàu.",
+    "BanTrongShop": false
+  },
+  "VP_ThuyChien_HoiMauAll": {
+    "TenHienThi": "Hồi huyết tán",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng trong Thủy chiến, giúp hồi đầy máu tất cả các đệ tử trên 1 tàu.",
+    "BanTrongShop": false
+  },
+  "VP_ThuyChien_TangHoaLuc": {
+    "TenHienThi": "Trọng pháo",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng trong Thủy chiến, tăng hỏa lực tàu thêm 100% ( cho đến khi hồi sinh )",
+    "BanTrongShop": false
+  },
+  "VP_ThuyChien_HoaMu": {
+    "TenHienThi": "Hỏa mù",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng trong Thủy chiến, tung hỏa mù khiến kẻ địch quên hết vị trí đã bắn",
+    "BanTrongShop": false
+  },
+  "VP_ThuyChien_DoTham": {
+    "TenHienThi": "Do thám",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Dùng trong Thủy chiến, giúp tìm ra vị trí của 1 tàu địch.",
+    "BanTrongShop": false
+  },
+  "VP_HoiDoBen": {
+    "TenHienThi": "Phục khí hoàn",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Hồi phục độ bền trong 'Lãnh hải'",
+    "BanTrongShop": false
+  },
+  "VP_HoangKim": {
+    "TenHienThi": "Hoàng Kim Tinh Phách",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Sử dụng tinh phách này vào một trang bị để lên cấp [fffe00]HOÀNG KIM[-] :\n-Tăng chỉ số cho trang bị\n-Duyên kích hoạt bởi trang bị sẽ được tăng gấp đôi",
+    "BanTrongShop": false
+  },
+  "VP_VoPhao": {
+    "TenHienThi": "Vỏ pháo",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu làm pháo - dùng để đốt gây tiếng vang, ăn mừng tết hoặc sự kiện lớn.",
+    "BanTrongShop": false
+  },
+  "VP_ThuocPhao": {
+    "TenHienThi": "Thuốc pháo",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu làm pháo - dùng để đốt gây tiếng vang, ăn mừng tết hoặc sự kiện lớn.",
+    "BanTrongShop": false
+  },
+  "VP_NgoiPhao": {
+    "TenHienThi": "Ngòi pháo",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Nguyên liệu làm pháo - dùng để đốt gây tiếng vang, ăn mừng tết hoặc sự kiện lớn.",
+    "BanTrongShop": false
+  },
+  "VP_CoVietNam": {
+    "TenHienThi": "Cờ Việt Nam",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+    "HeSoRandom": 0,
+    "MoTa": "Vật phẩm chào mừng quốc khánh 2-9",
+    "BanTrongShop": false
+  },
+  "VP_LongNguyen": {
+    "TenHienThi": "Long nguyên",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 10,
+    "MoTa": "Kích thích tiềm năng của Long châu",
+    "BanTrongShop": false
+  },
+  "VP_LongKhi": {
+    "TenHienThi": "Long khí",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 10,
+    "MoTa": "Vật phẩm duy trì Long châu",
+    "BanTrongShop": false
+  },
+  "VP_ChiaKhoaBatMon": {
+    "TenHienThi": "Chìa khóa bát môn",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 2000,
+    "HeSoRandom": 0,
+    "MoTa": "Chìa khóa bí ấn, giúp khai mở bát môn, gia tăng sức mạng của đệ tử",
+    "BanTrongShop": false
+  },
+  "VP_QuaDao": {
+    "TenHienThi": "Quả đào",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 10,
+	"HeSoRandom": 0,
+    "MoTa": "Một loại trái cây thơm ngon.",
+    "BanTrongShop": false
+  },
+  "VP_QuanLenh": {
+    "TenHienThi": "Quân lệnh",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Gia tăng sĩ khí cho các thành viên liên minh tham gia bang chiến",
+    "BanTrongShop": false
+  },
+  "VP_PhaQuanLenh": {
+    "TenHienThi": "Phá quân lệnh",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 0,
+    "HeSoRandom": 0,
+    "MoTa": "Giảm sĩ khí của liên minh đối thủ trong bang chiến",
+    "BanTrongShop": false
+  },
+  "VP_TinhThachHanThiet": {
+    "TenHienThi": "Tinh thạch hàn thiết",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 500,
+    "HeSoRandom": 0,
+    "MoTa": "Nâng cao phẩm chất, kích thích tiềm năng của Ám khí",
+    "BanTrongShop": false
+  },
+  "VP_ThienThach": {
+    "TenHienThi": "Thiên thạch",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 500,
+    "HeSoRandom": 0,
+    "MoTa": "Trăm năm khó tìm, nâng cao sức mạnh của Ám khí",
+    "BanTrongShop": false
+  },
+  "VP_LenhBaiVinhDu": {
+    "TenHienThi": "Lệnh bài vinh dự",
+    "LoaiStr": "LinhTinh",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Lệnh bài vinh danh khi xông phá Ngũ nhạc kiếm trận, có thể đổi Bí bảo trong Bí Bảo Các",
+    "BanTrongShop": false
+  },
+  "VP_TienDan": {
+    "TenHienThi": "Tiên đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Đan dược chí bảo của các môn phái. Tân đệ tự dưới cấp 150 khi phục dụng sẽ tăng cấp lên 150 ngay lập tức",
+    "BanTrongShop": false
+  },
+  "VP_ThanDan": {
+    "TenHienThi": "Thần đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Kích thích sức mạnh, gia tăng chỉ số của cả môn phái trong 3 trận chiến giang hồ liên tiếp",
+    "BanTrongShop": false
+  },
+  "VP_TanDan": {
+    "TenHienThi": "Tân đan",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Chứa kinh nghiệm truyền thừa của nhiều đời chưởng môn. Tân chưởng môn dưới cấp 30 khi phục dụng sẽ lên cấp 30 ngay lập tức",
+    "BanTrongShop": false
+  },
+  "VP_BitTat": {
+    "TenHienThi": "Bít tất",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Món quà bí ẩn của 1 cao nhân áo đỏ leo ống khói, chứa nhiều phần quà bất ngờ",
+    "BanTrongShop": false,
+	"Dung10Lan": true
+  },
+  "VP_BaoRuong": {
+    "TenHienThi": "Bảo rương",
+    "LoaiStr": "TieuDung",
+    "GiaVang": 100,
+	"HeSoRandom": 0,
+    "MoTa": "Một chiếc rương thần bí xuất hiện trên Ngũ nhạc sơn, mở ra có thể nhận 1 trang bị Giáp cấp bất kỳ",
+    "BanTrongShop": false
+  }
+}

@@ -1,0 +1,344 @@
+{
+    "CK_HuyThien": {
+        "TenHienThi": "Hủy Thiên",
+        "MoTa": "Công Kích +110",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 110,
+        "TangTruong": 110,
+        "HeSoRandom": 0
+    },
+	"CK_HoThien": {
+        "TenHienThi": "Hộ Thiên",
+        "MoTa": "Phòng Thủ +90",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Thu",
+        "CoSo": 90,
+        "TangTruong": 90,
+        "HeSoRandom": 0
+    },
+	"CK_VanThien": {
+        "TenHienThi": "Vạn Thiên",
+        "MoTa": "Nội công +100",
+        "Hang": 1,
+        "LoaiPhuTroStr": "NoiLuc",
+        "CoSo": 100,
+        "TangTruong": 100,
+        "HeSoRandom": 0,
+        "GiaChanNguyen": 90
+    },
+    "CK_TeThien": {
+        "TenHienThi": "Tề Thiên",
+        "MoTa": "Máu +200",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Mau",
+        "CoSo": 200,
+        "TangTruong": 200,
+        "HeSoRandom": 0,
+        "GiaChanNguyen": 60
+    },
+    "CK_VoThuong": {
+        "TenHienThi": "Vô Thương",
+        "MoTa": "Phòng Thủ +50",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Thu",
+        "CoSo": 50,
+        "TangTruong": 50,
+        "HeSoRandom": 0
+    },
+    "CK_BatPha": {
+        "TenHienThi": "Bất Phá",
+        "MoTa": "Phòng Thủ +30",
+        "Hang": 2,
+        "LoaiPhuTroStr": "Thu",
+        "CoSo": 30,
+        "TangTruong": 30,
+        "HeSoRandom": 0,
+		"GiaChanNguyen": 120
+    },
+    "CK_ThanHo": {
+        "TenHienThi": "Thần Hộ",
+        "MoTa": "Phản Kích +15",
+        "Hang": 1,
+        "LoaiPhuTroStr": "PhanKich",
+        "CoSo": 15,
+        "TangTruong": 15,
+        "HeSoRandom": 0,
+        "GiaChanNguyen": 45
+    },
+    "CK_TramLong": {
+        "TenHienThi": "Trảm Long",
+        "MoTa": "Phá Phản +18",
+        "Hang": 1,
+        "LoaiPhuTroStr": "PhaPhan",
+        "CoSo": 18,
+        "TangTruong": 18,
+        "HeSoRandom": 0,
+        "GiaChanNguyen": 45
+    },
+    "CK_ThienCo": {
+        "TenHienThi": "Thiên Cổ",
+        "MoTa": "Máu +100",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Mau",
+        "CoSo": 100,
+        "TangTruong": 100,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 30
+    },
+    "CK_DietThe": {
+        "TenHienThi": "Diệt Thế",
+        "MoTa": "Công kích +50",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 50,
+        "TangTruong": 50,
+        "HeSoRandom": 20,
+        "GiaChanNguyen": 30
+    },
+    "CK_VoCuc": {
+        "TenHienThi": "Vô Cực",
+        "MoTa": "Nội công +50",
+        "Hang": 1,
+        "LoaiPhuTroStr": "NoiLuc",
+        "CoSo": 50,
+        "TangTruong": 50,
+        "HeSoRandom": 20,
+        "GiaChanNguyen": 30
+    },
+    "CK_HuyenBien": {
+        "TenHienThi": "Huyền Biến",
+        "MoTa": "Né +15",
+        "Hang": 1,
+        "LoaiPhuTroStr": "TranhNe",
+        "CoSo": 15,
+        "TangTruong": 15,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 30
+    },
+    "CK_PhanNhat": {
+        "TenHienThi": "Phần Nhật",
+        "MoTa": "Bạo kích +15",
+        "Hang": 1,
+        "LoaiPhuTroStr": "BaoKich",
+        "CoSo": 15,
+        "TangTruong": 15,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 30
+    },
+    "CK_LuocHong": {
+        "TenHienThi": "Lược Hồng",
+        "MoTa": "Phòng bạo +18",
+        "Hang": 1,
+        "LoaiPhuTroStr": "PhongBao",
+        "CoSo": 18,
+        "TangTruong": 18,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 30
+    },
+    "CK_ThanNhan": {
+        "TenHienThi": "Thần Nhãn",
+        "MoTa": "Chính xác +18",
+        "Hang": 1,
+        "LoaiPhuTroStr": "ChinhXac",
+        "CoSo": 18,
+        "TangTruong": 18,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 30
+    },
+    "CK_BatTu": {
+        "TenHienThi": "Bất Tử",
+        "MoTa": "Máu +75",
+        "Hang": 2,
+        "LoaiPhuTroStr": "Mau",
+        "CoSo": 75,
+        "TangTruong": 75,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_CucVu": {
+        "TenHienThi": "Cực Vũ",
+        "MoTa": "Công kích +35",
+        "Hang": 2,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 35,
+        "TangTruong": 35,
+        "HeSoRandom": 20,
+        "GiaChanNguyen": 5
+    },
+    "CK_NhiepHon": {
+        "TenHienThi": "Nhiếp hồn",
+        "MoTa": "Nội công +35",
+        "Hang": 2,
+        "LoaiPhuTroStr": "NoiLuc",
+        "CoSo": 35,
+        "TangTruong": 35,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_MeTung": {
+        "TenHienThi": "Mê Tung",
+        "MoTa": "Né +10",
+        "Hang": 2,
+        "LoaiPhuTroStr": "TranhNe",
+        "CoSo": 10,
+        "TangTruong": 10,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_ChanDia": {
+        "TenHienThi": "Chấn địa",
+        "MoTa": "Bạo kích +10",
+        "Hang": 2,
+        "LoaiPhuTroStr": "BaoKich",
+        "CoSo": 10,
+        "TangTruong": 10,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_LangYen": {
+        "TenHienThi": "Lăng Yên",
+        "MoTa": "Phòng bạo +12",
+        "Hang": 2,
+        "LoaiPhuTroStr": "PhongBao",
+        "CoSo": 12,
+        "TangTruong": 12,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_DoatLinh": {
+        "TenHienThi": "Đoạt Linh",
+        "MoTa": "Chính xác +12",
+        "Hang": 2,
+        "LoaiPhuTroStr": "ChinhXac",
+        "CoSo": 12,
+        "TangTruong": 12,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_ThuTam": {
+        "TenHienThi": "Thủ Tâm",
+        "MoTa": "Phản +10",
+        "Hang": 2,
+        "LoaiPhuTroStr": "PhanKich",
+        "CoSo": 10,
+        "TangTruong": 10,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_TranHai": {
+        "TenHienThi": "Trấn Hải",
+        "MoTa": "Phá phản +12",
+        "Hang": 2,
+        "LoaiPhuTroStr": "PhaPhan",
+        "CoSo": 12,
+        "TangTruong": 12,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 5
+    },
+    "CK_KhaiSon": {
+        "TenHienThi": "Khai Sơn",
+        "MoTa": "Công kích +25",
+        "Hang": 3,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 25,
+        "TangTruong": 25,
+        "HeSoRandom": 20,
+        "GiaChanNguyen": 1
+    },
+    "CK_KimCuong": {
+        "TenHienThi": "Kim Cương",
+        "MoTa": "Phòng thủ +20",
+        "Hang": 3,
+        "LoaiPhuTroStr": "Thu",
+        "CoSo": 20,
+        "TangTruong": 20,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 1
+    },
+    "CK_ThanhTam": {
+        "TenHienThi": "Thanh Tâm",
+        "MoTa": "Nội công +25",
+        "Hang": 3,
+        "LoaiPhuTroStr": "NoiLuc",
+        "CoSo": 25,
+        "TangTruong": 25,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 1
+    },
+    "CK_AnhDon": {
+        "TenHienThi": "Ảnh Độn",
+        "MoTa": "Né +5",
+        "Hang": 3,
+        "LoaiPhuTroStr": "TranhNe",
+        "CoSo": 5,
+        "TangTruong": 5,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 1
+    },
+    "CK_NoDiem": {
+        "TenHienThi": "Nộ Diễm",
+        "MoTa": "Bạo kích +5",
+        "Hang": 3,
+        "LoaiPhuTroStr": "BaoKich",
+        "CoSo": 5,
+        "TangTruong": 5,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 1
+    },
+    "CK_TruyHon": {
+        "TenHienThi": "Truy Hồn",
+        "MoTa": "Chính xác +6",
+        "Hang": 3,
+        "LoaiPhuTroStr": "ChinhXac",
+        "CoSo": 6,
+        "TangTruong": 6,
+        "HeSoRandom": 10,
+        "GiaChanNguyen": 1
+    },
+    "CK_PhaQuan": {
+        "TenHienThi": "Phá Quân",
+        "MoTa": "Công kích +15",
+        "Hang": 4,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 15,
+        "HeSoRandom": 20,
+        "TangTruong": 15
+    },
+    "CK_NgungMach": {
+        "TenHienThi": "Ngưng mạch",
+        "MoTa": "Nội công +15",
+        "Hang": 4,
+        "LoaiPhuTroStr": "NoiLuc",
+        "CoSo": 15,
+        "HeSoRandom": 10,
+        "TangTruong": 15
+    },
+    "CK_ThietCot": {
+        "TenHienThi": "Thiết Cốt",
+        "MoTa": "Phòng thủ +10",
+        "Hang": 4,
+        "LoaiPhuTroStr": "Thu",
+        "CoSo": 10,
+        "HeSoRandom": 10,
+        "TangTruong": 10
+    },
+    "CK_DiHinh": {
+        "TenHienThi": "Di hình",
+        "MoTa": "Né +3",
+        "Hang": 4,
+        "LoaiPhuTroStr": "TranhNe",
+        "CoSo": 3,
+        "HeSoRandom": 10,
+        "TangTruong": 3
+    },
+    "CK_SongThuocTinh": {
+        "TenHienThi": "Vô Song",
+        "MoTa": "",
+        "Hang": 1,
+        "LoaiPhuTroStr": "Cong",
+        "CoSo": 1,
+        "HeSoRandom": 0,
+        "TangTruong": 1
+    }
+}

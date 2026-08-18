@@ -1,0 +1,18 @@
+VoCong.txt
+	- LoaiStr : "DonThe", "DaThe", "PhuTro"
+	- LoaiPhuTroStr : "Mau", "Cong", "Thu", "NoiLuc", "BaoKich","PhongBao","ChinhXac","TranhNe","PhanKich","PhaPhan"
+	
+NhanVat.txt
+	- LoaiDuyenPhanStr : "TrangBiDo", "TrangBiVoCong", "CungDoi"
+	- LoaiPhuTroStr : ( Giong VoCong.txt )
+	- LoaiXuatThanStr : "BaoKich","PhongBao","ChinhXac","TranhNe","PhanKich","PhaPhan"
+	
+VatPhamTieuThu.txt
+
+	- LoaiStr : "Le", "GoiVatPham"
+	
+ChanKhi.txt
+	- LoaiPhuTroStr : "Mau", "Cong", "Thu", "NoiLuc", "BaoKich","PhongBao","ChinhXac","TranhNe","PhanKich","PhaPhan"
+	
+	
+	
