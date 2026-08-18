@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070a10">
+  <title>Đại Minh Chủ — Effect Lab</title>
+  <link rel="stylesheet" href="./web/style.css">
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand"><b>DMC</b><div><h1>Effect Lab</h1><span>Unity 4.7.2 effect viewer</span></div></div>
+    <div class="notice"><i></i><span id="catalogSource">Manifest tĩnh — không dùng GitHub API runtime</span></div>
+    <div class="search"><input id="searchInput" placeholder="Tìm effect / skill..."><em id="effectCount">0</em></div>
+    <div id="effectList" class="effect-list"></div>
+  </aside>
+
+  <main class="main">
+    <header>
+      <div class="title"><small>ĐANG XEM</small><strong id="currentName">Đang khởi tạo…</strong><span id="currentMeta">Tự load effect đầu tiên</span></div>
+      <div class="buttons"><button id="playPauseBtn">⏸ Pause</button><button id="restartBtn">↺ Restart</button><button id="focusBtn">⌖ Focus</button></div>
+    </header>
+
+    <section id="viewer" class="viewer">
+      <canvas id="sceneCanvas"></canvas>
+      <div id="emptyState" class="empty"><div class="orb"></div><h2>Đang dựng effect…</h2><p>FBX ưu tiên, OBJ fallback, texture atlas gốc.</p></div>
+      <div id="loading" class="loading hidden"><span class="spinner"></span><div><b id="loadingTitle">Đang tải…</b><small id="loadingDetail"></small></div></div>
+      <div id="errorBox" class="error hidden"></div>
+      <div class="hud"><span>FPS <b id="fps">--</b></span><span>LAYERS <b id="layerCount">0</b></span><span>MESHES <b id="meshCount">0</b></span><span>ANIMS <b id="animCount">0</b></span></div>
+    </section>
+
+    <section class="controls">
+      <label>Tốc độ <output id="speedValue">1.00×</output><input id="speedRange" type="range" min="0" max="3" step="0.05" value="1"></label>
+      <label>Layer<select id="displayMode"><option value="composite">Composite — ghép tất cả</option><option value="sequence">Sequence — từng layer</option></select></label>
+      <label>Blending<select id="blendSelect"><option value="additive">Additive</option><option value="normal">Normal alpha</option><option value="multiply">Multiply</option></select></label>
+      <label class="check"><input id="transparentToggle" type="checkbox" checked> Transparent</label>
+      <label class="check"><input id="depthWriteToggle" type="checkbox"> Depth write</label>
+      <label class="check"><input id="autoRotateToggle" type="checkbox"> Auto rotate</label>
+      <label class="check"><input id="gridToggle" type="checkbox"> Grid</label>
+    </section>
+    <footer><span id="statusText">Khởi tạo…</span><span>Kéo chuột: xoay · Wheel: zoom · Chuột phải: pan</span></footer>
+  </main>
+</div>
+
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
+<script type="module" src="./web/app.js"></script>
+</body>
+</html>
