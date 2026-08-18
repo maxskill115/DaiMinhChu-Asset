@@ -1,8 +1,5 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
-import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
-
+(() => {
+'use strict';
 const REPO='maxskill115/DaiMinhChu-Asset';
 const BRANCH='main';
 const RAW=`https://raw.githubusercontent.com/${REPO}/${BRANCH}/`;
@@ -11,62 +8,52 @@ const ui={canvas:$('sceneCanvas'),viewer:$('viewer'),list:$('effectList'),search
 
 const seed={effects:[
 {id:'am-nhien-tieu-hon-chuong',name:'AmNhienTieuHonChuong',label:'Âm Nhiên Tiêu Hồn Chưởng',defaultMode:'composite',layers:[
-['AmNhienTieuHonChuong_01','Skills_C12_2.png'],['AmNhienTieuHonChuong_02','Skills_C12_2.png'],['AmNhienTieuHonChuong_03','Skills_C12_2.png'],['AmNhienTieuHonChuong_04','Skills_C12_1.png'],['AmNhienTieuHonChuong_05','Skills_C12_2.png']].map(([name,tex])=>({name,fbx:`Tài Nguyên Giải nén/Animator/${name}/${name}.fbx`,obj:`Tài Nguyên Giải nén/Mesh/${name}.obj`,texture:`Tài Nguyên Giải nén/Animator/${name}/${tex}`}))},
-{id:'attack',name:'Attack',label:'Attack',defaultMode:'composite',layers:Array.from({length:6},(_,i)=>{const name=`Attack_${String(i+1).padStart(2,'0')}`;return{name,fbx:`Tài Nguyên Giải nén/Animator/${name}/${name}.fbx`,obj:`Tài Nguyên Giải nén/Mesh/${name}.obj`,texture:`Tài Nguyên Giải nén/Animator/${name}/Skills_C34_1.png`}})}
+['AmNhienTieuHonChuong_01','Skills_C12_2.png'],['AmNhienTieuHonChuong_02','Skills_C12_2.png'],['AmNhienTieuHonChuong_03','Skills_C12_2.png'],['AmNhienTieuHonChuong_04','Skills_C12_1.png'],['AmNhienTieuHonChuong_05','Skills_C12_2.png']].map(([name,tex])=>({name,obj:`Tài Nguyên Giải nén/Mesh/${name}.obj`,texture:`Tài Nguyên Giải nén/Animator/${name}/${tex}`}))},
+{id:'attack',name:'Attack',label:'Attack',defaultMode:'composite',layers:Array.from({length:6},(_,i)=>{const name=`Attack_${String(i+1).padStart(2,'0')}`;return{name,obj:`Tài Nguyên Giải nén/Mesh/${name}.obj`,texture:`Tài Nguyên Giải nén/Animator/${name}/Skills_C34_1.png`}})}
 ]};
+
+const ctx=ui.canvas.getContext('2d',{alpha:false,desynchronized:true});
+let catalog=[],current=null,layers=[],token=0,playing=true,seqIndex=0,seqTime=0,zoom=1,panX=0,panY=0,drag=false,lastX=0,lastY=0,startedAt=performance.now(),lastFrame=performance.now(),frames=0,fpsAt=performance.now();
+const imageCache=new Map();
 
 const enc=p=>p.split('/').map(encodeURIComponent).join('/');
 const raw=p=>RAW+enc(p);
+const relative=p=>'./'+enc(p);
+const primaryUrl=p=>(location.protocol==='http:'||location.protocol==='https:')?relative(p):raw(p);
+const urls=p=>{const a=primaryUrl(p),b=raw(p);return a===b?[a]:[a,b]};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const human=s=>String(s).replaceAll('_',' ').replace(/([a-z0-9])([A-Z])/g,'$1 $2');
 
-const renderer=new THREE.WebGLRenderer({canvas:ui.canvas,antialias:true,powerPreference:'high-performance'});
-renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
-renderer.outputColorSpace=THREE.SRGBColorSpace;
-renderer.setClearColor(0x05070c,1);
-const scene=new THREE.Scene();scene.background=new THREE.Color(0x05070c);
-const camera=new THREE.PerspectiveCamera(42,1,.001,2000);camera.position.set(0,0,3.5);
-const controls=new OrbitControls(camera,ui.canvas);controls.enableDamping=true;controls.dampingFactor=.07;
-scene.add(new THREE.HemisphereLight(0xffffff,0x223044,1.2));
-const grid=new THREE.GridHelper(8,16,0x33405a,0x18202d);grid.rotation.x=Math.PI/2;grid.visible=false;scene.add(grid);
-const clock=new THREE.Clock();
-
-let catalog=[],current=null,root=null,layers=[],mixers=[],token=0,playing=true,seqIndex=0,seqTime=0,frames=0,fpsAt=performance.now();
-const textureCache=new Map();
-
-function message(text){ui.status.textContent=text}
-function error(text=''){ui.error.textContent=text;ui.error.classList.toggle('hidden',!text)}
+function message(t){ui.status.textContent=t}
+function error(t=''){ui.error.textContent=t;ui.error.classList.toggle('hidden',!t)}
 function loading(show,title='Đang tải…',detail=''){ui.loading.classList.toggle('hidden',!show);ui.loadingTitle.textContent=title;ui.loadingDetail.textContent=detail}
 function normalize(data){if(!data||!Array.isArray(data.effects))throw new Error('manifest không hợp lệ');return data.effects.filter(x=>Array.isArray(x.layers)&&x.layers.length).map(x=>({...x,id:x.id||x.name,label:x.label||human(x.name),defaultMode:x.defaultMode||'composite'}))}
-
 function visibleCatalog(){const q=ui.search.value.trim().toLowerCase();return q?catalog.filter(x=>`${x.label} ${x.name}`.toLowerCase().includes(q)):catalog}
 function renderCatalog(){const items=visibleCatalog();ui.count.textContent=items.length;ui.list.innerHTML='';if(!items.length){ui.list.innerHTML='<div class="catalog-empty">Không có effect khớp tìm kiếm.</div>';return}for(const item of items){const b=document.createElement('button');b.className='effect-item'+(current?.id===item.id?' active':'');b.innerHTML=`<span class="icon">✦</span><span><strong>${esc(item.label)}</strong><small>${item.layers.length} layer · ${esc(item.name)}</small></span><em>FX</em>`;b.onclick=()=>loadEffect(item);ui.list.appendChild(b)}}
 
-async function loadCatalog(){loading(true,'Đang đọc manifest…','effects-manifest.json');error('');let data;try{const r=await fetch('./effects-manifest.json',{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);data=await r.json();catalog=normalize(data);ui.catalogSource.textContent=`Manifest tĩnh · ${catalog.length} nhóm effect`}catch(e){console.warn(e);catalog=normalize(seed);ui.catalogSource.textContent=`Fallback nhúng sẵn · ${catalog.length} nhóm effect`}renderCatalog();loading(false);message(`Sẵn sàng: ${catalog.length} nhóm effect. Không dùng GitHub API runtime.`);if(!current&&catalog[0])loadEffect(catalog[0])}
+async function fetchText(path){let last;for(const u of urls(path)){try{const r=await fetch(u,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);return await r.text()}catch(e){last=e}}throw last||new Error('fetch thất bại')}
+function loadImage(path){if(imageCache.has(path))return imageCache.get(path);const p=new Promise(async(resolve,reject)=>{let last;for(const u of urls(path)){try{const img=new Image();img.crossOrigin='anonymous';const done=new Promise((res,rej)=>{img.onload=()=>res(img);img.onerror=()=>rej(new Error(`Không tải được ảnh: ${u}`))});img.src=u;resolve(await done);return}catch(e){last=e}}reject(last||new Error('Không tải được texture'))});imageCache.set(path,p);return p}
 
-function disposeMaterial(m){if(Array.isArray(m))m.forEach(x=>x?.dispose?.());else m?.dispose?.()}
-function clear(){for(const x of mixers){try{x.mixer.stopAllAction();x.mixer.uncacheRoot(x.obj)}catch{}}mixers=[];if(root){scene.remove(root);root.traverse(o=>{o.geometry?.dispose?.();disposeMaterial(o.material)})}root=null;layers=[];seqIndex=0;seqTime=0;ui.layerCount.textContent='0';ui.meshCount.textContent='0';ui.animCount.textContent='0'}
+function parseObj(text){const vs=[],vts=[];for(const line of text.split(/\r?\n/)){const a=line.trim().split(/\s+/);if(a[0]==='v'&&a.length>=3)vs.push([+a[1],+a[2],+(a[3]||0)]);else if(a[0]==='vt'&&a.length>=3)vts.push([+a[1],+a[2]])}if(!vs.length||!vts.length)throw new Error('OBJ thiếu vertex/UV');const xs=vs.map(v=>v[0]),ys=vs.map(v=>v[1]),us=vts.map(v=>v[0]),vv=vts.map(v=>v[1]);return{width:Math.max(...xs)-Math.min(...xs),height:Math.max(...ys)-Math.min(...ys),umin:Math.min(...us),umax:Math.max(...us),vmin:Math.min(...vv),vmax:Math.max(...vv),vertices:vs.length,uvs:vts.length}}
 
-function loadTexture(path){if(!path)return Promise.resolve(null);if(!textureCache.has(path)){textureCache.set(path,new Promise((resolve,reject)=>{new THREE.TextureLoader().load(raw(path),t=>{t.colorSpace=THREE.SRGBColorSpace;t.flipY=true;t.needsUpdate=true;resolve(t)},undefined,reject)}))}return textureCache.get(path)}
-function blend(){return ui.blend.value==='normal'?THREE.NormalBlending:ui.blend.value==='multiply'?THREE.MultiplyBlending:THREE.AdditiveBlending}
-function meshCount(obj){let n=0;obj?.traverse?.(o=>{if(o.isMesh)n++});return n}
-function paint(obj,texture){let n=0;obj.traverse(o=>{if(!o.isMesh)return;n++;disposeMaterial(o.material);const map=texture?texture.clone():null;if(map){map.colorSpace=THREE.SRGBColorSpace;map.needsUpdate=true}o.material=new THREE.MeshBasicMaterial({map,color:0xffffff,transparent:ui.transparent.checked,depthWrite:ui.depthWrite.checked,depthTest:true,side:THREE.DoubleSide,blending:blend(),toneMapped:false});o.frustumCulled=false});return n}
+async function loadLayer(meta,my){const [objText,img]=await Promise.all([fetchText(meta.obj),loadImage(meta.texture)]);if(my!==token)return null;const mesh=parseObj(objText);return{...meta,mesh,img}}
 
-function fbx(path,texture){return new Promise((resolve,reject)=>{const m=new THREE.LoadingManager();const tex=texture?raw(texture):null;m.setURLModifier(url=>tex&&(/\.(png|jpe?g|tga|bmp|dds)(?:$|[?#])/i.test(url)||/skills_/i.test(url))?tex:url);new FBXLoader(m).load(raw(path),resolve,undefined,reject)})}
-function obj(path){return new Promise((resolve,reject)=>new OBJLoader().load(raw(path),resolve,undefined,reject))}
+async function loadCatalog(){loading(true,'Đang đọc effect…','effects-manifest.json');error('');let data;try{const r=await fetch('./effects-manifest.json',{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);data=await r.json();catalog=normalize(data);ui.catalogSource.textContent=`Canvas2D · manifest tĩnh · ${catalog.length} nhóm`}catch(e){console.warn('manifest fallback',e);catalog=normalize(seed);ui.catalogSource.textContent=`Canvas2D · fallback nhúng sẵn · ${catalog.length} nhóm`}renderCatalog();loading(false);message(`Sẵn sàng: ${catalog.length} nhóm effect. Renderer không phụ thuộc CDN.`);if(catalog[0])loadEffect(catalog[0])}
 
-async function loadLayer(layer,index,myToken){const tex=await loadTexture(layer.texture).catch(e=>{console.warn('texture lỗi',layer.texture,e);return null});if(myToken!==token)return null;let o=null,source='FBX',anim=0;try{if(layer.fbx){o=await fbx(layer.fbx,layer.texture);anim=o.animations?.length||0;if(meshCount(o)===0)o=null}}catch(e){console.warn('FBX lỗi, fallback OBJ',layer.name,e);o=null}if(!o&&layer.obj){source='OBJ';o=await obj(layer.obj)}if(!o)throw new Error(`${layer.name}: không load được FBX/OBJ`);if(myToken!==token)return null;o.name=layer.name;o.position.z+=index*.0005;const meshes=paint(o,tex);const local=[];if(source==='FBX'&&anim){const mixer=new THREE.AnimationMixer(o);for(const clip of o.animations)mixer.clipAction(clip).reset().play();local.push({mixer,obj:o})}return{root:o,source,meshes,anim,mixers:local}}
+async function loadEffect(effect){const my=++token;current=effect;layers=[];seqIndex=0;seqTime=0;zoom=1;panX=panY=0;renderCatalog();error('');ui.empty.classList.add('hidden');ui.currentName.textContent=effect.label;ui.currentMeta.textContent=`${effect.layers.length} layer · Canvas2D atlas renderer`;ui.mode.value=effect.defaultMode||'composite';loading(true,`Đang dựng ${effect.label}`,'Đọc OBJ + PNG atlas…');message(`Đang tải ${effect.layers.length} layer…`);let failed=[];for(let i=0;i<effect.layers.length;i++){const m=effect.layers[i];ui.loadingDetail.textContent=`${i+1}/${effect.layers.length} · ${m.name}`;try{const x=await loadLayer(m,my);if(my!==token)return;if(x)layers.push(x)}catch(e){console.error(m.name,e);failed.push(`${m.name}: ${e.message}`)}}if(my!==token)return;ui.layerCount.textContent=layers.length;ui.meshCount.textContent=layers.length;ui.animCount.textContent='0';loading(false);if(!layers.length){error(`Không tải được layer nào. ${failed.join(' | ')}`);message('Load effect thất bại — xem lỗi màu đỏ.');return}if(failed.length)error(`Có ${failed.length} layer lỗi: ${failed.join(' | ')}`);ui.currentMeta.textContent=`${layers.length}/${effect.layers.length} layer · OBJ UV + PNG atlas`;message(`Đã dựng ${effect.label}: ${layers.length} layer. Đây là preview texture/mesh; animation gốc sẽ reverse ở bước sau.`);restart()}
 
-function fit(obj){const box=new THREE.Box3().setFromObject(obj);if(box.isEmpty()){camera.position.set(0,0,3.5);controls.target.set(0,0,0);controls.update();return}const s=box.getBoundingSphere(new THREE.Sphere()),r=Math.max(s.radius,.08),f=THREE.MathUtils.degToRad(camera.fov),d=Math.max((r/Math.sin(f/2))*1.7,.8);controls.target.copy(s.center);camera.position.copy(s.center).add(new THREE.Vector3(0,.1,1).normalize().multiplyScalar(d));camera.near=Math.max(d/1000,.001);camera.far=Math.max(d*100,100);camera.updateProjectionMatrix();controls.update()}
-function applyVisibility(){layers.forEach((x,i)=>x.root.visible=ui.mode.value==='composite'||i===seqIndex)}
-function refreshMaterials(){for(const x of layers)x.root.traverse(o=>{if(!o.isMesh)return;const mats=Array.isArray(o.material)?o.material:[o.material];for(const m of mats){if(!m)continue;m.transparent=ui.transparent.checked;m.depthWrite=ui.depthWrite.checked;m.blending=blend();m.needsUpdate=true}})}
-
-async function loadEffect(effect){const my=++token;current=effect;renderCatalog();error('');clear();ui.empty.classList.add('hidden');ui.currentName.textContent=effect.label;ui.currentMeta.textContent=`${effect.layers.length} layer · FBX → OBJ fallback`;ui.mode.value=effect.defaultMode||'composite';loading(true,`Đang dựng ${effect.label}`,'Chuẩn bị layer…');message(`Đang tải ${effect.layers.length} layer…`);const group=new THREE.Group();let meshes=0,anims=0,fbxN=0,objN=0;try{for(let i=0;i<effect.layers.length;i++){const l=effect.layers[i];ui.loadingDetail.textContent=`${i+1}/${effect.layers.length} · ${l.name}`;const x=await loadLayer(l,i,my);if(my!==token)return;if(!x)continue;group.add(x.root);layers.push(x);mixers.push(...x.mixers);meshes+=x.meshes;anims+=x.anim;if(x.source==='FBX')fbxN++;else objN++}if(!layers.length)throw new Error('Không layer nào load thành công');root=group;scene.add(group);ui.layerCount.textContent=layers.length;ui.meshCount.textContent=meshes;ui.animCount.textContent=anims;ui.currentMeta.textContent=`${layers.length} layer · ${fbxN} FBX · ${objN} OBJ fallback · ${meshes} mesh`;seqIndex=0;seqTime=0;applyVisibility();fit(group);message(`Đã dựng ${effect.label}: ${layers.length} layer, ${meshes} mesh, ${anims} animation clip.`)}catch(e){console.error(e);if(my===token){error(`Không thể dựng “${effect.label}”: ${e.message}`);message('Load effect thất bại.')}}finally{if(my===token)loading(false)}}
-
+function resize(){const r=ui.viewer.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2),w=Math.max(1,Math.round(r.width*dpr)),h=Math.max(1,Math.round(r.height*dpr));if(ui.canvas.width!==w||ui.canvas.height!==h){ui.canvas.width=w;ui.canvas.height=h;ui.canvas.style.width=r.width+'px';ui.canvas.style.height=r.height+'px'}}
+function drawGrid(w,h,dpr){ctx.save();ctx.strokeStyle='rgba(120,150,190,.10)';ctx.lineWidth=dpr;const step=50*dpr;for(let x=w/2%step;x<w;x+=step){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke()}for(let y=h/2%step;y<h;y+=step){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke()}ctx.restore()}
+function maxMeshDim(){let m=.01;for(const l of layers)m=Math.max(m,l.mesh.width,l.mesh.height);return m}
+function blendMode(){return ui.blend.value==='multiply'?'multiply':ui.blend.value==='normal'?'source-over':'lighter'}
+function render(now){resize();const w=ui.canvas.width,h=ui.canvas.height,dpr=Math.min(devicePixelRatio||1,2);ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;const g=ctx.createRadialGradient(w*.5,h*.48,0,w*.5,h*.48,Math.max(w,h)*.7);g.addColorStop(0,'#0d1524');g.addColorStop(1,'#05070c');ctx.fillStyle=g;ctx.fillRect(0,0,w,h);if(ui.gridToggle.checked)drawGrid(w,h,dpr);if(!layers.length)return;const mode=ui.mode.value,base=Math.min(w,h)*.58/maxMeshDim()*zoom;const t=(now-startedAt)/1000;ctx.save();ctx.translate(w/2+panX*dpr,h/2+panY*dpr);if(ui.autoRotate.checked&&playing)ctx.rotate(t*.35);ctx.globalCompositeOperation=blendMode();for(let i=0;i<layers.length;i++){if(mode==='sequence'&&i!==seqIndex)continue;const l=layers[i],m=l.mesh,img=l.img;const sx=m.umin*img.naturalWidth,sw=Math.max(1,(m.umax-m.umin)*img.naturalWidth),sy=(1-m.vmax)*img.naturalHeight,sh=Math.max(1,(m.vmax-m.vmin)*img.naturalHeight);let dw=Math.max(2,m.width*base),dh=Math.max(2,m.height*base);const pulse=playing?1+Math.sin(t*3+i*.9)*.015:1;dw*=pulse;dh*=pulse;ctx.save();ctx.globalAlpha=ui.transparent.checked?(0.92+0.08*Math.sin(t*2+i)) : 1;ctx.drawImage(img,sx,sy,sw,sh,-dw/2,-dh/2,dw,dh);ctx.restore()}ctx.restore()}
+function animate(now){requestAnimationFrame(animate);const dt=Math.min((now-lastFrame)/1000,.1);lastFrame=now;if(playing&&ui.mode.value==='sequence'&&layers.length>1){seqTime+=dt*Math.max(0,+ui.speed.value);if(seqTime>=.12){seqTime%=.12;seqIndex=(seqIndex+1)%layers.length}}render(now);frames++;const span=now-fpsAt;if(span>=700){ui.fps.textContent=Math.round(frames*1000/span);frames=0;fpsAt=now}}
 function togglePlay(){playing=!playing;ui.play.textContent=playing?'⏸ Pause':'▶ Play';message(playing?'Effect đang chạy.':'Effect đã tạm dừng.')}
-function restart(){seqIndex=0;seqTime=0;for(const x of mixers){x.mixer.stopAllAction();for(const c of x.obj.animations||[])x.mixer.clipAction(c).reset().play()}playing=true;ui.play.textContent='⏸ Pause';applyVisibility();message('Đã chạy lại effect từ đầu.')}
-function resize(){const r=ui.viewer.getBoundingClientRect(),w=Math.max(1,r.width|0),h=Math.max(1,r.height|0);renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
-function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05),speed=Number(ui.speed.value);if(playing){for(const x of mixers)x.mixer.update(dt*speed);if(ui.mode.value==='sequence'&&layers.length>1&&speed>0){seqTime+=dt*speed;if(seqTime>=.12){seqTime%=.12;seqIndex=(seqIndex+1)%layers.length;applyVisibility()}}}controls.autoRotate=ui.autoRotate.checked;controls.update();renderer.render(scene,camera);frames++;const now=performance.now(),span=now-fpsAt;if(span>=700){ui.fps.textContent=Math.round(frames*1000/span);frames=0;fpsAt=now}}
+function restart(){startedAt=performance.now();seqIndex=0;seqTime=0;playing=true;ui.play.textContent='⏸ Pause';message(current?`Đã chạy lại ${current.label}.`:'Sẵn sàng.')}
+function focus(){zoom=1;panX=panY=0;message('Đã đưa effect về giữa màn hình.')}
 
-ui.search.addEventListener('input',renderCatalog);ui.play.onclick=togglePlay;ui.restart.onclick=restart;ui.focus.onclick=()=>root&&fit(root);ui.speed.oninput=()=>ui.speedValue.textContent=`${Number(ui.speed.value).toFixed(2)}×`;ui.mode.onchange=()=>{seqIndex=0;seqTime=0;applyVisibility()};ui.blend.onchange=refreshMaterials;ui.transparent.onchange=refreshMaterials;ui.depthWrite.onchange=refreshMaterials;ui.gridToggle.onchange=()=>grid.visible=ui.gridToggle.checked;window.addEventListener('resize',resize);new ResizeObserver(resize).observe(ui.viewer);
-resize();animate();loadCatalog();
+ui.search.addEventListener('input',renderCatalog);ui.play.onclick=togglePlay;ui.restart.onclick=restart;ui.focus.onclick=focus;ui.speed.oninput=()=>ui.speedValue.textContent=`${Number(ui.speed.value).toFixed(2)}×`;ui.mode.onchange=()=>{seqIndex=0;seqTime=0};ui.blend.onchange=()=>{};ui.depthWrite.disabled=true;ui.depthWrite.title='Canvas2D không dùng depth buffer';window.addEventListener('resize',resize);ui.canvas.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.15,Math.min(8,zoom*Math.exp(-e.deltaY*.001)));},{passive:false});ui.canvas.addEventListener('pointerdown',e=>{drag=true;lastX=e.clientX;lastY=e.clientY;ui.canvas.setPointerCapture?.(e.pointerId)});ui.canvas.addEventListener('pointermove',e=>{if(!drag)return;panX+=e.clientX-lastX;panY+=e.clientY-lastY;lastX=e.clientX;lastY=e.clientY});ui.canvas.addEventListener('pointerup',()=>drag=false);ui.canvas.addEventListener('pointercancel',()=>drag=false);
+
+window.addEventListener('error',e=>{error(`JavaScript error: ${e.message}`);message('Có lỗi JavaScript — xem khung đỏ.')});window.addEventListener('unhandledrejection',e=>{error(`Promise error: ${e.reason?.message||e.reason}`);message('Có lỗi khi tải asset — xem khung đỏ.')});
+resize();requestAnimationFrame(animate);loadCatalog();
+})();
