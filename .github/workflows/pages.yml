@@ -1,0 +1,57 @@
+name: Deploy Effect Lab to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build minimal static site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site/web
+          cp index.html _site/index.html
+          cp effects-manifest.json _site/effects-manifest.json
+          cp web/app.js _site/web/app.js
+          cp web/style.css _site/web/style.css
+          touch _site/.nojekyll
+
+          jq -r '.effects[].layers[] | .obj, .texture' effects-manifest.json | sort -u | while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            mkdir -p "_site/$(dirname "$file")"
+            cp "$file" "_site/$file"
+          done
+
+          echo "Effect Lab artifact files:"
+          find _site -type f | sort
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
