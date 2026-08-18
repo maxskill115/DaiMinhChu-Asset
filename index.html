@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#070a10">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <title>Đại Minh Chủ — Effect Lab</title>
-  <link rel="stylesheet" href="./web/style.css">
+  <link rel="stylesheet" href="./web/style.css?v=3">
 </head>
 <body>
 <div id="app">
   <aside class="sidebar">
     <div class="brand"><b>DMC</b><div><h1>Effect Lab</h1><span>Unity 4.7.2 effect viewer</span></div></div>
-    <div class="notice"><i></i><span id="catalogSource">Manifest tĩnh — không dùng GitHub API runtime</span></div>
+    <div class="notice"><i></i><span id="catalogSource">Canvas2D renderer — đang khởi tạo</span></div>
     <div class="search"><input id="searchInput" placeholder="Tìm effect / skill..."><em id="effectCount">0</em></div>
     <div id="effectList" class="effect-list"></div>
   </aside>
@@ -24,7 +25,7 @@
 
     <section id="viewer" class="viewer">
       <canvas id="sceneCanvas"></canvas>
-      <div id="emptyState" class="empty"><div class="orb"></div><h2>Đang dựng effect…</h2><p>FBX ưu tiên, OBJ fallback, texture atlas gốc.</p></div>
+      <div id="emptyState" class="empty"><div class="orb"></div><h2>Đang dựng effect…</h2><p>Đọc OBJ UV và cắt trực tiếp từ PNG atlas gốc.</p></div>
       <div id="loading" class="loading hidden"><span class="spinner"></span><div><b id="loadingTitle">Đang tải…</b><small id="loadingDetail"></small></div></div>
       <div id="errorBox" class="error hidden"></div>
       <div class="hud"><span>FPS <b id="fps">--</b></span><span>LAYERS <b id="layerCount">0</b></span><span>MESHES <b id="meshCount">0</b></span><span>ANIMS <b id="animCount">0</b></span></div>
@@ -39,11 +40,11 @@
       <label class="check"><input id="autoRotateToggle" type="checkbox"> Auto rotate</label>
       <label class="check"><input id="gridToggle" type="checkbox"> Grid</label>
     </section>
-    <footer><span id="statusText">Khởi tạo…</span><span>Kéo chuột: xoay · Wheel: zoom · Chuột phải: pan</span></footer>
+    <footer><span id="statusText">Khởi tạo Canvas2D…</span><span>Kéo chuột: pan · Wheel: zoom</span></footer>
   </main>
 </div>
 
-<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
-<script type="module" src="./web/app.js"></script>
+<noscript><div style="position:fixed;inset:20px;z-index:9999;background:#300;color:white;padding:20px">Trình duyệt đang tắt JavaScript.</div></noscript>
+<script src="./web/app.js?v=3"></script>
 </body>
 </html>
