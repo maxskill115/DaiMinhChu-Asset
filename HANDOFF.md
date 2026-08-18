@@ -14,8 +14,9 @@ v0.3 đổi milestone đầu sang renderer tối giản và chắc chắn hơn:
 - `effects-manifest.json` tĩnh, không phụ thuộc GitHub API runtime.
 - `web/app.js` hiện dùng **Canvas2D thuần**, không cần Three.js/CDN.
 - Mở web tự load effect đầu tiên.
-- Đọc trực tiếp OBJ đã export để lấy kích thước quad và UV.
-- Đọc PNG atlas gốc, cắt đúng vùng UV rồi ghép layer lên Canvas2D.
+- Đọc trực tiếp OBJ đã export, gồm vertex + UV + face.
+- Texture được map **theo từng triangle của OBJ**, giữ đúng quan hệ vertex↔UV, bao gồm trường hợp UV bị xoay/đảo; không còn crop bằng UV min/max.
+- Đọc PNG atlas gốc và texture-map từng tam giác lên Canvas2D.
 - Có fallback URL: ưu tiên đường dẫn relative khi chạy GitHub Pages, fallback `raw.githubusercontent.com` nếu cần.
 - Nếu lỗi JavaScript/network/asset sẽ hiện lỗi màu đỏ ngay trên UI thay vì im lặng.
 - Có `Composite` và `Sequence` để xem ghép layer hoặc từng layer.
@@ -25,7 +26,11 @@ v0.3 đổi milestone đầu sang renderer tối giản và chắc chắn hơn:
 
 ## Phát hiện quan trọng
 
-`AmNhienTieuHonChuong_01.obj` là quad 4 vertex / 2 triangle và UV chỉ vào một vùng nhỏ của atlas. Các `_01..05` có kích thước và UV khác nhau. Điều này cho thấy nhiều effect của game là kiểu `mesh quad + texture atlas + animation/material`, không đơn thuần là ParticleSystem.
+`AmNhienTieuHonChuong_01.obj` là quad 4 vertex / 2 triangle và UV chỉ vào một vùng nhỏ của atlas. Các `_01..05` có kích thước và UV khác nhau.
+
+Quan trọng hơn: một số layer như `_02`, `_03` có aspect của UV crop khác aspect mesh theo kiểu hoán đổi chiều, cho thấy texture mapping có xoay/orientation riêng. Vì vậy renderer phải dùng đúng face + vertex/UV index thay vì chỉ lấy UV bounding-box.
+
+Điều này củng cố rằng nhiều effect của game là kiểu `mesh quad + texture atlas + animation/material`, không đơn thuần là ParticleSystem.
 
 Milestone v0.3 cố tình chưa phục hồi animation gốc. Mục tiêu là **bắt buộc phải nhìn thấy đúng mảnh texture/mesh của effect trước**, sau đó mới reverse timing/transform/material/shader.
 
@@ -64,7 +69,7 @@ Nếu vẫn thấy giao diện cũ/Three.js thì Pages hoặc browser đang cach
 ## Việc tiếp theo
 
 1. Xác minh Pages đã deploy commit v0.3 và effect đầu tiên thực sự render.
-2. Nếu layer hiện nhưng hình sai, kiểm tra orientation UV (V flip), alpha và blend mode bằng cách đối chiếu atlas.
+2. Nếu layer hiện nhưng màu/alpha sai, đối chiếu shader/material gốc để xác định blend/tint.
 3. Reverse Material/Shader gốc để xác định chính xác blend, render queue, tint, UV scroll và alpha.
 4. Tìm timing/transform từ FBX, Animator hoặc MonoBehaviour để phục hồi chuyển động đúng gốc.
 5. Xác định `_01..N` của từng skill là layer đồng thời hay frame tuần tự bằng dữ liệu gốc, không đoán.
