@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "source": "AssetStudio export / Unity 4.7.2f1",
+  "effects": [
+    {
+      "id": "am-nhien-tieu-hon-chuong",
+      "name": "AmNhienTieuHonChuong",
+      "label": "Âm Nhiên Tiêu Hồn Chưởng",
+      "defaultMode": "composite",
+      "layers": [
+        {
+          "name": "AmNhienTieuHonChuong_01",
+          "fbx": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_01/AmNhienTieuHonChuong_01.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/AmNhienTieuHonChuong_01.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_01/Skills_C12_2.png"
+        },
+        {
+          "name": "AmNhienTieuHonChuong_02",
+          "fbx": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_02/AmNhienTieuHonChuong_02.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/AmNhienTieuHonChuong_02.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_02/Skills_C12_2.png"
+        },
+        {
+          "name": "AmNhienTieuHonChuong_03",
+          "fbx": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_03/AmNhienTieuHonChuong_03.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/AmNhienTieuHonChuong_03.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_03/Skills_C12_2.png"
+        },
+        {
+          "name": "AmNhienTieuHonChuong_04",
+          "fbx": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_04/AmNhienTieuHonChuong_04.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/AmNhienTieuHonChuong_04.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_04/Skills_C12_1.png"
+        },
+        {
+          "name": "AmNhienTieuHonChuong_05",
+          "fbx": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_05/AmNhienTieuHonChuong_05.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/AmNhienTieuHonChuong_05.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/AmNhienTieuHonChuong_05/Skills_C12_2.png"
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "name": "Attack",
+      "label": "Attack",
+      "defaultMode": "composite",
+      "layers": [
+        {
+          "name": "Attack_01",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_01/Attack_01.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_01.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_01/Skills_C34_1.png"
+        },
+        {
+          "name": "Attack_02",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_02/Attack_02.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_02.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_02/Skills_C34_1.png"
+        },
+        {
+          "name": "Attack_03",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_03/Attack_03.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_03.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_03/Skills_C34_1.png"
+        },
+        {
+          "name": "Attack_04",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_04/Attack_04.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_04.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_04/Skills_C34_1.png"
+        },
+        {
+          "name": "Attack_05",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_05/Attack_05.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_05.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_05/Skills_C34_1.png"
+        },
+        {
+          "name": "Attack_06",
+          "fbx": "Tài Nguyên Giải nén/Animator/Attack_06/Attack_06.fbx",
+          "obj": "Tài Nguyên Giải nén/Mesh/Attack_06.obj",
+          "texture": "Tài Nguyên Giải nén/Animator/Attack_06/Skills_C34_1.png"
+        }
+      ]
+    }
+  ]
+}
