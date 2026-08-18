@@ -4,37 +4,43 @@
 
 Dựng lại và preview effect gốc của Đại Minh Chủ trên web từ tài nguyên Unity 4.7.2f1 đã export bằng AssetStudio.
 
-## Trạng thái hiện tại — v0.2
+## Trạng thái hiện tại — v0.3
 
-Bản v0.1 bị màn hình trống vì danh sách effect được lấy trực tiếp bằng GitHub Contents API ở runtime. Khi request đó lỗi/rate-limit thì catalog = 0 nên không có gì để chọn/load.
+v0.1/v0.2 dùng Three.js/FBXLoader và phụ thuộc CDN/runtime network nên có trường hợp mở web chỉ thấy UI nhưng effect không hiện.
 
-v0.2 đã sửa kiến trúc:
+v0.3 đổi milestone đầu sang renderer tối giản và chắc chắn hơn:
 
 - `index.html` ở root repo.
 - `effects-manifest.json` tĩnh, không phụ thuộc GitHub API runtime.
-- `web/app.js` có fallback manifest nhúng sẵn; manifest lỗi vẫn có effect để test.
-- Tự load effect đầu tiên khi mở trang.
-- Loader hybrid: ưu tiên FBX trong `Tài Nguyên Giải nén/Animator`, nếu FBX không có renderable mesh hoặc lỗi thì fallback sang OBJ trong `Tài Nguyên Giải nén/Mesh`.
-- PNG texture atlas được gắn lại vào mesh bằng `MeshBasicMaterial`.
-- Mặc định `AdditiveBlending`, transparent=true, depthWrite=false.
-- Có 2 mode: `Composite` ghép toàn bộ `_01..N` và `Sequence` chạy từng layer để kiểm tra.
+- `web/app.js` hiện dùng **Canvas2D thuần**, không cần Three.js/CDN.
+- Mở web tự load effect đầu tiên.
+- Đọc trực tiếp OBJ đã export để lấy kích thước quad và UV.
+- Đọc PNG atlas gốc, cắt đúng vùng UV rồi ghép layer lên Canvas2D.
+- Có fallback URL: ưu tiên đường dẫn relative khi chạy GitHub Pages, fallback `raw.githubusercontent.com` nếu cần.
+- Nếu lỗi JavaScript/network/asset sẽ hiện lỗi màu đỏ ngay trên UI thay vì im lặng.
+- Có `Composite` và `Sequence` để xem ghép layer hoặc từng layer.
+- Có Additive / Normal / Multiply blending, zoom, pan, restart, speed, grid.
+- `.nojekyll` đã thêm để Pages phục vụ static file trực tiếp.
+- `.github/workflows/pages.yml` đã thêm để deploy một artifact tối thiểu chỉ gồm web + OBJ/PNG đang dùng, tránh upload toàn bộ APK/repo nặng.
 
 ## Phát hiện quan trọng
 
 `AmNhienTieuHonChuong_01.obj` là quad 4 vertex / 2 triangle và UV chỉ vào một vùng nhỏ của atlas. Các `_01..05` có kích thước và UV khác nhau. Điều này cho thấy nhiều effect của game là kiểu `mesh quad + texture atlas + animation/material`, không đơn thuần là ParticleSystem.
+
+Milestone v0.3 cố tình chưa phục hồi animation gốc. Mục tiêu là **bắt buộc phải nhìn thấy đúng mảnh texture/mesh của effect trước**, sau đó mới reverse timing/transform/material/shader.
 
 ## Effect seed hiện có
 
 ### AmNhienTieuHonChuong
 
 - `AmNhienTieuHonChuong_01..05`
-- FBX từ `Animator/<name>/<name>.fbx`
-- OBJ fallback từ `Mesh/<name>.obj`
+- OBJ từ `Tài Nguyên Giải nén/Mesh/<name>.obj`
 - texture `Skills_C12_1.png` / `Skills_C12_2.png`
 
 ### Attack
 
 - `Attack_01..06`
+- OBJ từ `Tài Nguyên Giải nén/Mesh/<name>.obj`
 - texture `Skills_C34_1.png`
 
 ## File web
@@ -43,13 +49,23 @@ v0.2 đã sửa kiến trúc:
 - `web/style.css`
 - `web/app.js`
 - `effects-manifest.json`
+- `.nojekyll`
+- `.github/workflows/pages.yml`
 - `HANDOFF.md`
+
+## Cách xác nhận đang xem đúng v0.3
+
+Trên sidebar phải thấy dòng:
+
+`Canvas2D · manifest tĩnh · ... nhóm`
+
+Nếu vẫn thấy giao diện cũ/Three.js thì Pages hoặc browser đang cache bản cũ.
 
 ## Việc tiếp theo
 
-1. Mở web và xác minh effect đầu tiên render được.
-2. Mở rộng manifest cho toàn bộ thư mục Animator/Mesh.
-3. Reverse Material/Shader gốc để xác định chính xác blend, render queue, UV scroll và alpha.
+1. Xác minh Pages đã deploy commit v0.3 và effect đầu tiên thực sự render.
+2. Nếu layer hiện nhưng hình sai, kiểm tra orientation UV (V flip), alpha và blend mode bằng cách đối chiếu atlas.
+3. Reverse Material/Shader gốc để xác định chính xác blend, render queue, tint, UV scroll và alpha.
 4. Tìm timing/transform từ FBX, Animator hoặc MonoBehaviour để phục hồi chuyển động đúng gốc.
 5. Xác định `_01..N` của từng skill là layer đồng thời hay frame tuần tự bằng dữ liệu gốc, không đoán.
 6. Sau khi một effect match game gốc, chuẩn hóa schema để tái dựng hàng loạt.
